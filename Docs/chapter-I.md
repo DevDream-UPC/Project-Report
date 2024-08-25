@@ -1,6 +1,7 @@
 # Capitulo I: Introducción
-##1.1. Startup Profile
-###1.1.1. Descripcion de la Startup
+
+## 1.1. Startup Profile
+### 1.1.1. Descripcion de la Startup
 ###1.1.2. Perfiles de Integrantes del equipo
 ##1.2. Solution Profile
 ###1.2.1. Antecedentes y problematica
