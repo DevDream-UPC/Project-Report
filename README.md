@@ -1,141 +1,185 @@
-# Capítulo IV: Product Design
-En este capítulo .
-
-## 4.1. Style Guidelines.
-En esta sección .
-
-### 4.1.1. General Style Guidelines.
-### Historia de la marca
-### Misión
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management.
 .
 
-### Visión
+### 5.1.1. Software Development Environment Configuration.
 .
-
-### Brand Name
-.
-
-### Colores
-.
-
-
-### Tipografía
-.
-<
-
-
-
-### Espaciado
-.
-
-Tamaño de letra:
-
-Interlineado:
-.
-
-### 4.1.2. Web Style Guidelines.
-.
-
-## 4.2. Information Architecture.
-.
-<hr>
-
-### 4.2.1. Organization System.
-
-.
-
-### 4.2.2. Labeling System.
-
-.
-
-### Etiquetas:
-
 
 <br>
+.         
 
-
-
-### 4.2.3. SEO Tags and Meta Tags.
-
+### 5.1.2. Source Code Management.
 .
 
-### Para la landing page.
-
-
-
-
-
-### 4.2.4. Searching Systems.
+### 5.1.3. Source Code Style Guide & Conventions.
 
 .
 
 
-
-### 4.2.5. Navigation Systems.
+### 5.1.4. Software Deployment Configuration.
 .
 
-## 4.3. Landing Page UI Design.
+
+## 5.2. Landing Page, Services & Applications Implementation.
 <hr>
 
-### 4.3.1. Landing Page Wireframe.
+### 5.2.1. Sprint 1
 
-Versión Desktop:
+### 5.2.1.1. Sprint Planning 1
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 1 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> -- </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> -- horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td>  <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+        <br>
+          . 
+           <br>
+         .
+          <br>
+           .
+          <br>
+        . 
+              <br>
+         .
+         <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
+        <td> Dado que es nuestro primer sprint de desarrollo, no existe 
+        un review summary del sprint <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
+        <td> Dado a que nos encontramos en nuestro primer sprint, aun no identifcamos planes de mejora.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Goal</td>
+          <td>  . <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+          <td>  . <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> . <td>
+      </tr>
 
 
-Versión Mobile:
+  </table>
 
 
+### 5.2.1.2. Sprint backlog 1
 
-### 4.3.2. Landing Page Mockup.
-Enlace a la mockup de la Landing Page en Figma:
-
-Versión Mobile:
-
-
-
-## 4.4. Web Applications UX/UI Design
 .
 
-### 4.4.1. Web Applications Wireframes
-.
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-Enlace a traves de la herramienta LucidChart:
-
-.
-
-### 4.4.3. Web Applications Mock-ups
-.
-
-### Mock-ups versión Desktop:
-#### Mock-ups de la página principal
+Link de Trello:
 
 
-Enlace a la mockup de la App Web en Figma:
+<table style="width:800px; height:300px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> EP1-US01 </th>
+     <th colspan="3"> . </th>
+      <th> W01  </th>
+     <th> . </th>
+     <th> .</th>
+     <th> </th>
+     <th> . </th> 
+     <th> . </th>
+   </tr>
+    <tr>
+      <th> EP1-US01 </th>
+     <th colspan="3">  .  </th>
+      <th> W02  </th>
+     <th> . </th>
+     <th> . </th>
+     <th> . </th>
+     <th> . </th> 
+     <th> . </th>
+   </tr>
+    <tr>
+      <th> EP1-US02 </th>
+     <th colspan="3"> .</th>
+      <th> W03  </th>
+     <th> . </th>
+     <th> . </th>
+     <th> . </th>
+     <th> . </th> 
+     <th> . </th>
+   </tr>
 
-### 4.4.4 Web Applications User Flow Diagrams.
-
-Enlace de los User Flow Diagrams en LucidChart:
 
 
 
-
-## 4.5. Web Applications Prototyping.
-<hr>
+</table>
 
 
-### 4.6.3. Software Architecture Component Diagram.
+### 5.2.1.3. Development Evidence for Sprint Review.
+
+
+### 5.2.1.5 Execution Evidence for Sprint Review.
 
 
 
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
+### 5.2.1.6 Services Documentation Evidence for Sprint Review.
 
-### 4.7.2. Class Dictionary
-<hr>
-<br>
 
-## 4.8. Database Design
+#### Anexo: flujo de trabajo entre las ramas
 
-### 4.8.1. Database Diagram
+
+#### Anexo: tablas de commits en el periodo de 1 mes
+
+
+#### Anexo: Flujo de trabajo en el periodo de 1 mes
+
+
+
+#### Anexo: Colaboration Insights en el periodo de 1 mes
+
+ 
+
+ 
