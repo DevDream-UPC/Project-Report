@@ -66,12 +66,20 @@ Los hechos se desarrollan cuando se utilizan diferentes métodos desconectados e
 #### How much?
 
 **¿Cual es la magnitud del problema?**
+ 
 
 La magnitud del problema es grande, ya que afecta a la capacidad de la granjas y/o veterinarias para llevar un control sobre la salud de los animales. Que trae como consecuencia la baja salud de los animales, reduccion de productividad, incrementos de los costos, cumplimientos regulatorios de cada pais.
 
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
+
+Nuestro entorno evidencia problemas graves al llevar un registro de salud y monitoreo, sobre los animales que son parte de nuestra vida diaria como los domesticos atendidos en veterinarias y los de granjas.
+
+Hemos observado un factor critico que afecta al control de la salud de los animales, el cual puede perjudicar tanto a los animales domesticos atendidos en veterinarias como animales de granjas. 
+
+**¿Cómo pueden las veterinarias y granjas llevar a cabo un monitoreo y registro de salud adecuados y eficientes de los animales?**
+
 #### 1.2.2.2. Lean UX Assumptions.
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
