@@ -21,7 +21,7 @@
 |          Integrantes           |   Código   |
 | :----------------------------: | :--------: |
 | Morales Quispe, Brayan Smith   | U20211F984 |
-|  |  |
+| Donayre Paredes, Luis Carlos | U202115920 |
 | |  |
 |  |  |
 |  |  |
