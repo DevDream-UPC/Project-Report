@@ -1,553 +1,114 @@
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
+# Capítulo III: Requirements Specification
 
-### 2.1.1. Análisis competitivo
+## 3.1. To-Be Scenario Mapping.
+.
+
+**(Nombre Seg01):**
+
+**(Nombre Seg02)**
+
+
+Enlace de Miro:
+
+## 3.2. User Stories
 <table>
-  <tr>
-    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
-  </tr>
-  <tr>
-    <td colspan="5">.</td>
-  </tr>
-  <tr>
-    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-        STARTUP
-        <br>
-        <div style="text-align: center; margin-top: 10px;">
-                <img src="![logo_App.png](assets/images/logo_App.png)" alt="StartUp" width="60px">
-        </div>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-    COMPETIDOR 1
-    <div style="text-align: center; margin-top: 20px;">
-                <img src="" alt="" width="100px">
-        </div>
-    </td>
-    <td colspan="1" valign="top" style="font-weight: bold;">
-      COMPETIDOR 2
-      <div style="text-align: center; margin-top: 40px;">
-                <img src="" alt="" width="200px">
-            </div>
-      </td>
-    <td colspan="1" valign="top" style="font-weight: bold;" >
-      COMPETIDOR 3
-      <div style="text-align: center; margin-top: 20px;">
-                <img src="" alt="" width="610px">
-            </div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="2"><p>Perfil</p></td>
-    <td colspan="2">Overview</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Ventaja competitiva</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
-    <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
-    <td colspan="2">Productos & Servicios</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Precios & Costos</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
-    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Fortalezas</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-    <td colspan="1" valign="top">.</td>
-  </tr>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 21%" />
+<col style="width: 39%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Epic / Story ID</td>
+<td>Título</td>
+<td>Descripción</td>
+<td>Criterios de Aceptación</td>
+<td>Relación Epic ID</td>
+</tr>
+
+</tr>
+<tr class="even">
+<td>E1-US01</td>
+<td>.</td>
+<td><p><strong>Como</strong> Usuario</p>
+<p><strong>quiero</strong> .</p>
+<p><strong>para</strong> .</p></td>
+<td><p>Escenario 1: .</p>
+<p>Dado que el usuario .</p>
+<p>Cuando .</p>
+<p>Entonces podrá ..</p>
+<p>Escenario 2: .</p>
+<p>Dado que el usuario .</p>
+<p>Cuando .</p>
+<p>Entonces va .</p></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>E1-US02</td>
+<td>.</td>
+<td><p><strong>Como</strong> Usuario</p>
+<p><strong>quiero</strong> .</p>
+<p><strong>para</strong>.</p></td>
+<td><p>Escenario 1: .</p>
+<p>Dado que el usuario .</p>
+<p>Cuando se .</p>
+<p>Entonces podrá .</p>
+<p>Escenario 2: .</p>
+<p>Dado que el usuario .</p>
+<p>Cuando .</p>
+<p>Entonces .</p></td>
+<td>1</td>
+</tr>
+<tr class="even">
+
+
+</tr>
+
+</tbody>
 </table>
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-
-- *Diferenciación de la plataforma:* 
-####
-- *Comunidad activa:* 
-####
-- *Marketing dirigido:* 
-####
-- *Monetización creativa:*
-
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-En esta sección se han definido todas las preguntas que se plantearan en el momento de
-realizar las preguntas a los diferentes segmntos objetivos
-
-*Preguntas generales:*
-
-1. ¿Cuál es tu nombre?
-2. ¿Qué edad tienes?
-3. ¿Dónde vives actualmente?
-4. ¿A qué te dedicas?
-
-*Preguntas Segmento 1:*
-
-*Preguntas Segmento 2:*
-
-
-### 2.2.2 Registro de entrevistas.
-
-*Segmento 1:*
-
-*Entrevista 1:*
-
-Nombres:
-
-Apellidos:
-
-Edad:
-
-Lugar de residencia:
-
-Evidencia de la entrevista:
-
-Enlace de entrevista:
-
-Resumen de la entrevista:
-
-*Entrevista 2:*
-
-Nombres:
-
-Apellidos:
-
-Edad:
-Lugar de residencia:
-
-Evidencia de la entrevista:
-
-Enlace de la entrevista:
-
-Resumen de la entrevista:
-
-<br>
-
-*Segmento 2:*
-
-*Entrevista 1:*
-
-Nombres:
-
-Apellidos:
-
-Edad:
-
-Lugar de residencia:
-
-Evidencia de la entrevista:
-
-Enlace de entrevista:
-
-Resumen de la entrevista:
-
-
-*Entrevista 2:*
-
-Nombre:
-
-Apellido:
-
-Edad:
-
-Lugar de residencia:
-
-Entrevistador:
-
-Evidencia de la entrevista:
-
-Enlace de entrevista:
-
-Resumen de la entrevista:
-
-
-<br>
-
-### 2.2.3 Análisis de entrevistas.
-<TABLE BORDER>
-	<TR>
-		<TD COLSPAN = 2 align=center>
-
-*Características*</TD>
-
-<TD align=center>
-
-*Segmento1*</TD>
-
-<TD align=center>
-
-*Segmento2*</TD>
-
-   </TR>
-	<TR>
-		<TD ROWSPAN = 4>
-
-*Objetivas*
-</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD >.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-
-   <TR>
-		<TD ROWSPAN = 4>
-
-*Subjetivas*
-</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-</TABLE>
-
-## 2.3. Needfinding
-### 2.3.1. User Personas
-
-*SEGMENTO 1:*
-
-
-*SEGMENTO 2:*
-
-
-### 2.3.2. User Task Matrix
-
-A continuación se pueden apreciar los User Task Matrix de los segmentos objetivos.
-
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            Segmento Objetivo: <br> <b></b> 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-</table>
-
-</br></br>
-
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr>
-        <td></td>
-        <td colspan=2>
-            <b>User Persona</b>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan=2>
-            Segmento Objetivo: <br> <b></b>  
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Task</b>
-        </td>
-        <td>
-            <b>Frequency</b>
-        </td>
-        <td>
-            <b>Importance</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .	
-        </td>
-        <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Low
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-</table>
-
-</br></br>
-
-### 2.3.3. User Journey Mapping
-
-A continuación se pueden apreciar los User Journey Mapping de los segmentos objetivos.
-
-*SEGMENTO 1*
-
-*SEGMENTO 2*
-
-
-### 2.3.4. Empathy Mapping
-
-A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivos.
-
-*SEGMENTO 1*
-
-
-*SEGMENTO 2*
-
-
-### 2.3.5. As-is Scenario Mapping
-
-A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos.
-
-*SEGMENTO 1*
-
-
-*SEGMENTO 2*
-
-
-*Enlace de Miro:*
-
-## 2.4. Ubiquitous Language
+<hr>
+
+## 3.3. Impact Mapping.
+
+
+## 3.4. Product Backlog.
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 12%" />
+<col style="width: 18%" />
+<col style="width: 28%" />
+<col style="width: 14%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>#Orden</th>
+<th>User Story ID</th>
+<th>Titulo</th>
+<th>Descripcion</th>
+<th>Prioridad</th>
+<th>Story Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>US01</td>
+<td>.</td>
+<td><p><strong>Como</strong> .</p>
+<p><strong>quiero</strong> .</p>
+<p><strong>para</strong> .</p></td>
+<td>Alta</td>
+<td>.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>US02</td>
+<td>.</td>
+<td><p><strong>Como</strong> .</p>
+<p><strong>quiero</strong> .</p>
+<p><strong>para</strong> .</p></td>
+<td>Baja</td>
