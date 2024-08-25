@@ -1,114 +1,141 @@
-# Capítulo III: Requirements Specification
+# Capítulo IV: Product Design
+En este capítulo .
 
-## 3.1. To-Be Scenario Mapping.
+## 4.1. Style Guidelines.
+En esta sección .
+
+### 4.1.1. General Style Guidelines.
+### Historia de la marca
+### Misión
 .
 
-**(Nombre Seg01):**
+### Visión
+.
 
-**(Nombre Seg02)**
+### Brand Name
+.
 
-
-Enlace de Miro:
-
-## 3.2. User Stories
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 15%" />
-<col style="width: 21%" />
-<col style="width: 39%" />
-<col style="width: 11%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Epic / Story ID</td>
-<td>Título</td>
-<td>Descripción</td>
-<td>Criterios de Aceptación</td>
-<td>Relación Epic ID</td>
-</tr>
-
-</tr>
-<tr class="even">
-<td>E1-US01</td>
-<td>.</td>
-<td><p><strong>Como</strong> Usuario</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td><p>Escenario 1: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces podrá ..</p>
-<p>Escenario 2: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces va .</p></td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>E1-US02</td>
-<td>.</td>
-<td><p><strong>Como</strong> Usuario</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong>.</p></td>
-<td><p>Escenario 1: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando se .</p>
-<p>Entonces podrá .</p>
-<p>Escenario 2: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces .</p></td>
-<td>1</td>
-</tr>
-<tr class="even">
+### Colores
+.
 
 
-</tr>
+### Tipografía
+.
+<
 
-</tbody>
-</table>
+
+
+### Espaciado
+.
+
+Tamaño de letra:
+
+Interlineado:
+.
+
+### 4.1.2. Web Style Guidelines.
+.
+
+## 4.2. Information Architecture.
+.
 <hr>
 
-## 3.3. Impact Mapping.
+### 4.2.1. Organization System.
+
+.
+
+### 4.2.2. Labeling System.
+
+.
+
+### Etiquetas:
 
 
-## 3.4. Product Backlog.
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 12%" />
-<col style="width: 18%" />
-<col style="width: 28%" />
-<col style="width: 14%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>#Orden</th>
-<th>User Story ID</th>
-<th>Titulo</th>
-<th>Descripcion</th>
-<th>Prioridad</th>
-<th>Story Points</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>US01</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td>Alta</td>
-<td>.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>US02</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td>Baja</td>
+<br>
+
+
+
+### 4.2.3. SEO Tags and Meta Tags.
+
+.
+
+### Para la landing page.
+
+
+
+
+
+### 4.2.4. Searching Systems.
+
+.
+
+
+
+### 4.2.5. Navigation Systems.
+.
+
+## 4.3. Landing Page UI Design.
+<hr>
+
+### 4.3.1. Landing Page Wireframe.
+
+Versión Desktop:
+
+
+Versión Mobile:
+
+
+
+### 4.3.2. Landing Page Mockup.
+Enlace a la mockup de la Landing Page en Figma:
+
+Versión Mobile:
+
+
+
+## 4.4. Web Applications UX/UI Design
+.
+
+### 4.4.1. Web Applications Wireframes
+.
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Enlace a traves de la herramienta LucidChart:
+
+.
+
+### 4.4.3. Web Applications Mock-ups
+.
+
+### Mock-ups versión Desktop:
+#### Mock-ups de la página principal
+
+
+Enlace a la mockup de la App Web en Figma:
+
+### 4.4.4 Web Applications User Flow Diagrams.
+
+Enlace de los User Flow Diagrams en LucidChart:
+
+
+
+
+## 4.5. Web Applications Prototyping.
+<hr>
+
+
+### 4.6.3. Software Architecture Component Diagram.
+
+
+
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+
+### 4.7.2. Class Dictionary
+<hr>
+<br>
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
