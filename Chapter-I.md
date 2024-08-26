@@ -81,6 +81,17 @@ Hemos observado un factor critico que afecta al control de la salud de los anima
 **¿Cómo pueden las veterinarias y granjas llevar a cabo un monitoreo y registro de salud adecuados y eficientes de los animales?**
 
 #### 1.2.2.2. Lean UX Assumptions.
+### Business Assumptions
+* Los usuarios necesitan una aplicación del control de estado de una granja, que destaque por su seguridad y soporte técnico continuo.
+* La principal necesidad de mis clientes es gestionar de manera eficaz y óptima los distintos procesos que se requieren para mantener una granja.
+* La aplicación será redituable gracias a que existirá una membresía que mejora los tiempos de servicio al usuario y el acceso a la totalidad de las funciones de la aplicación.
+* A través de distintas estrategias de marketing obtendré distintos usuarios dispuestos a utilizar la aplicación.
+* La aplicación será facil de utilizar para los usuarios ya que integrará una interfaz intuitiva y agradable a la vista.
+### User Assumptions
+* Los usuarios aceptarán compartir cierta cantidad de información fundamental para el correcto control de la granja dentro de la aplicación. 
+* Los usuarios pagarán una membresía que mejora la experiencia en la aplicación al desbloquear todas las funciones disponibles.
+* Los usuarios más fieles tendrán la oportunidad de acceder a nuevas funciones antes de ser publicadas en las versiones oficiales de la aplicación.
+* Los usuarios entregrán su confianza a la aplicación para poder aprovecharla al máximo, utilizando las distintas características para la gestión segura, eficaz y óptima de sus granjas.
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
