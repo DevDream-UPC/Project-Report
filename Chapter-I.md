@@ -84,7 +84,7 @@ Hemos observado un factor critico que afecta al control de la salud de los anima
 ### Business Assumptions
 * Los usuarios necesitan una aplicación del control de estado de una granja, que destaque por su seguridad y soporte técnico continuo.
 * La principal necesidad de mis clientes es gestionar de manera eficaz y óptima los distintos procesos que se requieren para mantener una granja.
-* La aplicación será redituable gracias a que existirá una membresía que mejora los tiempos de servicio al usuario y el acceso a la totalidad de las funciones de la aplicación.
+* La aplicación será redituable gracias a que existirá una membresía que mejora los tiempos de respuesta de soporte técnico y el acceso a la totalidad de las funciones de la aplicación sin ninguna restricción.
 * A través de distintas estrategias de marketing obtendré distintos usuarios dispuestos a utilizar la aplicación.
 * La aplicación será facil de utilizar para los usuarios ya que integrará una interfaz intuitiva y agradable a la vista.
 ### User Assumptions
