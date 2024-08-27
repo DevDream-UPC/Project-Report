@@ -139,7 +139,7 @@
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 En esta sección se han definido todas las preguntas que se plantearan en el momento de
-realizar las preguntas a los diferentes segmntos objetivos
+realizar las preguntas a los diferentes segmentos objetivos
 
 *Preguntas generales:*
 
@@ -147,10 +147,41 @@ realizar las preguntas a los diferentes segmntos objetivos
 2. ¿Qué edad tienes?
 3. ¿Dónde vives actualmente?
 4. ¿A qué te dedicas?
+5. ¿Que navegador usas en tu dia a dia?
 
 *Preguntas Segmento 1:*
 
+1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
+
+1. ¿Que redes usas como profesional?
+
+1. ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?
+
+1. ¿Consideras que la calidad de tu productos mejoraria si implementaras una solucion tecnologica en el cuidado de tus animales?
+
+1. ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales? 
+
+1. ¿Cuales son los principales desafios al monitorear el estado de los animales?
+
+1. ¿Qué te motivaría a probar o implementar una nueva herramienta tecnológica en tu trabajo?
+
+
+
+
+
 *Preguntas Segmento 2:*
+
+1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
+
+1. ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?
+
+1. ¿Que te motiva a cuidar la salud de los animales?
+
+1. ¿Alguna vez tuviste un error al llevar el registro de una mascota? ¿Cual fue el problema?
+
+1. ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales?
+
+1. ¿Que redes usas como profesional?
 
 
 ### 2.2.2 Registro de entrevistas.
