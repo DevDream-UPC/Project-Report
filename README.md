@@ -1,40 +1,35 @@
 # Capítulo IV: Product Design
-En este capítulo .
-
-## 4.1. Style Guidelines.
-En esta sección .
+## 4.1. Style Guidelines. 
+A continuacion se planteara los estilos y herramientas que se estaran utilizando como guias para el desarrollo de la aplicacion web.
 
 ### 4.1.1. General Style Guidelines.
+
 ### Historia de la marca
-### Misión
-.
+En esta sección se mostrara de manera organizada los Branding, Typography, Colors y Spacing que se usara para diseñar nuestra solucion.
 
-### Visión
-.
+* __Brand Overview.-__ La necesidad del monitoreo de los animales por parte de los productores agropecuarios y veterinarios.
 
-### Brand Name
-.
+* __Brand Name.-__ El nombre de nuestro aplicacion web es FarmGuard. La creacion de este nombre se debe al juntar palabras relacionadas con la idea de nuestra solucion, siendo estas **Farm**  (Traducido es granja) y **Guard** (Traducido es guardia ). Palabras que creemos que expresan nuestro objetivo de la aplicacion. 
 
-### Colores
-.
+* __Fonts.-__ El tipo de tipografia de letra elegido fue Roboto debido a su legibilidad, claridad, versatilidad y integracion facil gracias a Google Fonts. A continuacion se mostrara los tamaños de letras que se usara en los diferentes tipos de etiquetas que contenga texto.
 
+![Fuente](/Assets/img/ChapterIV/Section%201%20(1).png)
 
-### Tipografía
-.
-<
+* __Colores.-__
 
+* __Tonos de comunicacion.-__ El tipo de lenguaje a emplear sera serio y formal.
 
-
-### Espaciado
-.
-
-Tamaño de letra:
-
-Interlineado:
-.
 
 ### 4.1.2. Web Style Guidelines.
-.
+La aplicacion web se adaptara a todo tipos de dispositivos tecnologicos usados por nuestros segmentos objetivos, garantizando la usabilidad se mantenga en todo momento. Esto ofrecera una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
+
+![Paginas Web Responsive](/Assets/img/ChapterIV/responsibe.jpeg)
+
+Se utilizara un patron Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
+![Patron Z](/Assets/img/ChapterIV/OIP.jpeg)
+
+Para la aplicacion web pensamos usar el patron F por que queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
+![Patron F](/Assets/img/ChapterIV/lectura-contenido-página-web-patrón-3.png)
 
 ## 4.2. Information Architecture.
 .
