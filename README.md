@@ -49,7 +49,7 @@ Para el landing page usaremos un sistema jerarquico visual puesto que este tipo 
 
 * __Aplicacion Web (Veterinarios y ganaderos)__
 
-    * Jerarquica
+    * Jerarquica <br>
         __Lista de Animales:__ El usuario puede ver todos los animales que tiene a su cargo. Al hacer clic en un animal específico, se despliega su perfil completo, que incluye información detallada como su historial médico, peso, edad, etc.
 
         __Lista de Vacunas:__ El usuario puede acceder a una lista de todas las vacunas administradas a cada animal. Desde esta lista, puede seleccionar una vacuna específica para ver detalles adicionales, como la fecha de administración y el veterinario responsable.
@@ -57,20 +57,33 @@ Para el landing page usaremos un sistema jerarquico visual puesto que este tipo 
         __Lista de estados de los animlaes:__ El usuario puede consultar el estado de salud actual de cada animal, con la posibilidad de filtrar por estado (saludable, enfermo, en tratamiento) y acceder a registros específicos para cada caso.
 
     
-    * Secuencial
+    * Secuencial <br>
         __Agregar un animal:__ Un proceso paso a paso donde el usuario introduce los datos del nuevo animal, como su especie, raza, edad,etc.
-        
+
         __Agregar una vacuna:__ Un proceso guiado para registrar una nueva vacuna. El usuario selecciona el animal, el tipo de vacuna, la fecha de administración, y otros detalles pertinentes. Este proceso asegura que todos los campos requeridos sean completados en orden.
 
-    * Matriarcal
+    * Matriarcal <br>
         __Mostrar Caracteristicas de los animales:__ En esta sección, el usuario puede comparar diferentes animales en función de características como especie, edad, peso, y estado de salud. Las comparaciones se muestran en una tabla donde se pueden seleccionar varios animales y ver sus atributos lado a lado.
 
 
 ### 4.2.2. Labeling System.
 
-.
+A continuacion se presentara el etiquetado  que tendra las diferentes secciones del landing y aplicacion web .
 
-### Etiquetas:
+* __Landing Page__ <br>
+
+__Inicio/Home:__ Sección que mostrará un banner con una frase representativa, de igual manera brindará una idea principal y a su vez un botón con el cual el usuario podrá entrar a la aplicación.
+
+__Beneficios/Benefits:__ Sección dividida por cada segmento en donde se le mostrarán los beneficios que tendrá cada uno a la hora de usar la aplicación.
+
+__Planes/Plans:__ Se mostraran los precios que tendrá cada uno de los planes con una descripcion breve y su respectivo precio.
+
+__Contactanos/Contact Us:__ Se mostrarán nuestros canales de comunicación, a la vez que un formulario en donde pueda enviar sus comentarios o enviar informacion para contactarlo.
+
+__Nosotros/ About Us:__ Esta sección el visitante podrá ver la información del equipo que trabajo que trabajo en el proyecto.
+
+* __Aplicacion Web (Veterinarios y ganaderos)__ <br>
+
 
 
 <br>
