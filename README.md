@@ -26,18 +26,45 @@ La aplicacion web se adaptara a todo tipos de dispositivos tecnologicos usados p
 ![Paginas Web Responsive](/Assets/img/ChapterIV/responsibe.jpeg)
 
 Se utilizara un patron Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
+
 ![Patron Z](/Assets/img/ChapterIV/OIP.jpeg)
 
 Para la aplicacion web pensamos usar el patron F por que queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
+
 ![Patron F](/Assets/img/ChapterIV/lectura-contenido-página-web-patrón-3.png)
 
 ## 4.2. Information Architecture.
-.
+En esta seccion, estableceremos la estructura de las secciones de nuestro software que incluye el landing page y la aplicacion Web para cada segmento objetivo.
 <hr>
 
 ### 4.2.1. Organization System.
 
-.
+En este punto indicaremos en que secciones se aplicara el tipo de estructuras jerarquicas, secuenciales o matriarcales en el landing page y aplicacion web.
+
+* __Landing Page__
+
+Para el landing page usaremos un sistema jerarquico visual puesto que este tipo de organizacion es ideal para paginas con secciones e identificar informacion mas importante en el citio.
+
+![Imaqgen del sistema jerarquico](/Assets/img/ChapterIV/jerarquico.jpg)
+
+* __Aplicacion Web (Veterinarios y ganaderos)__
+
+    * Jerarquica
+        __Lista de Animales:__ El usuario puede ver todos los animales que tiene a su cargo. Al hacer clic en un animal específico, se despliega su perfil completo, que incluye información detallada como su historial médico, peso, edad, etc.
+
+        __Lista de Vacunas:__ El usuario puede acceder a una lista de todas las vacunas administradas a cada animal. Desde esta lista, puede seleccionar una vacuna específica para ver detalles adicionales, como la fecha de administración y el veterinario responsable.
+
+        __Lista de estados de los animlaes:__ El usuario puede consultar el estado de salud actual de cada animal, con la posibilidad de filtrar por estado (saludable, enfermo, en tratamiento) y acceder a registros específicos para cada caso.
+
+    
+    * Secuencial
+        __Agregar un animal:__ Un proceso paso a paso donde el usuario introduce los datos del nuevo animal, como su especie, raza, edad,etc.
+        
+        __Agregar una vacuna:__ Un proceso guiado para registrar una nueva vacuna. El usuario selecciona el animal, el tipo de vacuna, la fecha de administración, y otros detalles pertinentes. Este proceso asegura que todos los campos requeridos sean completados en orden.
+
+    * Matriarcal
+        __Mostrar Caracteristicas de los animales:__ En esta sección, el usuario puede comparar diferentes animales en función de características como especie, edad, peso, y estado de salud. Las comparaciones se muestran en una tabla donde se pueden seleccionar varios animales y ver sus atributos lado a lado.
+
 
 ### 4.2.2. Labeling System.
 
