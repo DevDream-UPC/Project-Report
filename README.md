@@ -42,18 +42,24 @@
   </thead>
   <tbody>
   <tr>
-      <td><strong>0.1</strong></td>
+      <td><strong>1.0</strong></td>
       <td>24/08/24</td>
       <td>
         <ul>
           <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
         </ul>
       </td>
       <td>
         Se incluyeron los siguientes capítulos:
         <ul>
+          <li>Estructura del informe</li>
           <li>Capítulo I: Introducción</li>
-            <li>Estructura del informe</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Capítulo V: Product Implementation, Validation & Deployment</li>
+          <li>Landing Page</li>
         </ul>
       </td>
   </tr>
@@ -75,9 +81,12 @@
       <td><strong>Trabaja en equipo para 
       proporcionar liderazgo en 
       forma conjunta</strong></td>
-      <td><h6>Brayan Smith Morales Quispe</h6>TB1:<p>Aqui se llena</p> 
+      <td>
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Aqui se llena</p> 
       <h6>Nombre</h6>TB1:<p>Llenar</p>
-      </td>      
+      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
+      <h6>Nombre</h6>TB1:<p>Llenar</p>
+      </td>
       <td>TB1: conclucion    <p></p>
       </td>
   </tr>
@@ -85,8 +94,11 @@
       <td><strong>Crea un entorno colaborativo e 
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
-      <td><h6>Brayan Smith Morales Quispe</h6>TB1:<p>llena</p>
-      <h6>Nombre</h6>TB1:<p>LLena</p>
+      <td>
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Aqui se llena</p> 
+      <h6>Nombre</h6>TB1:<p>Llenar</p>
+      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
+      <h6>Nombre</h6>TB1:<p>Llenar</p>
       </td>
       <td>TB1:LLENAR</td>
   </tr>
