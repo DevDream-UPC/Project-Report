@@ -14,6 +14,7 @@ Fundado por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), b
 | **Integrantes** | **Descripción** | **Conocimientos** |
 | ----------- | ----------- | ------------- |
 | Brayan Smith Morales Quispe (U20211F984) | Soy Brayan Smith tengo 21 años soy de Ingeniería de Software escogí esta carrera porque me gusta los videojuegos y el desarrollo de aplicaciones | Nivel Intermedio en C++ y C#. Nivel básico SQL. Nivel Intermedio Ilustrator y Photoshop,Nivel intermedio en Angular y Java, C# y .net |
+| Mauro Fabricio Lopez de la Cruz (U202215695) | Soy Fabricio Lopez estudio la ccarrera de Ingeneria de Software , escogi esta carrera porque desde pequeño siempre me ha llamado la atencion como es el desarrollo web ,movil y la ciberseguridad  | Nivel intermedio de SQL y Python. Nivel basico de Angular,Java ,C# ,.net|
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
