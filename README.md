@@ -19,24 +19,24 @@
         DevDream
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="![logo_App.png](assets/images/logo_App.png)" alt="StartUp" width="60px">
+                <img src="/Assent/img/DevDream-Logo.jpeg" alt="StartUp" width="60px">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     FarmLogs
     <div style="text-align: center; margin-top: 20px;">
-                <img src="" alt="" width="100px">
+                <img src="/Assent/img/FarmLogs-Logo.jpg" alt="" width="100px">
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Herdwatch
       <div style="text-align: center; margin-top: 40px;">
-                <img src="" alt="" width="200px">
+                <img src="/Assent/img/Herdwatch-Logo.png" alt="" width="200px">
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       AgriWebb
       <div style="text-align: center; margin-top: 20px;">
-                <img src="" alt="" width="610px">
+                <img src="/Assent/img/Herdwatch-Logo.png" alt="" width="610px">
             </div>
     </td>
   </tr>
