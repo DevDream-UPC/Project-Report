@@ -36,7 +36,7 @@
     <td colspan="1" valign="top" style="font-weight: bold;" >
       AgriWebb
       <div style="text-align: center; margin-top: 20px;">
-                <img src="/Assent/img/Herdwatch-Logo.png" alt="" width="610px">
+                <img src="/Assent/img/AgriWebb-Logo.jpg" alt="" width="610px">
             </div>
     </td>
   </tr>
