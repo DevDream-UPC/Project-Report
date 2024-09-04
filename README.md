@@ -27,44 +27,126 @@ Enlace de Miro:
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
 </tr>
-</tr>
 <tr class="even">
 <td>E1-US01</td>
-<td>Gestion digital de la granja</td>
-<td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
+<td>Gestión digital de la granja</td>
+<td>
+<p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
 <p><strong>Quiero</strong> digitalizar la gestión de mis animales </p>
-<p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p></td>
-<td><p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
+<p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p>
+</td>
+<td>
+<p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
 <p><strong>Dado</strong> que el usuario esta familiarizado con dispositivos tecnologicos,</p>
 <p><strong>Cuando</strong> accede a la plataforma desde su movil o computadora,</p>
 <p><strong>Entonces</strong> podrá visualizar, aregar y actualizar la informacion de los animales de su granja de manera remota.</p>
 <p>Escenario 2: Actualización automática en tiempo real
 <p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
 <p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
-<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p></td>
+<p><strong>Entonces</strong> los cambios se sincronizarán automaticamente en todos sus dispositivos</p>
+</td>
 <td>1</td>
 </tr>
 <tr class="odd">
 <td>E1-US02</td>
 <td>Monitoreo de indicadores clave</td>
-<td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
+<td>
+<p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
 <p><strong>Quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real </p>
-<p><strong>Para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
-<td><p>Escenario 1: Indicadores en tiempo real</p>
+<p><strong>Para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p>
+</td>
+<td>
+<p>Escenario 1: Indicadores en tiempo real</p>
 <p><strong>Dado</strong> que el usuario tiene acceso a sensores de la granja.</p>
 <p><strong>Cuando</strong> abre la plataforma </p>
 <p><strong>Entonces</strong> podrá ver los indicadores de salud actualizados de los animales, como tempertura, peso, y frecuencia cardíaca </p>
-<p>Escenario 2: <strong>Cuando</strong>tualización automática en tiempo real</p>
+<p>Escenario 2: Actualización automática en tiempo real</p>
 <p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
-<p> ingresa nuevas entradas en la plataforma</p>
-<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p></td>
+<p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
+<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p>
+</td>
 <td>1</td>
 </tr>
 <tr class="even">
-
-
+<td>E1-US03</td>
+<td>Integración con Equipos y Sensores</td>
+<td>
+<p><strong>Como</strong> productor agropecuario interesado en la innovación,</p>
+<p><strong>Quiero</strong> integrar la plataforma con sensores y dispositivos en mi granja</p>
+<p><strong>Para</strong> automatizar el monitoreo de la salud de los animales y reducir la intervención manual</p>
+</td>
+<td>
+<p>Escenario 1: Conexión de dispositivos</p>
+<p><strong>Dado</strong> que el usuario cuenta con sensores instalados</p>
+<p><strong>Cuando</strong> los dispositivos se conecten a la plataforma, </p>
+<p><strong>Entonces</strong> la información se actualizará automáticamente en la aplicación sin intervención manual. </p>
+<p>Escenario 2: Automatización de tareas repetitivas</p>
+<p><strong>Dado</strong> que el usuario ha integrado sus dispositivos,</p>
+<p><strong>Cuando</strong> un animal cumpla con ciertos criterios predeterminados, </p>
+<p><strong>Entonces</strong> la plataforma ejecutará acciones automáticas, como registrar una vacuna aplicada</p>
+</td>
+<td>1</td>
 </tr>
-
+<tr class="odd">
+<td>E2-US01</td>
+<td>Herramientas de Aprendizaje</td>
+<td>
+<p><strong>Como</strong> productor agropecuario con poca capacitación, </p>
+<p><strong>Quiero</strong> acceder a recursos educativos dentro de la plataforma</p>
+<p><strong>Para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales</p>
+</td>
+<td>
+<p>Escenario 1: Acceso a material educativo</p>
+<p><strong>Dado</strong> que el usuario tiene poca experiencia en la gestión de granjas,</p>
+<p><strong>Cuando</strong> accede a la plataforma, </p>
+<p><strong>Entonces</strong> podrá visualizar tutoriales y guías que le enseñen buenas prácticas para la gestión de la salud animal. </p>
+<p>Escenario 2: Retroalimentación educativa</p>
+<p><strong>Dado</strong> que el usuario está completando un tutorial,</p>
+<p><strong>Cuando</strong> finaliza una lección, </p>
+<p><strong>Entonces</strong> recibirá retroalimentación automática sobre su progreso y recomendaciones adicionales.</p>
+</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>E2-US02</td>
+<td>Simplificación de tareas</td>
+<td>
+<p><strong>Como</strong> productor agropecuario sin experiencia tecnológica,</p>
+<p><strong>Quiero</strong> que la aplicación tenga una interfaz sencilla y fácil de usar</p>
+<p><strong>Para</strong> poder gestionar mi granja sin necesidad de conocimientos avanzados en tecnología</p>
+</td>
+<td>
+<p>Escenario 1: Interfaz de usuario simplificada</p>
+<p><strong>Dado</strong> que el usuario no está familiarizado con aplicaciones complejas</p>
+<p><strong>Cuando</strong> accede a la plataforma, </p>
+<p><strong>Entonces</strong> verá una interfaz amigable y simplificada con iconos y pasos claros para realizar tareas básicas</p>
+<p>Escenario 2: Guías de usuario</p>
+<p><strong>Dado</strong> que el usuario está usando la paltaforma por primera vez,</p>
+<p><strong>Cuando</strong> se enfrente a una nueva funcionalidad,</p>
+<p><strong>Entonces</strong> se le proporcionará una guía paso a paso para completar la tarea.</p>
+</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>E2-US03</td>
+<td>Guia Paso a Paso</td>
+<td>
+<p><strong>Como</strong> productor agropecuario que no ha recibido capacitacion,</p>
+<p><strong>Quiero</strong> seguir un proceso guiado paso a paso</p>
+<p><strong>Para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos</p>
+</td>
+<td>
+<p>Escenario 1: Registro guiado de animales</p>
+<p><strong>Dado</strong> que el usuario está registrando un nuevo animal,</p>
+<p><strong>Cuando</strong> complete cada paso del registro, </p>
+<p><strong>Entonces</strong> la plataforma le proporcionará instrucciones claras y sencillas para llenar los campos correctamente.</p>
+<p>Escenario 2: Recomendaciones personalizadas</p>
+<p><strong>Dado</strong> que el usuario ha completado el registro de un animal,</p>
+<p><strong>Cuando</strong> se detecten necesidades específicas de ese animal,</p>
+<p><strong>Entonces</strong> la plataforma le proporcionará recomendaciones automáticas sobre cuidados o tratamientos necesarios.</p>
+</td>
+<td>2</td>
+</tr>
 </tbody>
 </table>
 <hr>
