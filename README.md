@@ -27,38 +27,37 @@ Enlace de Miro:
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
 </tr>
-
 </tr>
 <tr class="even">
 <td>E1-US01</td>
-<td>.</td>
-<td><p><strong>Como</strong> Usuario</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td><p>Escenario 1: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces podrá ..</p>
-<p>Escenario 2: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces va .</p></td>
+<td>Gestion digital de la granja</td>
+<td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
+<p><strong>Quiero</strong> digitalizar la gestión de mis animales </p>
+<p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p></td>
+<td><p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
+<p><strong>Dado</strong> que el usuario esta familiarizado con dispositivos tecnologicos,</p>
+<p><strong>Cuando</strong> accede a la plataforma desde su movil o computadora,</p>
+<p><strong>Entonces</strong> podrá visualizar, aregar y actualizar la informacion de los animales de su granja de manera remota.</p>
+<p>Escenario 2: Actualización automática en tiempo real
+<p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
+<p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
+<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p></td>
 <td>1</td>
 </tr>
 <tr class="odd">
 <td>E1-US02</td>
-<td>.</td>
-<td><p><strong>Como</strong> Usuario</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong>.</p></td>
-<td><p>Escenario 1: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando se .</p>
-<p>Entonces podrá .</p>
-<p>Escenario 2: .</p>
-<p>Dado que el usuario .</p>
-<p>Cuando .</p>
-<p>Entonces .</p></td>
+<td>Monitoreo de indicadores clave</td>
+<td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
+<p><strong>Quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real </p>
+<p><strong>Para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
+<td><p>Escenario 1: Indicadores en tiempo real</p>
+<p><strong>Dado</strong> que el usuario tiene acceso a sensores de la granja.</p>
+<p><strong>Cuando</strong> abre la plataforma </p>
+<p><strong>Entonces</strong> podrá ver los indicadores de salud actualizados de los animales, como tempertura, peso, y frecuencia cardíaca </p>
+<p>Escenario 2: <strong>Cuando</strong>tualización automática en tiempo real</p>
+<p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
+<p> ingresa nuevas entradas en la plataforma</p>
+<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p></td>
 <td>1</td>
 </tr>
 <tr class="even">
