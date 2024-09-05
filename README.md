@@ -221,6 +221,23 @@ Evidencia de la entrevista:
 Resumen de la entrevista: Romina usa su dispositivo movil para tener la gestion en las granjas, usa herramientas como las notas de su movil, ademas de las herramientas que brinda google drive, le gustaria disponer de alguna herramineta tecnologica para poder tener una gestion mas optimizada de la granja para mejorar la productividad 
 <br>
 
+*Entrevista 3:*
+
+Nombres: Olga
+
+Apellidos: Garcia
+
+Edad: 55
+
+Lugar de residencia: Huancayo
+
+![entrevista 3](/Assent/img/entrevista%203.png)
+Link: [https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6NzLuB/view?usp=sharing](https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6NzLuB/view?usp=sharing)
+
+Evidencia de la entrevista:
+
+Resumen de la entrevista: Olga es una criadora de cuys y gallinas en la provincia de huancayo, ella tiene problemas con el monitoreo y control de sus animales puesto que usa un sistema de registro a papel con llevando perdida de informacion importante ademas considera que al haber una tecnologia en mercado que le ayudara con su trabajo haria uso de esta misma.
+
 
 *Segmento 2: Veterinarias*
 
