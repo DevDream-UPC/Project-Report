@@ -167,10 +167,29 @@ Enlace de Miro:
 <p><strong>Cuando</strong> el sistema analice los nuevos datos</p>
 <p><strong>Entonces</strong> se reajustará las recomendaciones de dietas de acuerdo a las nuevas características de los animales</p>
 </td>
-<td>1</td>
+<td>3</td>
 </tr>
 
-
+<tr class="odd">
+<td>E3-US02</td>
+<td>Alertas de emergencia por salud animal</td>
+<td>
+<p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
+<p><strong>Quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
+<p><strong>Para</strong> poder tomar las acciones necesarias en la salud de mis animales</p>
+</td>
+<td>
+<p>Escenario 1: Deteccion de anomalias en la salud del animal</p>
+<p><strong>Dado</strong> que los animales estan conectado a sensores que monitorean su salud,</p>
+<p><strong>Cuando</strong> se detecten datos fuera de lo normal, </p>
+<p><strong>Entonces</strong> la plataforma enviara una alerta al dispositivo vinculado con detalles de la salud del animal.</p>
+<p>Escenario 2: Planes de acción</p>
+<p><strong>Dado</strong> que el sistema ha emitido una alerta del estado de salud del animal,</p>
+<p><strong>Cuando</strong> el usuario habra la alerta en su dispositivo,</p>
+<p><strong>Entonces</strong> la plataforma le proporcionará tratamientos e instrucciones para atender cualquier emergencia.</p>
+</td>
+<td>3</td>
+</tr>
 
 </tbody>
 </table>
