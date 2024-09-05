@@ -24,7 +24,7 @@
 |   Donayre Paredes, Luis Carlos   | U202115920 |
 | Lopez de la Cruz ,Mauro Fabricio | U202215695 |
 | David Polanco, Alessandro Alonso | U202122232 |
-|                                  |            |
+|   Cusimayta Lobo, Alex Gabriel   | U202019131 |
 |                                  |            |
 
 #### Agosto 2024
