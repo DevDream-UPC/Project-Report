@@ -63,11 +63,62 @@ La administración y estructuración de las múltiples modificaciones se realiza
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-.
+Para asegurar la consistencia y calidad en el desarrollo de nuestra Landing Page y la aplicación web, implementaremos una serie de convenciones específicas para los distintos lenguajes y tecnologías que utilizamos:
+
+### HTML
+- **Tipo de Documento**: Cada archivo HTML comenzará con `<!DOCTYPE html>` para asegurar la correcta interpretación del documento.
+- **Uso de Minúsculas**: Todas las etiquetas y atributos en HTML estarán en minúsculas, como `<body>` y `<p>`.
+- **Cierre de Etiquetas**: Todas las etiquetas se cerrarán adecuadamente para mantener la estructura limpia.
+- **Atributos con Comillas**: Los valores de los atributos siempre estarán entre comillas, por ejemplo, `<a href="https://example.com">`.
+- **Especificaciones de Imágenes**: Se incluirán los atributos `alt`, `width` y `height` en las imágenes para mejorar la accesibilidad y el diseño responsivo.
+- **Atributos sin Espacios**: No habrá espacios alrededor del signo igual en los atributos, por ejemplo, `<link rel="stylesheet" href="styles.css">`.
+- **Elemento `<title>`**: No omitiremos el elemento `<title>` ya que es esencial para SEO y la accesibilidad del sitio.
+- **Idioma y Codificación**: Usaremos el atributo `lang` para definir el idioma del documento y `<meta charset="UTF-8">` para la codificación de caracteres.
+
+### CSS
+- **Uso de HTTPS**: Todos los recursos externos, como fuentes y multimedia, se cargarán a través de HTTPS para garantizar la seguridad, por ejemplo: `@import 'https://fonts.googleapis.com/css?family=Open+Sans';`.
+- **Nombres en Minúsculas**: Todos los nombres de elementos, atributos y valores estarán en minúsculas para mantener la coherencia, por ejemplo, `color: #e5e5e5;`.
+- **Clases Descriptivas**: Las clases CSS tendrán nombres que describan claramente su propósito, separadas por guiones, por ejemplo: `.barra-navegacion`, `.autor-articulo`.
+- **Propiedades Abreviadas**: Se usarán propiedades abreviadas cuando sea posible, para reducir el tamaño del código y mejorar la legibilidad, por ejemplo: `border-top: 0;`.
+- **Colores Hexadecimales Reducidos**: Se utilizarán colores en formato hexadecimal de tres caracteres cuando sea aplicable, por ejemplo: `color: #ebc;`.
+- **Orden Alfabético**: Las propiedades CSS dentro de un bloque estarán organizadas en orden alfabético para facilitar el mantenimiento.
+- **Uso de Punto y Coma**: Cada declaración CSS terminará con un punto y coma para evitar errores de interpretación, por ejemplo: `display: block;`.
+- **Espaciado Consistente**: Habrá un espacio después de los dos puntos en las declaraciones y entre las llaves que abren un bloque, por ejemplo: `font-weight: bold;`.
+- **Comillas Simples en Atributos**: Los valores de atributos en CSS estarán entre comillas simples, por ejemplo: `font-family: 'Open Sans', Arial, sans-serif;`.
+
+### C# y .NET
+- **Uso de PascalCase**: Las clases, métodos y propiedades en C# seguirán la convención PascalCase, por ejemplo: `public class UserAccount { }`.
+- **Uso de camelCase**: Las variables y parámetros se escribirán en camelCase, por ejemplo: `int userId = 0;`.
+- **Espaciado y Sangría**: Se usará una sangría de 4 espacios y se incluirá un espacio entre las palabras clave y los paréntesis, por ejemplo: `if (condition)`.
+- **Uso de `var`**: Se utilizará `var` cuando el tipo de la variable sea evidente, pero se preferirá el tipo explícito en casos no tan claros.
+- **Comentarios XML**: Se documentarán los métodos públicos y las clases con comentarios XML, por ejemplo: `/// <summary>Descripción del método</summary>`.
+
+### RESTful APIs
+- **Rutas Descriptivas**: Se utilizarán rutas claras y descriptivas siguiendo los principios RESTful, por ejemplo: `GET /api/users`.
+- **Métodos HTTP Apropiados**: Se garantizará el uso correcto de los métodos HTTP, como `GET`, `POST`, `PUT` y `DELETE`.
+- **Códigos de Estado HTTP Correctos**: Las respuestas incluirán los códigos de estado HTTP adecuados, como `200 OK`, `404 Not Found` y `500 Internal Server Error`.
+- **Formato JSON**: Tanto las solicitudes como las respuestas estarán estructuradas en JSON, manteniendo un formato consistente en las claves.
+
+### Vue.js
+- **Componentes Separados**: Cada componente Vue se almacenará en su propio archivo `.vue` para mantener una estructura modular.
+- **camelCase en Métodos**: Los métodos y variables dentro de Vue seguirán la convención camelCase, por ejemplo: `computedProperty()`.
+- **Sangría y Espaciado**: Se utilizarán 2 espacios para la sangría en los archivos `.vue`.
+- **Uso Consistente de Directivas**: Se emplearán directivas de Vue como `v-bind`, `v-if` y `v-for` según las mejores prácticas oficiales.
+- **Separación de Secciones**: Las plantillas, scripts y estilos dentro de los componentes `.vue` estarán claramente separados para un código más ordenado y mantenible.
+
 
 
 ### 5.1.4. Software Deployment Configuration.
-.
+
+Creamos un repositorio en la organización de nuestro equipo en GitHub, donde subimos los archivos necesarios para desplegar la landing page. El despliegue se realizó mediante GitHub Pages.
+
+1. Subimos los archivos requeridos al repositorio correspondiente.
+   
+3. Luego, accedemos a **Settings** y localizamos la opción **Pages**. En el apartado de **Branch**, seleccionamos la rama `main` y guardamos los cambios.
+   
+5. Tras unos minutos, GitHub genera el enlace de acceso a nuestra página web.
+
+
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
