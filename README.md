@@ -45,7 +45,21 @@ Vertabelo nos sirvió para diseñar la estructura de la base de datos de manera 
 
 
 ### 5.1.2. Source Code Management.
-.
+
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+### Organización:
+- **Repositorio en GitHub**: [https://github.com/DevDream-UPC](https://github.com/DevDream-UPC)
+- **Landing Page**: [https://github.com/DevDream-UPC/FarmGuard-LandingPage](https://github.com/DevDream-UPC/FarmGuard-LandingPage)
+
+### Ramas Principales:
+- **Rama `main`**: En esta rama se almacenan las versiones oficiales de nuestro repositorio para pasarlas a producción.
+- **Rama `develop`**: Esta rama se utiliza como punto de integración para las ramas de `feature`. Una vez que el equipo lo considere listo para el lanzamiento.
+
+### Ramas Auxiliares:
+
+- **Rama `Refactor/structure`**: En estas ramas se desarrollan las funcionalidades generales que se integrarán en la rama `develop`. Estas funcionalidades son aquellas solicitadas por los usuarios, tanto en la página de inicio como en la aplicación web. Por ejemplo, la rama `feature/navbar`.
+
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
