@@ -297,3 +297,15 @@ Enlace de Miro:
 <p><strong>para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales.</p></td>
 <td>Media</td>
 <td>5</td>
+
+
+<tr class="odd">
+<td>5</td>
+<td>E2-US02</td>
+<td>Simplificación de tareas</td>
+<td><p><strong>Como</strong> productor agropecuario sin experiencia tecnológica,</p>
+<p><strong>quiero</strong> que la aplicación tenga una interfaz sencilla y fácil de usar</p>
+<p><strong>para</strong> poder gestionar mi granja sin necesidad de conocimientos avanzados en tecnología.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
