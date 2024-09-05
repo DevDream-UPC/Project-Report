@@ -149,7 +149,7 @@ realizar las preguntas a los diferentes segmentos objetivos
 4. ¿A qué te dedicas?
 5. ¿Que navegador usas en tu dia a dia?
 
-*Preguntas Segmento 1: Productores agropecuarios que cuentan con animales en su cuidado*
+*Preguntas Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
 
 1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
 
@@ -330,11 +330,13 @@ Resumen de la entrevista:
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+Se realiza un análisis de las respuestas brindadas por nuestros entrevistados, dividiéndose en los 2 segmentos definidos anteriormente por el equipo de trabajo.
 
-*SEGMENTO 1:*
+*SEGMENTO 1: Cuidadores de animales en terrenos de productores agropecuarios*
+<img src="Assent/img/UserPersona1.png" alt="UP1" width="200" height="200">  
 
-
-*SEGMENTO 2:*
+*SEGMENTO 2: Veterinarias*
+<img src="Assent/img/UserPersona1.png" alt="UP1" width="200" height="200">  
 
 
 ### 2.3.2. User Task Matrix
