@@ -577,11 +577,11 @@ A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivo
 A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos.
 
 *SEGMENTO 1*
-<img src="Assent/img/As-Is_S1.png" alt="ASIS1">
+<img src="Assent/img/As-Is_S1.PNG" alt="ASIS1">
 
 
 *SEGMENTO 2*
-<img src="Assent/img/As-Is_S2.png" alt="ASIS2">
+<img src="Assent/img/As-Is_S2.PNG" alt="ASIS2">
 
 [*Enlace de Miro*](https://miro.com/app/board/uXjVKiCaagY=/?share_link_id=824456164772)
 
