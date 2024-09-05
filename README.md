@@ -28,24 +28,24 @@ Enlace de Miro:
 <td>Relación Epic ID</td>
 </tr>
 <tr class="even">
-<td>E1-US01</td>
-<td>Gestión digital de la granja</td>
-<td>
-<p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
-<p><strong>Quiero</strong> digitalizar la gestión de mis animales </p>
-<p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p>
-</td>
-<td>
-<p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
-<p><strong>Dado</strong> que el usuario esta familiarizado con dispositivos tecnologicos,</p>
-<p><strong>Cuando</strong> accede a la plataforma desde su movil o computadora,</p>
-<p><strong>Entonces</strong> podrá visualizar, aregar y actualizar la informacion de los animales de su granja de manera remota.</p>
-<p>Escenario 2: Actualización automática en tiempo real
-<p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
-<p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
-<p><strong>Entonces</strong> los cambios se sincronizarán automaticamente en todos sus dispositivos</p>
-</td>
-<td>1</td>
+    <td>E1-US01</td>
+    <td>Gestión digital de la granja</td>
+    <td>
+        <p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
+        <p><strong>Quiero</strong> digitalizar la gestión de mis animales </p>
+        <p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p>
+    </td>
+    <td>
+        <p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
+        <p><strong>Dado</strong> que el usuario esta familiarizado con dispositivos tecnologicos,</p>
+        <p><strong>Cuando</strong> accede a la plataforma desde su movil o computadora,</p>
+        <p><strong>Entonces</strong> podrá visualizar, aregar y actualizar la informacion de los animales de su granja de manera remota.</p>
+        <p>Escenario 2: Actualización automática en tiempo real
+        <p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
+        <p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
+        <p><strong>Entonces</strong> los cambios se sincronizarán automaticamente en todos sus dispositivos</p>
+    </td>
+    <td>1</td>
 </tr>
 <tr class="odd">
 <td>E1-US02</td>
@@ -226,6 +226,102 @@ Enlace de Miro:
 <p><strong>Entonces</strong> se podra asignar tareas a empleados especificos, y ellos recibiran una notificacion con las tareas que se les fueron asignadas.</p>
 </td>
 <td>4</td>
+</tr>
+<tr class="even">
+    <td>E5-US011 </td>
+    <td>Sección sobre los planes del Landing Page de FarmGuard</td>
+    <td>
+        <p><strong>Como</strong> visitante del sitio estatico,</p>
+        <p><strong>Quiero</strong> tener informacion sobre los planes disponibles de la app web. </p>
+        <p><strong>Para</strong> poder considerar la adquisicion de uno de estos. </p>
+    </td>
+    <td>
+        <p>Escenario 1: Buscar los planes disponibles.</p>
+        <p><strong>Dado</strong> que el visitante esta interesado en los planes disponibles,</p>
+        <p><strong>Cuando</strong> accede al landing page a la seccion de planes,</p>
+        <p><strong>Entonces</strong> podrá visualizar, los diferentes planes disponibles y leer la informacion clara y precisa.</p>
+        <p>Escenario 2: No encuentra los planes disponibles.
+        <p><strong>Dado</strong> que el visitante esta interesado en los planes disponibles,</p>
+        <p><strong>Cuando</strong>accede al landing page a la seccion de planes,</p>
+        <p><strong>Entonces</strong> la seccion de planes no aparece correctamente y no carga la informacion importante.</p>
+    </td>
+    <td>5</td>
+</tr>
+<tr class="odd">
+    <td>E5-US12</td>
+    <td>Sección sobre los beneficios del Landing Page de FarmGuard</td>
+    <td>
+        <p><strong>Como</strong> visitante del sitio estatico,</p>
+        <p><strong>Quiero</strong> tener informacion sobre los beneficios que me brinda la app web. </p>
+        <p><strong>Para</strong> poder considerar el uso de esta misma.</p>
+    </td>
+    <td>
+        <p>Escenario 1: Buscar la seccion de beneficios</p>
+        <p><strong>Dado</strong> que el visitante esta interesado en los beneficios de la app web,</p>
+        <p><strong>Cuando</strong> cuando presione en el boton de Beneficios en el navbar, </p>
+        <p><strong>Entonces</strong> se podra visualizar la seccion de los beneficios con sus respectivas imagenes con tiempos de carga cortos.</p>
+        <p>Escenario 2: No se encuentra la seccion de beneficios.</p>
+        <p><strong>Dado</strong> que el visitante esta interesado en los beneficios de la app web,</p>
+        <p><strong>Cuando</strong> cuando presione en el boton de Beneficios en el navbar,</p>
+        <p><strong>Entonces</strong> la pagina no lo redirrecciona a la seccion respectiva.</p>
+    </td>
+    <td>5</td>
+</tr>
+<tr class="even">
+    <td>E5-US013 </td>
+    <td>Sección de contactanos del Landing Page de FarmGuard</td>
+    <td>
+        <p><strong>Como</strong> visitante del sitio estatico,</p>
+        <p><strong>Quiero</strong> tener la opcion de poder de contactar con el equipo de desarrollo </p>
+        <p><strong>Para</strong> poder tener mas informacion.</p>
+    </td>
+    <td>
+        <p>Escenario 1: Buscar el formulario para contactar al equipo.</p>
+        <p><strong>Dado</strong> que el visitante esta interesado contactar con el equipo de desarrollo,</p>
+        <p><strong>Cuando</strong> accede al landing page a la seccion de contactanos,</p>
+        <p><strong>Entonces</strong> el visitante navega hasta esa seccion para poder llenar su informacion y enviar sus datos para la consulta.</p>
+    </td>
+    <td>5</td>
+</tr>
+<tr class="odd">
+    <td>E5-US14</td>
+    <td>Sección sobre los integrantes del Landing Page de FarmGuard</td>
+    <td>
+        <p><strong>Como</strong> visitante del sitio estatico,</p>
+        <p><strong>Quiero</strong> tener informacion sobre los creadores de la app web. </p>
+        <p><strong>Para</strong> poder saber mas sobre el equipo detras de la app web.</p>
+    </td>
+    <td>
+        <p>Escenario 1: Buscar la seccion de Nosotros</p>
+        <p><strong>Dado</strong> que el visitante esta interesado en saber del equipo detras de la app web,</p>
+        <p><strong>Cuando</strong>presione en el boton de Nosotros en el navbar, </p>
+        <p><strong>Entonces</strong> se podra visualizar la seccion Nosotros con sus respectivas imagenes con tiempos de carga cortos y descripciones de cada miembro.</p>
+        <p>Escenario 2: No carga la seccion nosotros.</p>
+        <p><strong>Dado</strong> que el visitante esta interesado en conocer los desarrolladores de la app web,</p>
+        <p><strong>Cuando</strong> presione en el boton de Nosotros en el navbar,</p>
+        <p><strong>Entonces</strong> la pagina no lo redirrecciona a la seccion respectiva y no carga la informacion.</p>
+    </td>
+    <td>5</td>
+</tr>
+<tr class="even">
+    <td>E5-US015 </td>
+    <td>Boton de accion del Landing Page a FarmGuard</td>
+    <td>
+        <p><strong>Como</strong> visitante del sitio estatico,</p>
+        <p><strong>Quiero</strong> tener la opcion de poder dirigirme a la app web  </p>
+        <p><strong>Para</strong> para poder usarla.</p>
+    </td>
+    <td>
+        <p>Escenario 1: Presiona un boton para dirigirse al app web.</p>
+        <p><strong>Dado</strong> que el visitante esta buscando ir a la app web,</p>
+        <p><strong>Cuando</strong> presiona el boton de accion,</p>
+        <p><strong>Entonces</strong> este le redirige a la app web.</p>
+        <p>Escenario 2: Presiona un boton para dirigirse al app web y no pasa nada.</p>
+        <p><strong>Dado</strong> que el visitante esta buscando ir a la app web,</p>
+        <p><strong>Cuando</strong> presiona el boton de accion,</p>
+        <p><strong>Entonces</strong> el boton no realiza ninguna accion.</p>
+    </td>
+    <td>5</td>
 </tr>
 </tbody>
 </table>
