@@ -255,21 +255,24 @@ Enlace de Miro:
 </tr>
 </thead>
 <tbody>
+
 <tr class="odd">
 <td>1</td>
 <td>US01</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
+<td>Gestión digital de la granja</td>
+<td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
+<p><strong>quiero</strong> digitalizar la gestión de mis animales</p>
+<p><strong>para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones.</p></td>
 <td>Alta</td>
-<td>.</td>
+<td>8</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>US02</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td>Baja</td>
+<td>Monitoreo de indicadores clave</td>
+<td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
+<p><strong>quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real.</p>
+<p><strong>para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
+<td>Alta</td>
+<td>8</td>
+
