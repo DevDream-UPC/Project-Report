@@ -354,3 +354,14 @@ Enlace de Miro:
 <td>Alta</td>
 <td>8</td>
 </tr>
+
+<tr class="even">
+<td>10</td>
+<td>E4-US02</td>
+<td>Planificacion de actividades agricolas</td>
+<td><p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
+<p><strong>quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
+<p><strong>para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
