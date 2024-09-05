@@ -206,19 +206,19 @@ Resumen de la entrevista: Como cuidador en una granja con animales que se encont
 
 *Entrevista 2:*
 
-Nombres:
+Nombres: Romina
 
-Apellidos:
+Apellidos: Lopa Dolores
 
-Edad:
-Lugar de residencia:
+Edad: 20
+
+Lugar de residencia: San Juan de Lurigancho
 
 Evidencia de la entrevista:
 
-Enlace de la entrevista:
+[Entrevista a Romina Lopa - Estudiante de Veterinaria](https://drive.google.com/file/d/1HBBFojy-kwj4jiT-b_B78Iq3_2Jhu_BR/view?usp=sharing)
 
-Resumen de la entrevista:
-
+Resumen de la entrevista: Romina usa su dispositivo movil para tener la gestion en las granjas, usa herramientas como las notas de su movil, ademas de las herramientas que brinda google drive, le gustaria disponer de alguna herramineta tecnologica para poder tener una gestion mas optimizada de la granja para mejorar la productividad 
 <br>
 
 
