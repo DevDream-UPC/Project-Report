@@ -27,6 +27,7 @@ Enlace de Miro:
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
 </tr>
+
 <tr class="even">
 <td>E1-US01</td>
 <td>Gestión digital de la granja</td>
@@ -147,6 +148,30 @@ Enlace de Miro:
 </td>
 <td>2</td>
 </tr>
+
+<tr class="even">
+<td>E3-US01</td>
+<td>Predicción de necesidades alimenticias</td>
+<td>
+<p><strong>Como</strong> productor agropecuario interesado en en mejorar productividad y la salud del ganado,</p>
+<p><strong>Quiero</strong> que la plataforma ofresca predicciones de necesidades alimenticias basandose en las características del animal </p>
+<p><strong>Para</strong> poder optimizar el uso de los recursos disponibles y asegurar la salud de los animales. </p>
+</td>
+<td>
+<p>Escenario 1: Recomendaciones de dieta</p>
+<p><strong>Dado</strong> que los animales tienen sus datos actualizados,</p>
+<p><strong>Cuando</strong> el usuario consulte las necesidades alimenticias,</p>
+<p><strong>Entonces</strong> la plataforma le mostrará dietas racomendadas para cada animal.</p>
+<p>Escenario 2: Ajuste de cantidad de alimentos
+<p><strong>Dado</strong> que el peso y edad de los animales ha cambiado,</p>
+<p><strong>Cuando</strong> el sistema analice los nuevos datos</p>
+<p><strong>Entonces</strong> se reajustará las recomendaciones de dietas de acuerdo a las nuevas características de los animales</p>
+</td>
+<td>1</td>
+</tr>
+
+
+
 </tbody>
 </table>
 <hr>
