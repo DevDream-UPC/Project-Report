@@ -187,9 +187,9 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
 
 ### 5.2.1.2. Sprint backlog 1
 
-.
+.En esta sección se presentan los tasks realizados durante el actual Sprint.
 
-Link de Trello:
+Link de Trello:https://trello.com/invite/b/66da2fd3e991980333693d3c/ATTIe49c54a93d6823319a2300567b3dd61b1DE6BDDB/mi-tablero-de-trello
 
 
 <table style="width:800px; height:300px;"> 
@@ -212,34 +212,34 @@ Link de Trello:
      <th> Status (To-do / In-Process / To- Review / Done) </th>
    </tr>
      <tr>
-      <th> EP1-US01 </th>
-     <th colspan="3"> . </th>
-      <th> W01  </th>
-     <th> . </th>
-     <th> .</th>
-     <th> </th>
-     <th> . </th> 
-     <th> . </th>
+      <th> EP4-US01 </th>
+     <th colspan="3"> Planificacion de actividades agricolas </th>
+      <th> T1  </th>
+     <th> Precio de los insumos</th>
+     <th>Hacer NavBar y que sea responsive </th>
+     <th> 1</th>
+     <th> Bryan </th> 
+     <th> Done</th>
    </tr>
     <tr>
-      <th> EP1-US01 </th>
-     <th colspan="3">  .  </th>
-      <th> W02  </th>
-     <th> . </th>
-     <th> . </th>
-     <th> . </th>
-     <th> . </th> 
-     <th> . </th>
+      <th> EP4-US02 </th>
+     <th colspan="3">  Gestión de inventarios de insumos  </th>
+      <th> T2  </th>
+     <th> Planificacion de actividades </th>
+     <th>  Creacion de actividades futuras</th>
+     <th> 2 </th>
+     <th> Fabricio </th> 
+     <th> done </th>
    </tr>
     <tr>
       <th> EP1-US02 </th>
-     <th colspan="3"> .</th>
-      <th> W03  </th>
-     <th> . </th>
-     <th> . </th>
-     <th> . </th>
-     <th> . </th> 
-     <th> . </th>
+     <th colspan="3"> Predicción de necesidades alimenticias</th>
+      <th> T3  </th>
+     <th> Recordatorio de alimentacion </th>
+     <th> Apartado de control de alimentacion  </th>
+     <th> 3 </th>
+     <th> Alessandro </th> 
+     <th> done </th>
    </tr>
 
 
