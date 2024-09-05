@@ -351,21 +351,113 @@ Enlace de Miro:
 </tr>
 </thead>
 <tbody>
+
 <tr class="odd">
 <td>1</td>
-<td>US01</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
+<td>E1-US01</td>
+<td>Gestión digital de la granja</td>
+<td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
+<p><strong>quiero</strong> digitalizar la gestión de mis animales</p>
+<p><strong>para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones.</p></td>
 <td>Alta</td>
-<td>.</td>
+<td>8</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>US02</td>
-<td>.</td>
-<td><p><strong>Como</strong> .</p>
-<p><strong>quiero</strong> .</p>
-<p><strong>para</strong> .</p></td>
-<td>Baja</td>
+<td>E1-US02	</td>
+<td>Monitoreo de indicadores clave</td>
+<td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
+<p><strong>quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real.</p>
+<p><strong>para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
+<td>Alta</td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>E1-US03	</td>
+<td>Integración con Equipos y Sensores</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en la innovación,</p>
+<p><strong>quiero</strong> integrar la plataforma con sensores y dispositivos en mi granja</p>
+<p><strong>para</strong> automatizar el monitoreo de la salud de los animales y reducir la intervención manual.</p></td>
+<td>Alta</td>
+<td>13</td>
+</tr>
+
+
+<tr class="even">
+<td>4</td>
+<td>E2-US01</td>
+<td>Herramientas de aprendizaje</td>
+<td><p><strong>Como</strong> productor agropecuario con poca capacitación,</p>
+<p><strong>quiero</strong> acceder a recursos educativos dentro de la plataforma</p>
+<p><strong>para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
+
+<tr class="odd">
+<td>5</td>
+<td>E2-US02</td>
+<td>Simplificación de tareas</td>
+<td><p><strong>Como</strong> productor agropecuario sin experiencia tecnológica,</p>
+<p><strong>quiero</strong> que la aplicación tenga una interfaz sencilla y fácil de usar</p>
+<p><strong>para</strong> poder gestionar mi granja sin necesidad de conocimientos avanzados en tecnología.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
+
+<tr class="even">
+<td>6</td>
+<td>E2-US03</td>
+<td>Guia Paso a Paso</td>
+<td><p><strong>Como</strong> productor agropecuario que no ha recibido capacitacion,</p>
+<p><strong>quiero</strong> seguir un proceso guiado paso a paso</p>
+<p><strong>para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
+
+<tr class="odd">
+<td>7</td>
+<td>E3-US01</td>
+<td>Predicción de necesidades alimenticias</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en en mejorar productividad y la salud del ganado,</p>
+<p><strong>quiero</strong> que la plataforma ofresca predicciones de necesidades alimenticias basandose en las características del animal</p>
+<p><strong>para</strong> poder optimizar el uso de los recursos disponibles y asegurar la salud de los animales.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
+
+<tr class="even">
+<td>8</td>
+<td>E3-US02</td>
+<td>Alertas de emergencia por salud animal</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
+<p><strong>quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
+<p><strong>para</strong> poder tomar las acciones necesarias en la salud de mis animales.</p></td>
+<td>Alta</td>
+<td>13</td>
+</tr>
+
+
+<tr class="odd">
+<td>9</td>
+<td>E4-US01</td>
+<td>Gestión de inventarios de insumos</td>
+<td><p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
+<p><strong>quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma</p>
+<p><strong>para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento.</p></td>
+<td>Alta</td>
+<td>8</td>
+</tr>
+
+<tr class="even">
+<td>10</td>
+<td>E4-US02</td>
+<td>Planificacion de actividades agricolas</td>
+<td><p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
+<p><strong>quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
+<p><strong>para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
