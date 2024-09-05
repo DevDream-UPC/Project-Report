@@ -4,11 +4,11 @@
 
 **Cuidadores de animales en terrenos de productores agropecuarios:**
 <img src="Assent/img/to-be1.PNG" alt="TO-BE1">
+
 **Veterinarias:**
 <img src="Assent/img/to-be2.PNG" alt="TO-BE2">
 
-
-Enlace de Miro:
+[Enlace de Miro](https://miro.com/app/board/uXjVKiLniSg=/?share_link_id=58992610792)
 
 ## 3.2. User Stories
 
