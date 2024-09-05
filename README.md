@@ -11,11 +11,15 @@ En esta sección se mostrara de manera organizada los Branding, Typography, Colo
 
 * __Brand Name.-__ El nombre de nuestro aplicacion web es FarmGuard. La creacion de este nombre se debe al juntar palabras relacionadas con la idea de nuestra solucion, siendo estas **Farm**  (Traducido es granja) y **Guard** (Traducido es guardia ). Palabras que creemos que expresan nuestro objetivo de la aplicacion. 
 
+![Logo](/Assets/img/ChapterIV/DALL·E%202024-08-31%2001.58.29%20-%20A%20minimalist%20logo%20for%20an%20app%20called%20'FarmGuard.'%20The%20logo%20should%20feature%20a%20simple,%20clean%20design%20with%20modern%20lines.%20The%20central%20element%20could%20be%20a%20shie.webp)
+
 * __Fonts.-__ El tipo de tipografia de letra elegido fue Roboto debido a su legibilidad, claridad, versatilidad y integracion facil gracias a Google Fonts. A continuacion se mostrara los tamaños de letras que se usara en los diferentes tipos de etiquetas que contenga texto.
 
 ![Fuente](/Assets/img/ChapterIV/Section%201%20(1).png)
 
-* __Colores.-__
+* __Colores.-__ El color escogido fue el verde __#4ADE80__ debidom a que queremos expresar salud, cuidado, bienestar a nuestros usuarios que monitorean a sus animales.
+
+![](/Assets/img/ChapterIV/image%202.png)
 
 * __Tonos de comunicacion.-__ El tipo de lenguaje a emplear sera serio y formal.
 
@@ -84,6 +88,14 @@ __Nosotros/ About Us:__ Esta sección el visitante podrá ver la información de
 
 * __Aplicacion Web (Veterinarios y ganaderos)__ <br>
 
+__Inicio/Home:__ Se mostrara las notificaciones, graficos que mostraran estadisticas de los animales respecto a su estado de salud y una barra que mostrara la cantidad de animales registrados.
+
+__Animales/Animals:__ Se mostrara los animales registrados en la aplicacion con sus datos respectivos. Ademas de permitir agregar otros animales.
+
+__Alertas/Alerts:__  Se mostrara mas detalles de las notificaciones.
+
+__Vacunas/Vaccines:__ Se mostrara las vacunas disponibles ademas de recomendar para que tipo de animal le puede beneficiar.
+
 
 
 <br>
@@ -92,44 +104,102 @@ __Nosotros/ About Us:__ Esta sección el visitante podrá ver la información de
 
 ### 4.2.3. SEO Tags and Meta Tags.
 
+En esta seccion, se presentaran las etiquetas a usar para el landing page y app web. Gracias a estas, podremos destacar en los motores de busquedas.
 .
 
 ### Para la landing page.
 
+* __Title (Seo tag):__ FarmGuard | Landing Page 
 
+* __Description (Meta tag):__ FarmGuard Oficial Landing Page.
 
+* __Keywords (Meta tag):__ Animals, Farm, Guard, Vaccines, Control, monitoring, information, plans.
 
+### Para la App Web.
+
+* __Authors (Meta tag):__ DevDream
+
+* __Title (Seo tag):__ FarmGuard | App Web 
+
+* __Description (Meta tag):__ FarmGuard Oficial app web.
+
+* __Keywords (Meta tag):__ Animals, Farm, Guard, Vaccines, Control, monitoring, information, plans.
+
+* __Authors (Meta tag):__ DevDream
 
 ### 4.2.4. Searching Systems.
 
-.
+En esta seccion, se presentara el sistema de busqueda que implementaremos en la aplicacion. Para que los usuarios puedan buscar la informacion que desean.
+
+Para la busqueda de nuestra aplicacion usaremos (Patron Search Filters). Por el motivo que permite hacer busquedas por filtros sobre un respectivo contenido.
+
+![Patron](https://ui-patterns.com/patterns/LiveFilter/examples/773)
 
 
 
 ### 4.2.5. Navigation Systems.
-.
+
+A continuacion, presentaremos el sistema de navegacion con el que contara FarmGuard que permititra al usuario navegar en el landing page y app web.
+
+En este caso usaremos un solo sistema de navegacion, siendo este Navigation Tabs puesto que permite tener una vista rapida de las opciones de la aplicacion para interactuar tanto para el landing page y app web, como ejemplo la imagen que hay debajo siendo esta un sidebar con las diversas partes de los sistemas
+
+![navigation tabs](https://ui-patterns.com/uploads/image/file/8/best_old_3.jpg)
 
 ## 4.3. Landing Page UI Design.
-<hr>
+<hr>_
 
 ### 4.3.1. Landing Page Wireframe.
 
-Versión Desktop:
+En esta seccion se mostrara los diferrentes wireframes desarrollados en software de figma para el landing page.
 
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Inicio.png)
 
-Versión Mobile:
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Beneficios.png)
 
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Planes.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Nosotros.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Contactanos.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Footer.png)
+
+Link para ver los wireframes en figma [https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1](https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1)
 
 
 ### 4.3.2. Landing Page Mockup.
-Enlace a la mockup de la Landing Page en Figma:
 
-Versión Mobile:
+En esta seccion mostraremos los mockups realizados para el landing page con los respectivos estilos establecidos en los puntos anteriores.
 
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Inicio.png)
+
+En este mockup del inicio del landing page se aprecia el inicio de aplicativo con una frase haciendo referencia al negocio asi como las imagenes respectivas. Ademas de un boton de accion que permitira al usuario redirigirlo a la aplicacion web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Beneficios.png)
+
+En este mockup de los beneficios mostrara los beneficios al usar el aplicativos con imagenes dentro de cards que tendran animaciones haciendo mas agradable la interaccion del usuario.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Planes.png)
+
+En este mockup de los planes se muestra cards con los diferentes planes que tendra la aplicacion web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Nosotros.png)
+
+En esta seccion mostraremos al equipo detras del desarrollo del aplicativo web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Contactanos.png)
+
+En este mockup mostraremos un formulario para poder contactar con el equipo de desarrollo de FarmGuard.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Footer.png)
+
+En este mockup se puede ver el footer donde tendra una pequeña descripcion con nuestras respectivas redes.
+
+Enlace a la mockup de la Landing Page en Figma: [https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1](https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1)
 
 
 ## 4.4. Web Applications UX/UI Design
-.
+En esta seccion mostra
 
 ### 4.4.1. Web Applications Wireframes
 .
