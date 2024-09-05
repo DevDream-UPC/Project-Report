@@ -1,11 +1,11 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
-.
 
-**(Nombre Seg01):**
-
-**(Nombre Seg02)**
+**Cuidadores de animales en terrenos de productores agropecuarios:**
+<img src="Assent/img/to-be1.PNG" alt="TO-BE1">
+**Veterinarias:**
+<img src="Assent/img/to-be2.PNG" alt="TO-BE2">
 
 
 Enlace de Miro:
