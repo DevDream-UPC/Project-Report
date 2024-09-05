@@ -333,10 +333,11 @@ Resumen de la entrevista:
 Se realiza un análisis de las respuestas brindadas por nuestros entrevistados, dividiéndose en los 2 segmentos definidos anteriormente por el equipo de trabajo.
 
 *SEGMENTO 1: Cuidadores de animales en terrenos de productores agropecuarios*
-<img src="Assent/img/UserPersona1.png" alt="UP1" width="200" height="200">  
+<img src="Assent/img/UserPersona1.png" alt="UP1">  
 
 *SEGMENTO 2: Veterinarias*
-<img src="Assent/img/UserPersona1.png" alt="UP1" width="200" height="200">  
+
+<img src="Assent/img/UserPersona1.png" alt="UP2">  
 
 
 ### 2.3.2. User Task Matrix
