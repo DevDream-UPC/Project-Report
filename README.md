@@ -287,3 +287,13 @@ Enlace de Miro:
 <td>13</td>
 </tr>
 
+
+<tr class="even">
+<td>4</td>
+<td>E2-US01</td>
+<td>Herramientas de aprendizaje</td>
+<td><p><strong>Como</strong> productor agropecuario con poca capacitación,</p>
+<p><strong>quiero</strong> acceder a recursos educativos dentro de la plataforma</p>
+<p><strong>para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales.</p></td>
+<td>Media</td>
+<td>5</td>
