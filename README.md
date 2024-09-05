@@ -583,6 +583,6 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 *SEGMENTO 2*
 <img src="Assent/img/As-Is_S2.PNG" alt="ASIS2">
 
-[*Enlace de Miro*](https://miro.com/app/board/uXjVKiCaagY=/?share_link_id=824456164772)
+[*Enlace de Miro*](https://miro.com/app/board/uXjVKiA8g-o=/?share_link_id=979873893609)
 
 ## 2.4. Ubiquitous Language
