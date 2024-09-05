@@ -27,7 +27,6 @@ Enlace de Miro:
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
 </tr>
-
 <tr class="even">
 <td>E1-US01</td>
 <td>Gestión digital de la granja</td>
@@ -148,7 +147,6 @@ Enlace de Miro:
 </td>
 <td>2</td>
 </tr>
-
 <tr class="even">
 <td>E3-US01</td>
 <td>Predicción de necesidades alimenticias</td>
@@ -169,7 +167,6 @@ Enlace de Miro:
 </td>
 <td>3</td>
 </tr>
-
 <tr class="odd">
 <td>E3-US02</td>
 <td>Alertas de emergencia por salud animal</td>
@@ -190,7 +187,46 @@ Enlace de Miro:
 </td>
 <td>3</td>
 </tr>
-
+<tr class="even">
+<td>E4-US01</td>
+<td>Gestión de inventarios de insumos</td>
+<td>
+<p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
+<p><strong>Quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma </p>
+<p><strong>Para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento. </p>
+</td>
+<td>
+<p>Escenario 1: Registro automatico de insumos</p>
+<p><strong>Dado</strong> que el usuario ingresa los nuevos insumos al almacén,</p>
+<p><strong>Cuando</strong> se registre las entradas de nuevos insumos,</p>
+<p><strong>Entonces</strong> la plataforma  actualizara automaticamente el inventario disponible e informara si hace falta algun insumo.</p>
+<p>Escenario 2: Generación de informes de insumos
+<p><strong>Dado</strong> que el usuario desea analizar el uso de insumos,</p>
+<p><strong>Cuando</strong> el sistema genere un reporte de inventario</p>
+<p><strong>Entonces</strong> la plataforma mostrara el historial de ingreso y uso de insumos</p>
+</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>E4-US02</td>
+<td>Planificacion de actividades agricolas</td>
+<td>
+<p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
+<p><strong>Quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
+<p><strong>Para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias</p>
+</td>
+<td>
+<p>Escenario 1: Calendario de actividades</p>
+<p><strong>Dado</strong> que el usuario desea tener planificado las actividades diarias</p>
+<p><strong>Cuando</strong> se cree un plan en la plataforma, </p>
+<p><strong>Entonces</strong> se podra visualizar un cronograma con las tareas hechas y por hacer, ademas recibir notificaciones de recordatorio.</p>
+<p>Escenario 2: Asignacion de tareas</p>
+<p><strong>Dado</strong> que exiten multiples tareas diarias,</p>
+<p><strong>Cuando</strong> el usuario planifique las actividades diarias,</p>
+<p><strong>Entonces</strong> se podra asignar tareas a empleados especificos, y ellos recibiran una notificacion con las tareas que se les fueron asignadas.</p>
+</td>
+<td>4</td>
+</tr>
 </tbody>
 </table>
 <hr>
