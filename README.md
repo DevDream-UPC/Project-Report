@@ -258,7 +258,7 @@ Enlace de Miro:
 
 <tr class="odd">
 <td>1</td>
-<td>US01</td>
+<td>E1-US01</td>
 <td>Gestión digital de la granja</td>
 <td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
 <p><strong>quiero</strong> digitalizar la gestión de mis animales</p>
@@ -268,11 +268,22 @@ Enlace de Miro:
 </tr>
 <tr class="even">
 <td>2</td>
-<td>US02</td>
+<td>E1-US02	</td>
 <td>Monitoreo de indicadores clave</td>
 <td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
 <p><strong>quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real.</p>
 <p><strong>para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
 <td>Alta</td>
 <td>8</td>
+
+<tr class="odd">
+<td>3</td>
+<td>E1-US03	</td>
+<td>Integración con Equipos y Sensores</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en la innovación,</p>
+<p><strong>quiero</strong> integrar la plataforma con sensores y dispositivos en mi granja</p>
+<p><strong>para</strong> automatizar el monitoreo de la salud de los animales y reducir la intervención manual.</p></td>
+<td>Alta</td>
+<td>13</td>
+</tr>
 
