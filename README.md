@@ -1,12 +1,48 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
-.
+.A continuacion , presentaremos los programas de software que hemos usado en el transcurso del desarrollo de nuestro proyecto
 
-### 5.1.1. Software Development Environment Configuration.
-.
+## 5.1.1. Configuración del Entorno de Desarrollo de Software
 
-<br>
-.         
+A continuación, detallamos las herramientas de software que utilizamos durante el desarrollo de nuestro proyecto.
+
+### Gestión de Proyectos
+- **WhatsApp**: [https://web.whatsapp.com/](https://web.whatsapp.com/)  
+Utilizamos WhatsApp para coordinar las tareas del equipo y facilitar el intercambio de ideas y apoyo durante todo el proceso.
+
+### Diseño UX/UI del Producto
+- **Miro**: [https://miro.com/es/](https://miro.com/es/)  
+Miro fue empleado para la creación del Lean UX Canvas.
+- **Uxpressia**: [https://uxpressia.com/](https://uxpressia.com/)  
+Uxpressia nos permitió diseñar User Personas, Mapas de Empatía y Journey Maps.
+- **Figma**: [https://www.figma.com](https://www.figma.com)  
+Utilizamos Figma como herramienta principal para la creación de wireframes, wireflows, maquetas de la landing page y para los prototipos de las aplicaciones web.
+- **LucidChart**: [https://www.lucidchart.com/pages/](https://www.lucidchart.com/pages/)  
+Con LucidChart generamos los Impact Maps necesarios para el proyecto.
+
+### Desarrollo de Software
+- **Landing Page**: La página de inicio fue desarrollada utilizando HTML5, CSS y JavaScript.
+
+### Pruebas de Software
+- Realizamos las pruebas del landing page y la aplicación web empleando las herramientas de desarrollo integradas en navegadores como **Google Chrome** y **Brave**.
+
+### Entornos de Desarrollo (IDE)
+- **WebStorm**: [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)  
+WebStorm fue nuestro IDE preferido para el desarrollo frontend, gracias a sus potentes herramientas que optimizan el flujo de trabajo.
+
+### Despliegue de Software
+- **GitHub Pages**: [https://pages.github.com/](https://pages.github.com/)  
+Desplegamos la landing page usando GitHub Pages, conectando el repositorio para automatizar el proceso de despliegue.
+
+### Documentación de Software
+- **Google Docs**: [https://docs.google.com/document/u/0/](https://docs.google.com/document/u/0/)  
+Usamos Google Docs para el seguimiento del progreso de las tareas asignadas y para compartir los informes semanales entre los miembros del equipo.
+- **GitHub**: [https://github.com/](https://github.com/)  
+GitHub fue empleado para la documentación del proyecto, permitiendo colaboración en el desarrollo y registro de los commits de cada miembro.
+- **Visual Paradigm**: Utilizamos Visual Paradigm para generar los diagramas C4 del proyecto.
+- **Vertabelo**: [https://vertabelo.com/](https://vertabelo.com/)  
+Vertabelo nos sirvió para diseñar la estructura de la base de datos de manera colaborativa.
+
 
 ### 5.1.2. Source Code Management.
 .
