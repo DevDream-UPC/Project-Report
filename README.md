@@ -146,7 +146,7 @@ En este caso usaremos un solo sistema de navegacion, siendo este Navigation Tabs
 ![navigation tabs](https://ui-patterns.com/uploads/image/file/8/best_old_3.jpg)
 
 ## 4.3. Landing Page UI Design.
-<hr>_
+<hr>
 
 ### 4.3.1. Landing Page Wireframe.
 
@@ -316,8 +316,13 @@ En esta seccion se mostrara el prototipo de nuestra aplicacion web realizado en 
 [https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=65-242&node-type=CANVAS&t=oGQqXPyqH22KfISJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=150%3A357](https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=65-242&node-type=CANVAS&t=oGQqXPyqH22KfISJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=150%3A357)
 
 
-
+## 4.6. Domain-Driven Software Architecture.
+### 4.6.1. Software Architecture Context Diagram.
+![Diagrama de contexto](/Assets/img/ChapterIV/structurizr-SystemContext-001.png)
+### 4.6.2. Software Architecture Container Diagrams
+![Diagrama de contendedores](/Assets/img/ChapterIV/structurizr-Container-001.png)
 ### 4.6.3. Software Architecture Component Diagram.
+![Diagrama de componente](/Assets/img/ChapterIV/structurizr-Componente.png)
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
@@ -325,11 +330,272 @@ En esta seccion planteamos nuestro diagrama de clases para poder conllevar el de
 ![diagrama de clases](/Assets/img/ChapterIV/FarmGuard%20Class%20Diagram.png)
 
 
-Enlace de los class diagrams en LucidChart: [https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40](https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40)
+Enlace del class diagrams en LucidChart: [https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40](https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40)
+
 ### 4.7.2. Class Dictionary
 <hr>
+
+* __Profile:__ Clase que representa la informacion de un perfil . 
+* __User:__ Clase que representa a un usuario teniendo como atributos el rol, la contraseña y nick teniendo la inforamcion sensible de este.
+* __Role:__ Clase que representa los roles disponibles en la aplicacion, esta siendo nuestros dos segmentos objetivos.
+* __Email:__ Clase que representa el email de un perfil.
+* __PersonName:__ Clase que representa los nombre y apellidos de una persona.
+* __Membership:__  Clase que representa los planes disponibles en la aplicacion.
+* __Inventory:__ Clase que representa el inventario de los animales en la aplicacion.
+* __Notification:__ Clase que representa una notificacion en la aplicacion.
+* __Vaccine:__ Clase que representa una vacuna que puede tener un animal o puede ser recomendaciones de un animal.
+* __Animal:__  Clase que representa un animal que puede ser guardado en el inventario.
+
 <br>
 
 ## 4.8. Database Design
-
+En esat seccion se mostrara el diseño de la base de datos teniendo de base nuestro diagrama de clase. Usando el software de Vertabelo.
 ### 4.8.1. Database Diagram
+![diagrama de clases](/Assets/img/ChapterIV/FarmGuard-2024-09-05_00-20.png)
+
+Enlace de Database Diagram: [https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW](https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW)
+
+# Anexo
+
+* __Anexo 1__
+
+Codigo realizado en structurizer para la realizacion del diagrama c4.
+
+workspace {
+    model {
+        user = person "Veterinarian"
+        user2 = person "Animal breeder"
+        
+        softwareSystem = softwareSystem "FarmGuard" "Application for veterinarians and animal breeders who want to monitor" {
+             
+            webapp = container "Single-Page Application" {
+        
+            }
+
+            database = container "DB" "DataBase" "MySql Schema" "MySql"
+            
+            api = container "Api Aplication" {
+                
+                ComandServiceInventory = component "ComandServiceInventory" "" ".net" "Componente"
+                QueryServiceInventory = component "QueryServiceInventory" "" ".net" "Componente"
+                ControllerInventory = component "ControllerInventory" "" ".net" "Componente"
+                
+                ComandServiceUser = component "ComandServiceUser" "" ".net" "Componente"
+                QueryServiceUser = component "QueryServiceUser" "" ".net" "Componente"
+                ControllerUser = component "ControllerUser" "" ".net" "Componente"
+                
+                ComandServiceAnimal = component "ComandServiceAnimal" "" ".net" "Componente"
+                QueryServiceAnimal = component "QueryServiceAnimal" "" ".net" "Componente"
+                ControllerAnimal = component "ControllerAnimal" "" ".net" "Componente"
+                
+                ComandServiceProfile = component "ComandServiceProfile" "" ".net" "Componente"
+                QueryServiceProfile = component "QueryServiceProfile" "" ".net" "Componente"
+                ControllerProfile = component "ControllerProfile" "" ".net" "Componente"
+                
+                ComandServiceVaccine = component "ComandServiceVaccine" "" ".net" "Componente"
+                QueryServiceVaccine = component "QueryServiceVaccine" "" ".net" "Componente"
+                ControllerVaccine = component "ControllerVaccine" "" ".net" "Componente"
+                
+                ComandServiceNotification = component "ComandServiceNotification" "" ".net" "Componente"
+                QueryServiceNotification = component "QueryServiceNotification" "" ".net" "Componente"
+                ControllerNotification = component "ControllerNotification" "" ".net" "Componente"
+                
+                
+
+
+
+
+
+                
+                Domain = component "DomainAplication"
+                
+            }
+            landingpage = container "LandingPage" 
+                
+            
+        }
+        
+        #Conexiones User{
+        user -> webapp "Try using the farmGuard project"
+        user2 -> webapp "Try using the farmGuard project"
+        
+
+       
+       # Conexiones api
+        api -> database "Make queries to the database"
+        database -> api "send the answers"
+        api -> webapp "receive response"
+        webapp -> api "send http request"
+        
+        #Conexiones landing Page
+        user2 -> landingpage "user visit our landing page"
+        user -> landingpage "user visit our landing page"
+        landingpage -> webapp "user directed to website"
+       
+       #Conexiones de SinglePage
+       /*
+       webapp -> securityC "Makes API calls to" "JSON/HTTPS"
+       
+       webapp -> proyectManagement "Makes API calls to" "JSON/HTTPS"
+       webapp -> requests "Makes API calls to" "JSON/HTTPS"
+       webapp -> librery "Makes API calls to" "JSON/HTTPS"
+       webapp -> file "Makes API calls to" "JSON/HTTPS"
+       webapp -> notification "Makes API calls to" "JSON/HTTPS"
+       webapp -> profilecontroller "Makes API calls to" "JSON/HTTPS"
+       *//*
+       proyectManagement -> database "Perform query or command in the database"
+       requests -> database "Perform query or command in the database"
+       librery -> database "Perform query or command in the database"
+       file -> database "Perform query or command in the database"
+       notification -> database "Perform query or command in the database"
+       profilecontroller -> database "Perform query or command in the database"*/
+       
+       #Conexiones a nivel componente
+       
+        #Otros servicio
+
+        ComandServiceInventory -> ControllerInventory
+        QueryServiceInventory -> ControllerInventory
+        
+        ComandServiceInventory -> database
+        QueryServiceInventory -> database
+        
+        database -> QueryServiceInventory
+        
+        ControllerInventory -> webapp
+        webapp -> ControllerInventory
+       
+        Domain -> ComandServiceInventory
+        Domain -> QueryServiceInventory
+        Domain -> ComandServiceUser
+        Domain -> QueryServiceUser
+        
+        #Otros servicios
+        
+        ComandServiceUser -> ControllerUser
+        QueryServiceUser -> ControllerUser
+        
+        QueryServiceUser -> database
+        ComandServiceUser -> database
+        
+        database -> QueryServiceUser
+        
+        ControllerUser -> webapp
+        webapp -> ControllerUser
+        
+        #Otro servicio
+        
+        ComandServiceAnimal -> ControllerAnimal
+        QueryServiceAnimal -> ControllerAnimal
+        
+        ComandServiceAnimal -> database
+        QueryServiceAnimal -> database
+        
+        database -> QueryServiceAnimal
+        
+        ControllerAnimal -> webapp
+        webapp -> ControllerAnimal
+        
+        Domain -> ComandServiceAnimal
+        Domain -> QueryServiceAnimal
+        
+        #Otro servicio
+        
+        ComandServiceProfile -> ControllerProfile
+        QueryServiceProfile -> ControllerProfile
+        
+        ComandServiceProfile -> database
+        QueryServiceProfile -> database
+        
+        database -> QueryServiceProfile
+        
+        ControllerProfile -> webapp
+        webapp -> ControllerProfile
+        
+        Domain -> ComandServiceProfile
+        Domain -> QueryServiceProfile
+        
+        
+        #Otro servicio
+        ComandServiceVaccine -> ControllerVaccine
+        QueryServiceVaccine -> ControllerVaccine
+        
+        ComandServiceVaccine -> database
+        QueryServiceVaccine -> database
+        
+        database -> QueryServiceVaccine
+        
+        ControllerVaccine -> webapp
+        webapp -> ControllerVaccine
+        
+        Domain -> ComandServiceVaccine
+        Domain -> QueryServiceVaccine
+
+        
+        #Otro servicio
+        
+        ComandServiceNotification -> ControllerNotification
+        QueryServiceNotification -> ControllerNotification
+        
+        ComandServiceNotification -> database
+        QueryServiceNotification -> database
+        
+        database -> QueryServiceNotification
+        
+        ControllerNotification -> webapp
+        webapp -> ControllerNotification
+        
+        Domain -> ComandServiceNotification
+        Domain -> QueryServiceNotification
+
+        
+        
+        
+
+        
+        
+        #Otro servicio
+
+
+
+    }
+
+    views {
+        systemContext softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        container softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        component  api "Componente" {
+            include *
+            autolayout lr
+            
+        }
+        
+
+        
+     
+   
+    
+
+
+
+
+      
+        styles {
+            element "MySql" {
+                shape "Cylinder" 
+            
+            }
+            
+
+        }
+    
+        theme default
+    }
+}
