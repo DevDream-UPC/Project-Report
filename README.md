@@ -8,11 +8,11 @@ En el caso del segmento de veterinarias, el To-Be Scenario Mapping describe cóm
 
 **Cuidadores de animales en terrenos de productores agropecuarios:**
 
-<img src="Assent/img/to-be1.PNG" alt="TO-BE1">
+<img src="Assent/img/To-Be-1.png" alt="TO-BE1">
 
 **Veterinarias:**
 
-<img src="Assent/img/to-be2.PNG" alt="TO-BE2">
+<img src="Assent/img/To-Be-2.png" alt="TO-BE2">
 
 [Enlace de Miro](https://miro.com/app/board/uXjVKiLniSg=/?share_link_id=58992610792)
 
