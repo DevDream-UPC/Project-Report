@@ -1,6 +1,5 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
-.A continuacion , presentaremos los programas de software que hemos usado en el transcurso del desarrollo de nuestro proyecto
 
 ## 5.1.1. Configuración del Entorno de Desarrollo de Software
 
@@ -113,10 +112,10 @@ Para asegurar la consistencia y calidad en el desarrollo de nuestra Landing Page
 Creamos un repositorio en la organización de nuestro equipo en GitHub, donde subimos los archivos necesarios para desplegar la landing page. El despliegue se realizó mediante GitHub Pages.
 
 1. Subimos los archivos requeridos al repositorio correspondiente.
+
+2. Luego, accedemos a **Settings** y localizamos la opción **Pages**. En el apartado de **Branch**, seleccionamos la rama `main` y guardamos los cambios.
    
-3. Luego, accedemos a **Settings** y localizamos la opción **Pages**. En el apartado de **Branch**, seleccionamos la rama `main` y guardamos los cambios.
-   
-5. Tras unos minutos, GitHub genera el enlace de acceso a nuestra página web.
+3. Tras unos minutos, GitHub genera el enlace de acceso a nuestra página web.
 
 
 
@@ -138,15 +137,15 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
      </tr>
      <tr>
        <td style="font-weight: bold;"> Date </td>
-       <td> -- </td>
+       <td> 25 de agosto del 2024 </td>
      </tr>
      <tr>
        <td style="font-weight: bold;"> Time </td>
-       <td> -- horas (GMT-5) </td>
+       <td> 18:30 horas (GMT-5) </td>
      </tr>
      <tr>
        <td style="font-weight: bold;"> Location </td>
-       <td> Modalidad remota a través de la plataforma Discord <td>
+       <td> Modalidad remota a través de la plataforma WhatsApp <td>
      </tr>
       <tr>
         <td style="font-weight: bold;"> Prepared By </td>
@@ -155,46 +154,36 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
         <tr>
         <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
         <td> 
-        <br>
-          . 
-           <br>
-         .
-          <br>
-           .
-          <br>
-        . 
-              <br>
-         .
-         <td>
+           .Todos los integrantes de DevDream-FarmGuard
+          <td>
      </tr>
      <tr>
         <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
-        <td> Dado que es nuestro primer sprint de desarrollo, no existe 
-        un review summary del sprint <td>
+        <td> Dado que es nuestro sprint inicial de desarrollo, aún no se ha realizado un resumen del sprint.
+<td>
      </tr>
      <tr>
         <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
-        <td> Dado a que nos encontramos en nuestro primer sprint, aun no identifcamos planes de mejora.<td>
+        <td> Dado a que es el primer sprint , no hemos hayado mejoras.<td>
      </tr>
      <tr> 
         <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
      </tr>
        <tr>
           <td style="font-weight: bold;"> Sprint 1 Goal</td>
-          <td>  . <td>
+          <td>  En este sprint, nos enfocamos en crear nuestra página de aterrizaje. Para ello, se revisaron tanto el contenido textual como el diseño previamente preparado en Figma. Al finalizar el sprint, se prevé que la página esté disponible en Github Pages, facilitando su acceso a cualquier usuario a través del enlace correspondiente. <td>
       </tr>
        <tr>
           <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-          <td>  . <td>
+          <td>  5 <td>
       </tr>
       <tr>
           <td style="font-weight: bold;"> Sum of Story Points </td>
-          <td> . <td>
+          <td> 5 <td>
       </tr>
 
 
   </table>
-
 
 ### 5.2.1.2. Sprint backlog 1
 
