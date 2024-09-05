@@ -309,3 +309,26 @@ Enlace de Miro:
 <td>Media</td>
 <td>5</td>
 </tr>
+
+<tr class="even">
+<td>6</td>
+<td>E2-US03</td>
+<td>Guia Paso a Paso</td>
+<td><p><strong>Como</strong> productor agropecuario que no ha recibido capacitacion,</p>
+<p><strong>quiero</strong> seguir un proceso guiado paso a paso</p>
+<p><strong>para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos.</p></td>
+<td>Media</td>
+<td>5</td>
+
+
+<tr class="odd">
+<td>7</td>
+<td>E3-US01</td>
+<td>Predicción de necesidades alimenticias</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en en mejorar productividad y la salud del ganado,</p>
+<p><strong>quiero</strong> que la plataforma ofresca predicciones de necesidades alimenticias basandose en las características del animal</p>
+<p><strong>para</strong> poder optimizar el uso de los recursos disponibles y asegurar la salud de los animales.</p></td>
+<td>Media</td>
+<td>5</td>
+</tr>
+
