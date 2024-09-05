@@ -1,14 +1,18 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
-.
+El To-Be Scenario Mapping es una técnica utilizada para visualizar cómo será la experiencia futura de los usuarios al interactuar con un producto o servicio, después de implementar mejoras o cambios. A diferencia del As-Is Scenario Mapping, que refleja el estado actual, el To-Be muestra el escenario deseado, donde se optimizan los procesos, se eliminan obstáculos y se mejoran las emociones y percepciones de los usuarios.
 
-**(Nombre Seg01):**
+En el caso del segmento de veterinarias, el To-Be Scenario Mapping describe cómo será su interacción con FarmGuard, desde la identificación del problema hasta el registro en la aplicación, destacando los beneficios y mejoras en su experiencia. Este método permite a las veterinarias administrar las historias clínicas de sus pacientes de manera más eficiente, lo que reduce los errores y ayuda a optimizar las operaciones.
+**Cuidadores de animales en terrenos de productores agropecuarios:**
 
-**(Nombre Seg02)**
+![To-Be-1](/Assent/img/To-Be-1.png)
 
+**Veterinarias:**
 
-Enlace de Miro:
+![To-Be-2](/Assent/img/To-Be-2.png)
+
+Enlace de Miro: https://miro.com/welcomeonboard/T014dmRMQ0tpazFVQVczQ0pEOFZsSEg1dkxtdG1Mb0NpTEdEaGZkVktPVlRldTJsZnFJRlRSeFFmaGI4aW04UXwzMDc0NDU3MzQ3Njc2MjI0ODA5fDI=?share_link_id=442751316956
 
 ## 3.2. User Stories
 
