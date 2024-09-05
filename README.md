@@ -275,7 +275,7 @@ Enlace de Miro:
 <p><strong>para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
 <td>Alta</td>
 <td>8</td>
-
+</tr>
 <tr class="odd">
 <td>3</td>
 <td>E1-US03	</td>
@@ -297,7 +297,7 @@ Enlace de Miro:
 <p><strong>para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales.</p></td>
 <td>Media</td>
 <td>5</td>
-
+</tr>
 
 <tr class="odd">
 <td>5</td>
@@ -319,7 +319,7 @@ Enlace de Miro:
 <p><strong>para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos.</p></td>
 <td>Media</td>
 <td>5</td>
-
+</tr>
 
 <tr class="odd">
 <td>7</td>
@@ -332,3 +332,25 @@ Enlace de Miro:
 <td>5</td>
 </tr>
 
+<tr class="even">
+<td>8</td>
+<td>E3-US02</td>
+<td>Alertas de emergencia por salud animal</td>
+<td><p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
+<p><strong>quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
+<p><strong>para</strong> poder tomar las acciones necesarias en la salud de mis animales.</p></td>
+<td>Alta</td>
+<td>13</td>
+</tr>
+
+
+<tr class="odd">
+<td>9</td>
+<td>E4-US01</td>
+<td>Gestión de inventarios de insumos</td>
+<td><p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
+<p><strong>quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma</p>
+<p><strong>para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento.</p></td>
+<td>Alta</td>
+<td>8</td>
+</tr>
