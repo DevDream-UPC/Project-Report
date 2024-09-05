@@ -153,7 +153,7 @@ realizar las preguntas a los diferentes segmentos objetivos
 
 1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
 
-1. ¿Que redes usas como profesional?
+1. ¿Que redes sociales usas como empresario?
 
 1. ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?
 
