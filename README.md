@@ -321,7 +321,11 @@ En esta seccion se mostrara el prototipo de nuestra aplicacion web realizado en 
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+En esta seccion planteamos nuestro diagrama de clases para poder conllevar el desarrollo de la backend con sus respectivas metodos que contienen la logica del negocio.
+![diagrama de clases](/Assets/img/ChapterIV/FarmGuard%20Class%20Diagram.png)
 
+
+Enlace de los class diagrams en LucidChart: [https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40](https://lucid.app/lucidchart/ee9979a8-233e-46e8-b8aa-baf5ac02537c/edit?viewport_loc=-1846%2C-507%2C3360%2C1501%2C0_0&invitationId=inv_db63e70b-6b1e-49d0-a407-75ad39294d40)
 ### 4.7.2. Class Dictionary
 <hr>
 <br>
