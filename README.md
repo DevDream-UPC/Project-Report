@@ -353,7 +353,7 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     <tr>
         <td></td>
         <td colspan=2>
-            Segmento Objetivo: <br> <b></b> 
+            Segmento Objetivo: Cuidadores de animales en terrenos de productores agropecuarios <br> <b></b> 
         </td>
     </tr>
     <tr>
@@ -369,10 +369,10 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Tener información sobre los animales que se disponen
         </td>
         <td>
-            High
+            Always
         </td>
         <td>
             High
@@ -380,21 +380,21 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Registrar novedades rápidas en el animal cuidado
+        </td>
+        <td>
+            Sometimes
         </td>
         <td>
             Medium
         </td>
-        <td>
-            Medium
-        </td>
     </tr>
     <tr>
         <td>
-            .
+            Registrar recetas de medicamentos
         </td>
         <td>
-            Medium
+            Sometimes
         </td>
         <td>
             High
@@ -402,10 +402,10 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Gestión de dieta de animales
         </td>
         <td>
-            High
+            Usually
         </td>
         <td>
             High
@@ -413,21 +413,21 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Consultar las guías/tutoriales de la aplicación
+        </td>
+        <td>
+            Rarely
         </td>
         <td>
             Low
         </td>
-        <td>
-            Medium
-        </td>
     </tr>
     <tr>
         <td>
-            .
+            Registro de costos operativos en la granja o terreno
         </td>
         <td>
-            Medium
+            Usually
         </td>
         <td>
             High
@@ -435,13 +435,13 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Visualización de los datos climáticos en tiempo real
         </td>
         <td>
-            Low
+            Often
         </td>
         <td>
-            Medium
+            High
         </td>
     </tr>
 </table>
@@ -458,7 +458,7 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     <tr>
         <td></td>
         <td colspan=2>
-            Segmento Objetivo: <br> <b></b>  
+            Segmento Objetivo: Veterinarias<br> <b></b>  
         </td>
     </tr>
     <tr>
@@ -474,21 +474,10 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Registro de la historia clínica del animal
         </td>
         <td>
-            High
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            High
+            Always
         </td>
         <td>
             High
@@ -496,21 +485,10 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Gestión de vacunación del animal
         </td>
         <td>
-            Medium
-        </td>
-        <td>
-            Medium
-        </td>
-    </tr>
-    <tr>
-        <td>
-            .	
-        </td>
-        <td>
-            High
+            Always
         </td>
         <td>
             High
@@ -518,10 +496,10 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Programación de citas médicas y revisiones
         </td>
         <td>
-            Medium
+            Sometimes
         </td>
         <td>
             High
@@ -529,26 +507,27 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
     </tr>
     <tr>
         <td>
-            .
+            Registro de costos operativos	
         </td>
         <td>
-            Low
+            Often
+        </td>
+        <td>
+            High
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Seguimiento de dieta de los animales
+        </td>
+        <td>
+            Rarely
         </td>
         <td>
             Medium
         </td>
     </tr>
-    <tr>
-        <td>
-            .
-        </td>
-        <td>
-            Medium
-        </td>
-        <td>
-            High
-        </td>
-    </tr>
+
 </table>
 
 </br></br>
