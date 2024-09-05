@@ -568,9 +568,15 @@ A continuación se pueden apreciar los As-Is Scenario de los segmentos objetivos
 Este será el lenguaje que se utilizará para distintos elementos de la aplicación que encapsulan distintas funciones o permiten un mejor reconocimiento del significado.
 
 ***User:*** Professional animal caretaker looking for an animal management and control app
+
 ***User:*** Veterinarian with medical history record issues
+
 ***Member:*** User part of the premium membership that has different benefits
+
 ***Membership:*** Subscription that allows you to unlock benefits that will improve the user experience of the application
+
 ***Medical Record:*** Document that records all of an animal's medical history
+
 ***Management:*** Total animal control, with each of the elements that make up the application
+
 Implementation example: When a **user** acquires a **membership**, he unlocks different benefits for being an exclusive **member** of the application.
