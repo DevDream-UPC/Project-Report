@@ -149,7 +149,7 @@ realizar las preguntas a los diferentes segmentos objetivos
 4. ¿A qué te dedicas?
 5. ¿Que navegador usas en tu dia a dia?
 
-*Preguntas Segmento 1:*
+*Preguntas Segmento 1: Productores agropecuarios que cuentan con animales en su cuidado*
 
 1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
 
@@ -169,7 +169,7 @@ realizar las preguntas a los diferentes segmentos objetivos
 
 
 
-*Preguntas Segmento 2:*
+*Preguntas Segmento 2: Veterinarias*
 
 1. ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?
 
@@ -186,23 +186,23 @@ realizar las preguntas a los diferentes segmentos objetivos
 
 ### 2.2.2 Registro de entrevistas.
 
-*Segmento 1:*
+*Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
 
 *Entrevista 1:*
 
-Nombres:
+Nombres: Joaquin
 
-Apellidos:
+Apellidos: Fernandez
 
-Edad:
+Edad: 20
 
-Lugar de residencia:
+Lugar de residencia: Chorrillos
 
 Evidencia de la entrevista:
 
-Enlace de entrevista:
+[Entrevista a Joaquin Fernandez - Estudiante de Veterinaria](https://drive.google.com/file/d/1RbRsImuD0NQTC3V6GTRcPB1UlGM2D4Qm/view?usp=sharing)
 
-Resumen de la entrevista:
+Resumen de la entrevista: Como cuidador en una granja con animales que se encontraba en la sierra, el entrevistado utilizaba Excel para administrar las distintas categorías del análisis de los animales que cuidaba. Considera que la tecnología actual tiene un gran potencial pero no está siendo aprovechada, por lo que sugiere que se pueden crear aplicaciones que permita rastrear actividad, monitoreo constante, un collar sensorial, entre otros. Todas las sugerencias dadas por el entrevistado se dan debido a que en una anterior oportunidad ha cometido errores debido a las limitadas herramientas a las que tiene acceso a pesar de tener al alcance dispositivos tecnológicos modernos, por lo que busca una aplicación que aproveche todo el potencial de la tecnología actual.
 
 *Entrevista 2:*
 
@@ -221,23 +221,24 @@ Resumen de la entrevista:
 
 <br>
 
-*Segmento 2:*
+
+*Segmento 2: Veterinarias*
 
 *Entrevista 1:*
 
-Nombres:
+Nombres: Joaquin
 
-Apellidos:
+Apellidos: Fernandez
 
-Edad:
+Edad: 20
 
-Lugar de residencia:
+Lugar de residencia: Chorrillos
 
 Evidencia de la entrevista:
 
-Enlace de entrevista:
+[Entrevista a Joaquin Fernandez - Estudiante de Veterinaria](https://drive.google.com/file/d/1RbRsImuD0NQTC3V6GTRcPB1UlGM2D4Qm/view?usp=sharing)
 
-Resumen de la entrevista:
+Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una mayor conexión con otros veterinarios. Asegura que la tecnología actual debería permitir que los animales en zonas remotas también tengan un control en las veterinarias. Indica que ha tenido errores en las historias clínicas debido a disintos errores humanos que se podrían perfeccionar con alguna aplicación innovadora de control de animales.
 
 
 *Entrevista 2:*
