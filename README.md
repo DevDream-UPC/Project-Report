@@ -199,10 +199,51 @@ Enlace a la mockup de la Landing Page en Figma: [https://www.figma.com/design/DU
 
 
 ## 4.4. Web Applications UX/UI Design
-En esta seccion mostra
+En esta seccion mostrara los wireframes y mockups de la aplicacion web.
 
 ### 4.4.1. Web Applications Wireframes
-.
+
+A continuacion mostraremos los wireframes del app web con su respectiva descripcion.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Iniciar%20sesin.png)
+
+En esta pantalla se muestra el inicio de sesion con el respectivo formulario para poder iniciar en el aplicativo web.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Iniciar%20sesin-1.png)
+
+En esta pantalla se mostrara el formulario para poder crear una cuenta en la aplicacion web con la posibilidad de agregar una imagen en la cuenta.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Perfil%20App.png)
+
+En esta pantalla se mostrara la informacion del perfil donde el usuario podra editar sus datos y su imagen del perfil.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Inicio%20App.png)
+
+En esta pantalla es el inicio de la aplicacion donde mostara las notificaciones, graficos, y una barra que mostarra la cantidad de animales registrados.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Animales%20App.png)
+
+En esta pantalla se mostrara los animales registrados ademas de permitir registrar mas animales.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Animales%20App-1.png)
+
+En esta pantalla se mostrara la informacion del animal con datos mas detallados ademas de poder actualizar la informacion del animal.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Animales%20App-2.png)
+
+En esta pantalla se mostrara las vacunas que tiene el animal seleccionado.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Animales%20App-3.png)
+
+En esta pantalla se podra agregar la vacuna que tenemos registradas en la base de datos.
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-++Animales%20App.png)
+
+En esta pantalla se muestra un formulario para agregar un nuevo animal
+
+![**](/Assets/img/ChapterIV/Web%20app%20wireframes/W-Vacunas.png)
+
+Pantalla paraver recomendaciones sobre las vacunas.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -211,28 +252,72 @@ Enlace a traves de la herramienta LucidChart:
 .
 
 ### 4.4.3. Web Applications Mock-ups
-.
 
-### Mock-ups versión Desktop:
-#### Mock-ups de la página principal
+A continuacion mostraremos los wireframes del app web con su respectiva descripcion.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Iniciar%20sesin.png)
+
+En esta pantalla se muestra el inicio de sesion con el respectivo formulario para poder iniciar en el aplicativo web.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Iniciar%20sesin-1.png)
+
+En esta pantalla se mostrara el formulario para poder crear una cuenta en la aplicacion web con la posibilidad de agregar una imagen en la cuenta.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Perfil%20App.png)
+
+En esta pantalla se mostrara la informacion del perfil donde el usuario podra editar sus datos y su imagen del perfil.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Inicio%20App.png)
+
+En esta pantalla es el inicio de la aplicacion donde mostara las notificaciones, graficos, y una barra que mostarra la cantidad de animales registrados.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Animales%20App.png)
+
+En esta pantalla se mostrara los animales registrados ademas de permitir registrar mas animales.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Animales%20App-1.png)
+
+En esta pantalla se mostrara la informacion del animal con datos mas detallados ademas de poder actualizar la informacion del animal.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Animales%20App-2.png)
+
+En esta pantalla se mostrara las vacunas que tiene el animal seleccionado.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Animales%20App-3.png)
+
+En esta pantalla se podra agregar la vacuna que tenemos registradas en la base de datos.
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/++Animales%20App.png)
+
+En esta pantalla se muestra un formulario para agregar un nuevo animal
+
+![**](/Assets/img/ChapterIV/Web%20app%20mockups/Vacunas.png)
+
+Pantalla paraver recomendaciones sobre las vacunas.
 
 
-Enlace a la mockup de la App Web en Figma:
+Enlace a la mockup de la App Web en Figma: [https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1](https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1)
 
 ### 4.4.4 Web Applications User Flow Diagrams.
+En esta seccion se muestra el daigram de uso de la aplicacion respecto a nuestro usuario desde el registro hasta agregar animales, vacunas, ver recomendaciones de vacunas para administrar a sus animales, etc.
 
-Enlace de los User Flow Diagrams en LucidChart:
+![user flow diagram](/Assets/img/ChapterIV/User%20diagram%20flow.png)
 
-
+Enlace de los User Flow Diagrams en LucidChart: [https://lucid.app/lucidchart/c5066ad5-1553-4741-8503-0beb31c75bff/edit?viewport_loc=-7249%2C-868%2C16168%2C7220%2C0_0&invitationId=inv_4b7d3152-0a03-4625-b055-bc4660b58dfe](https://lucid.app/lucidchart/c5066ad5-1553-4741-8503-0beb31c75bff/edit?viewport_loc=-7249%2C-868%2C16168%2C7220%2C0_0&invitationId=inv_4b7d3152-0a03-4625-b055-bc4660b58dfe)
 
 
 ## 4.5. Web Applications Prototyping.
 <hr>
 
+En esta seccion se mostrara el prototipo de nuestra aplicacion web realizado en figma.
+
+![prototipo](/Assets/img/ChapterIV/prototipo.png)
+
+[https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=65-242&node-type=CANVAS&t=oGQqXPyqH22KfISJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=150%3A357](https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=65-242&node-type=CANVAS&t=oGQqXPyqH22KfISJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=150%3A357)
+
+
 
 ### 4.6.3. Software Architecture Component Diagram.
-
-
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
