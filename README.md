@@ -48,6 +48,7 @@
         <ul>
           <li>Morales Quispe, Brayan Smith</li>
           <li>David Polanco, Alessandro Alonso</li>
+          <li>Donayre Paredes, Luis Carlos</li>
         </ul>
       </td>
       <td>
@@ -86,6 +87,7 @@
       <h6>Nombre</h6>TB1:<p>Llenar</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
       <h6>Nombre</h6>TB1:<p>Llenar</p>
+      <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p> 
       </td>
       <td>TB1: conclucion    <p></p>
       </td>
@@ -99,6 +101,7 @@
       <h6>Nombre</h6>TB1:<p>Llenar</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
       <h6>Nombre</h6>TB1:<p>Llenar</p>
+      <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
       <td>TB1:LLENAR</td>
   </tr>
