@@ -351,6 +351,8 @@ Se realiza un análisis de las respuestas brindadas por nuestros entrevistados, 
 
 *SEGMENTO 1: Cuidadores de animales en terrenos de productores agropecuarios*
 
+![imagen de criaderos](/Assent/img/Alejandra%20Garcia%20Gutierrez%20(2).png)
+
 *SEGMENTO 2: Veterinarias*
 
 <img src="Assent/img/UserPersona1.png" alt="UP2">  
