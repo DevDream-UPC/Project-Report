@@ -210,7 +210,7 @@ Nombres: Romina
 
 Apellidos: Lopa Dolores
 
-Edad: 21
+Edad: 20
 
 Lugar de residencia: San Juan de Lurigancho
 
