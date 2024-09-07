@@ -250,6 +250,21 @@ Link de Trello:https://trello.com/invite/b/66da2fd3e991980333693d3c/ATTIe49c54a9
 
 ### 5.2.1.3. Development Evidence for Sprint Review.
 
+| Repository   | Branch     | Commit Id                              | Commit Message                                               | Committed on (Date)        |
+|--------------|------------|----------------------------------------|-------------------------------------------------------------|----------------------------|
+| FarmGuard    | developer  | 2ce6443a81b024                         | Merge remote-tracking branch 'origin/main' into developer    | Yesterday                  |
+| FarmGuard    | developer  | 0259726a2ce6443                        | fixed: fixed pull request                                    | Yesterday                  |
+| FarmGuard    | master     | 1b5d7ad029576                         | Modifiqué sección de Planes en el index.html y styles.css    | 3 days ago                 |
+| FarmGuard    | master     | 3ac38311b5d7ad                        | Modifiqué sección styles.css                                 | 3 days ago                 |
+| FarmGuard    | master     | 49ddce3ac3831                         | Modifiqué sección styles.css                                 | 3 days ago                 |
+| FarmGuard    | master     | f255d4549ddce3                        | Modifiqué sección de Planes en el index.html                 | 3 days ago                 |
+| FarmGuard    | master     | d754060f255d45                        | Modifiqué sección de Planes en el index.html                 | 3 days ago                 |
+| FarmGuard    | master     | d75406025f5e5                         | Avance 1 sección de Planes                                    | 3 days ago                 |
+| FarmGuard    | master     | cbbb58f25f5e5                         | added benefits section and footer section                    | 4 days ago                 |
+| FarmGuard    | developer  | 8d82ddb8cbbb58f                       | fixed: sections advanced                                     | 4 days ago                 |
+| FarmGuard    | developer  | 425644a48d82ddb                       | Merge pull request #1 from DevDream-UPC: Refactor/structure  | 4 days ago                 |
+| FarmGuard    | master     | 425644a                               | added header and first section of landing page of FarmGuard  | 4 days ago                 |
+
 
 ### 5.2.1.5 Execution Evidence for Sprint Review.
 
