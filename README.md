@@ -268,6 +268,11 @@ Link de Trello:https://trello.com/invite/b/66da2fd3e991980333693d3c/ATTIe49c54a9
 
 ### 5.2.1.5 Execution Evidence for Sprint Review.
 
+**Commits importantes para el landing page:**
+![image](https://github.com/user-attachments/assets/23cbb363-43b2-413a-b8a6-d28d7ea0a71b)
+
+**LAnding page**
+![image](https://github.com/user-attachments/assets/277d857c-fa1c-4d9c-9d45-bea694c4b011)
 
 
 ### 5.2.1.6 Services Documentation Evidence for Sprint Review.
