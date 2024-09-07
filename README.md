@@ -544,11 +544,11 @@ A continuación se pueden apreciar los User Journey Mapping de los segmentos obj
 
 A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivos.
 
-*SEGMENTO 1*
+*Cuidadores de animales en terrenos de productores agropecuarios*
+<img src="Assent/img/empathy1.PNG" alt="emp1">
 
-
-*SEGMENTO 2*
-
+*Veterinarias*
+<img src="Assent/img/empathy2.PNG" alt="emp2">
 
 ### 2.3.5. As-is Scenario Mapping
 
