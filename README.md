@@ -200,7 +200,6 @@ Lugar de residencia: Chorrillos
 
 Evidencia de la entrevista:
 
-<img src="Assent/img/entrevista1.PNG" alt="e1">
 
 [Entrevista a Joaquin Fernandez - Estudiante de Veterinaria](https://drive.google.com/file/d/1RbRsImuD0NQTC3V6GTRcPB1UlGM2D4Qm/view?usp=sharing)
 
