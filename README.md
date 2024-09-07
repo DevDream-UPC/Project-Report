@@ -279,13 +279,12 @@ Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una 
 
 | Preguntas | Respuestas Generales |
 |-----------|----------------------|
-| 1         | 1                    |
-| 2         | 2                    |
-| 3         | 3                    |
-| 4         | 4                    |
-| 5         | 5                    |
-| 6         | 6                    |
-| 7         | 7                    |
+| ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?         | Generalmente laptops y smartphones.                    |
+| ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?         | Utiliza Excel para poder administrar las vacunas y medicamentos.                    |
+| ¿Que te motiva a cuidar la salud de los animales?         | La satisfacción por hacer sentir a un animal, utilizando mis conocimientos para mejorar su salud.                    |
+| ¿Alguna vez tuviste un error al llevar el registro de una mascota? ¿Cual fue el problema?         | Sí sucedió, generalmente por una disconcordoncia entre distintos documentos físicos que desencadenan en un problema de la historia clínica y las dosis que se asignan de medicamentos.                    |
+| ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales?     | Mejoraría considerablemente, claramente utilizaría una tecnología para el moniterio de los animales                    |
+| ¿Que redes usas como profesional?         | Mayormente utilizan la red social Linkedin                    |
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
