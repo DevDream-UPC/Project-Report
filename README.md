@@ -11,11 +11,12 @@ Fundado por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), b
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| **Integrantes** | **Descripción** | **Conocimientos** |
-| ----------- | ----------- | ------------- |
-| Brayan Smith Morales Quispe (U20211F984) | Soy Brayan Smith tengo 21 años soy de Ingeniería de Software escogí esta carrera porque me gusta los videojuegos y el desarrollo de aplicaciones | Nivel Intermedio en C++ y C#. Nivel básico SQL. Nivel Intermedio Ilustrator y Photoshop,Nivel intermedio en Angular y Java, C# y .net |
-| Mauro Fabricio Lopez de la Cruz (U202215695) | Soy Fabricio Lopez estudio la ccarrera de Ingeneria de Software , escogi esta carrera porque desde pequeño siempre me ha llamado la atencion como es el desarrollo web ,movil y la ciberseguridad  | Nivel intermedio de SQL y Python. Nivel basico de Angular,Java ,C# ,.net|
-| Luis Carlos Donayre Paredes (U202115920) | Soy Luis Carlos, tengo 20 años y estudio Ing. de Software. Escogí esta carrear porque de pequeño me apasionaba la informática y de mayor me encantó la programación. | Nivel Intermedio en C++. Nivel básico SQL. Nivel Intermedio Photoshop|
+| **Integrantes**                              | **Descripción**                                                                                                                                                                                   | **Conocimientos**                                                                                                                    |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Brayan Smith Morales Quispe (U20211F984)     | Soy Brayan Smith tengo 21 años soy de Ingeniería de Software escogí esta carrera porque me gusta los videojuegos y el desarrollo de aplicaciones                                                  | Nivel Intermedio en C++ y C#. Nivel básico SQL. Nivel Intermedio Ilustrator y Photoshop,Nivel intermedio en Angular y Java, C# y .net |
+| Mauro Fabricio Lopez de la Cruz (U202215695) | Soy Fabricio Lopez estudio la ccarrera de Ingeneria de Software , escogi esta carrera porque desde pequeño siempre me ha llamado la atencion como es el desarrollo web ,movil y la ciberseguridad | Nivel intermedio de SQL y Python. Nivel basico de Angular,Java ,C# ,.net                                                             |
+| Luis Carlos Donayre Paredes (U202115920)     | Soy Luis Carlos, tengo 20 años y estudio Ing. de Software. Escogí esta carrear porque de pequeño me apasionaba la informática y de mayor me encantó la programación.                              | Nivel Intermedio en C++. Nivel básico SQL. Nivel Intermedio Photoshop                                                                |
+| Alex Gabriel Cusimayta Lobo (U202019131)     | Soy Alex Gabriel, tengo 21 años y estudio Ing. de Software. Escogí esta carrear porque siempre me gusto la tecnologia, los juegos y la programacion.                                              | Nivel Intermedio en C++, Python, JavaScript y manejo de bases de datos de tipo SQL y NoSQL                                           |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
