@@ -257,26 +257,6 @@ Evidencia de la entrevista:
 
 Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una mayor conexión con otros veterinarios. Asegura que la tecnología actual debería permitir que los animales en zonas remotas también tengan un control en las veterinarias. Indica que ha tenido errores en las historias clínicas debido a disintos errores humanos que se podrían perfeccionar con alguna aplicación innovadora de control de animales.
 
-
-*Entrevista 2:*
-
-Nombre:
-
-Apellido:
-
-Edad:
-
-Lugar de residencia:
-
-Entrevistador:
-
-Evidencia de la entrevista:
-
-Enlace de entrevista:
-
-Resumen de la entrevista:
-
-
 <br>
 
 ### 2.2.3 Análisis de entrevistas.
