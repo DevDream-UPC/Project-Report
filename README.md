@@ -496,10 +496,13 @@ A continuación se pueden apreciar los User Task Matrix de los segmentos objetiv
 
 A continuación se pueden apreciar los User Journey Mapping de los segmentos objetivos.
 
-*SEGMENTO 1*
+*Cuidadores de animales en terrenos de productores agropecuarios*
 
-*SEGMENTO 2*
+<img src="Assent/img/journey1.PNG" alt="journ1">  
 
+*Veterinarias*
+
+<img src="Assent/img/journey2.PNG" alt="journ2">  
 
 ### 2.3.4. Empathy Mapping
 
