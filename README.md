@@ -267,13 +267,13 @@ Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una 
 
 | Preguntas | Respuestas Generales |
 |-----------|----------------------|
-| ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?         | 1                    |
-| ¿Que redes sociales usas como empresario?         | 2                    |
-| ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?         | 3                    |
-| ¿Consideras que la calidad de tu productos mejoraria si implementaras una solucion tecnologica en el cuidado de tus animales?        | 4                    |
-| ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales         | 5                    |
-| ¿Cuales son los principales desafios al monitorear el estado de los animales?         | 6                    |
-| ¿Qué te motivaría a probar o implementar una nueva herramienta tecnológica en tu trabajo?         | 7                    |
+| ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?         | Se observa que utilizan tanto Tablets, como Smartphones y principalmente laptops.                    |
+| ¿Que redes sociales usas como empresario?         | Se utiliza Linkedin e Instagram.                    |
+| ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?         | La salud se administra utilizando Excel para un correcto manejo.                   |
+| ¿Consideras que la calidad de tu productos mejoraria si implementaras una solucion tecnologica en el cuidado de tus animales?        | Todos los entrevistados afirman que podría mejorar la eficiencia y calidad si se implementa una solución que aproveche todo el potencial tecnológico.                    |
+| ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales         | Definitivamente mejoraria el moniterio de la salud de los animales, por lo que es calor que utilizarían tecnología para el monitoreo de los animales.                    |
+| ¿Cuales son los principales desafios al monitorear el estado de los animales?         | Principalmente las limitaciones tecnológicas y la disposición de herramientas de gestión antiguas, como ofimática básica y documentos en físico que generar desinformación al corroborar documentos.                    |
+| ¿Qué te motivaría a probar o implementar una nueva herramienta tecnológica en tu trabajo?         | Con los problemas actuales que presentan el cuidado de animales, los entrevistados ya se encuentran motivados para probar una nueva herramienta tecnológica.                    |
 
 *Segmento 2: Veterinarias*
 
