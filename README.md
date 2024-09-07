@@ -502,6 +502,7 @@ A continuación se pueden apreciar los User Journey Mapping de los segmentos obj
 
 *Veterinarias*
 
+<img src="Assent/img/journey-2.PNG" alt="journ2">  
 
 ### 2.3.4. Empathy Mapping
 
