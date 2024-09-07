@@ -262,70 +262,30 @@ Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una 
 <br>
 
 ### 2.2.3 Análisis de entrevistas.
-<TABLE BORDER>
-	<TR>
-		<TD COLSPAN = 2 align=center>
 
-*Características*</TD>
+*Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
 
-<TD align=center>
+| Preguntas | Respuestas Generales |
+|-----------|----------------------|
+| ¿Que disposititvo tecnologico usabas para desempeñar tu trabajo?         | 1                    |
+| ¿Que redes sociales usas como empresario?         | 2                    |
+| ¿Que tipo de sistema usas para administrar la salud de los animales a tu cuidado?         | 3                    |
+| ¿Consideras que la calidad de tu productos mejoraria si implementaras una solucion tecnologica en el cuidado de tus animales?        | 4                    |
+| ¿Consideras que la tecnologia actual podria mejorar el monitoreo de la salud de los animales? ¿Usarias una tecnologia para el monitoreo y registro de la salud de tus animales         | 5                    |
+| ¿Cuales son los principales desafios al monitorear el estado de los animales?         | 6                    |
+| ¿Qué te motivaría a probar o implementar una nueva herramienta tecnológica en tu trabajo?         | 7                    |
 
-*Segmento1*</TD>
+*Segmento 2: Veterinarias*
 
-<TD align=center>
-
-*Segmento2*</TD>
-
-   </TR>
-	<TR>
-		<TD ROWSPAN = 4>
-
-*Objetivas*
-</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD >.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-
-   <TR>
-		<TD ROWSPAN = 4>
-
-*Subjetivas*
-</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-<TR>
-<TD>.</TD>
-<TD>.</TD>
-<TD>.</TD>
-</TR>
-</TABLE>
+| Preguntas | Respuestas Generales |
+|-----------|----------------------|
+| 1         | 1                    |
+| 2         | 2                    |
+| 3         | 3                    |
+| 4         | 4                    |
+| 5         | 5                    |
+| 6         | 6                    |
+| 7         | 7                    |
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
