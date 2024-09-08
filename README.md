@@ -1326,6 +1326,7 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 <td>Media</td>
 <td>5</td>
 </tr>
+</table>
 
 
 
