@@ -83,8 +83,9 @@
       proporcionar liderazgo en 
       forma conjunta</strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Aqui se llena</p> 
-      <h6>Nombre</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.
+</p> 
+      <h6>Nombre</h6>TB1:<p></p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
       <h6>Nombre</h6>TB1:<p>Llenar</p>
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p> 
