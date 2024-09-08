@@ -25,7 +25,6 @@
 | Lopez de la Cruz ,Mauro Fabricio | U202215695 |
 | David Polanco, Alessandro Alonso | U202122232 |
 |   Cusimayta Lobo, Alex Gabriel   | U202019131 |
-|                                  |            |
 
 #### Agosto 2024
 </div>
@@ -85,12 +84,10 @@
       <td>
       <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.
 </p> 
-      <h6>Nombre</h6>TB1:<p></p>
-      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
-      <h6>Nombre</h6>TB1:<p>Llenar</p>
+      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p> 
       </td>
-      <td>TB1: conclucion    <p></p>
+      <td>TB1: Conclusión    <p></p>
       </td>
   </tr>
    <tr>
@@ -98,10 +95,8 @@
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras haci donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p> 
-      <h6>Nombre</h6>TB1:<p>Llenar</p>
-      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aqui se llena</p> 
-      <h6>Nombre</h6>TB1:<p>Llenar</p>
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p> 
+      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
       <td>TB1:LLENAR</td>
