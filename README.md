@@ -113,11 +113,11 @@
 
 Ahora veremos el diagrama de barras que representara la cantidad de commits realizados por el equipo de trabajo.
 
-![Imagen de barras]()
+![Imagen de barras](/Assets/img/barras.png)
 
 A continuacion se mostrara un linea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo.
 
-![Imagen de linea de tiempo]()
+![Imagen de linea de tiempo](/Assets/img/linea%20de%20tiempo.png)
 
 
 # **Tabla de Contenido**
