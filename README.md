@@ -587,6 +587,25 @@ Evidencia de la entrevista:
 
 Resumen de la entrevista: Como veterinario, él utiliza Linkedin para tener una mayor conexión con otros veterinarios. Asegura que la tecnología actual debería permitir que los animales en zonas remotas también tengan un control en las veterinarias. Indica que ha tenido errores en las historias clínicas debido a disintos errores humanos que se podrían perfeccionar con alguna aplicación innovadora de control de animales.
 
+*Entrevista 2:*
+
+Nombres: Maria Gracia
+
+Apellidos: Rojas Montenegro
+
+Edad: 21
+
+Lugar de residencia: Surco
+
+Evidencia de la entrevista:
+
+![entrevista 5](/Assent/img/prueba%20de%20entrevista.png)
+
+[Entrevista a Maria Gracia Rojas - Estudiante de Veterinaria](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122232_upc_edu_pe/EVry2dmLqo1DjmUw_v6nvWcBd-DraEBQGrqbDxgjWQkjIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t9Nelq)
+
+Resumen de la entrevista: La entrevista con María Gracia destaca su interés en la medicina veterinaria de grandes animales y su enfoque en la medicina preventiva y salud pública. Subraya la necesidad de un sistema de gestión integral que automatice los registros médicos y facilite la toma de decisiones en áreas rurales. También resalta cómo los errores en el manejo del ciclo reproductivo podrían evitarse con tecnología avanzada. Finalmente, María muestra apertura a herramientas intuitivas y confiables que mejoren la gestión de la salud animal.
+
+
 <br>
 
 ### 2.2.3 Análisis de entrevistas.
