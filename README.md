@@ -343,7 +343,7 @@ El segundo segmento objetivo son las veterinarias de todo el país. La razón de
   <tr>
     <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
     <td colspan="1" valign="top" style="font-weight: bold;">
-        DevDream
+        FarmGuard
         <br>
         <div style="text-align: center; margin-top: 10px;">
                 <img src="/Assent/img/DevDream-Logo.jpeg" alt="StartUp" width="60px">
