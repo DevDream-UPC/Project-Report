@@ -82,13 +82,14 @@
       proporcionar liderazgo en 
       forma conjunta</strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.
-</p> 
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> 
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
-      TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
-      <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p> 
+      <h6>Alessandro Alonso David Polanco</h6>TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
+      <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
+      <h6>Lopez de la Cruz ,Mauro Fabricio</h6>TB1:<p>Desde el inicio designamos tareas de manera equitativa teniendo en mente la opinión de todos los integrantes. Esto mismo ha hecho para reforzar el compañerismo y trabajo justo y para crear una buena base de Trabajo
+        </p>TP:<p>Trabajamos como equipo para tener en en claro la línea de guía para realizar ese trabajo. De tal modo que todos estemos contentos con el resultado final</p> 
       </td>
-      <td>TB1: Conclusión    <p></p>
+      <td>TB1: En conclucion la realizacion de este informe no fue facil puesto que el equipo no se comunica. En este punto se entiende el ambiente, dado que cada miembro recien se esta conociendo. <p>TP: En conclucion la comunicacion mejoro respecto a la primera entrega se utilizo mas medios de comunicacion como discord que ayudaron a mejorar algunos puntos del informe.</p>
       </td>
   </tr>
    <tr>
@@ -96,12 +97,11 @@
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p> 
-      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p>
-      TP:<p>En esta entrega el grupo se vio mas disperso, pero se logro realizar las actividades planteadas, hubo colaboracion con algunos, sin embargo, creo que deberia haber mas union en el grupo y mas reuniones para coordinar pautas de una manera más efectiva </p>
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> 
+      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
-      <td>TB1:LLENAR</td>
+      <td>TB1:En conclucion aun el trabajo en equipo esta un distante y se nota en la falta de comunicacion en algunos apartados del informe<p>TP:En conclucion el entorno del equipo mejoro respecto al anterior entregable puesto que hubo mas comuniacion por llamadas de voz y compartiendo nuestros conocimientos entre nosotros.</p></td>
   </tr>
 
   </tbody>
@@ -1969,6 +1969,10 @@ WebStorm fue nuestro IDE preferido para el desarrollo frontend, gracias a sus po
 - **GitHub Pages**: [https://pages.github.com/](https://pages.github.com/)  
 Desplegamos la landing page usando GitHub Pages, conectando el repositorio para automatizar el proceso de despliegue.
 
+- **Netlify**: [https://www.netlify.com/](https://www.netlify.com/)  
+Desplegamos la frontend en Netlify por su facil uso y sincronizacion con el repositorio.
+
+
 ### Documentación de Software
 - **Google Docs**: [https://docs.google.com/document/u/0/](https://docs.google.com/document/u/0/)  
 Usamos Google Docs para el seguimiento del progreso de las tareas asignadas y para compartir los informes semanales entre los miembros del equipo.
@@ -2220,6 +2224,7 @@ Link de Trello:https://trello.com/invite/b/66da2fd3e991980333693d3c/ATTIe49c54a9
 #### Footer
 ![Home](/Assets/img/ChapterIV/footer.png)
 
+Link del Landing Page: [https://devdream-upc.github.io/FarmGuard-LandingPage/](https://devdream-upc.github.io/FarmGuard-LandingPage/)
 
 ### 5.2.1.6 Services Documentation Evidence for Sprint Review.
 
@@ -2228,34 +2233,269 @@ Link de Trello:https://trello.com/invite/b/66da2fd3e991980333693d3c/ATTIe49c54a9
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 ### 5.2.2 Sprint 2
-
 ### 5.2.2.1. Sprint Planning 2.
 
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 20 de setiembre del 2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 18:30 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma WhatsApp y Discord<td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td>  <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+           .Todos los integrantes de DevDream-FarmGuard
+          <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> Desarrollo y despliege del landing page. Se completo parcialmente las secciones del lading page y se realizo el despliege en githHub Page.
+<td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td> Se mejorara el desarrollo del landing page y se agregara la informacion faltante al reporte.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td>  En este sprint, nos enfocamos en el desarrollo y despliege de nuestra frontend de nuestra aplicacion web.  <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td>  5 <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 5 <td>
+      </tr>
+
+
+  </table>
+
 ### 5.2.2.2. Sprint Backlog 2.
+<table style="width:800px; height:300px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> EP4-US01 </th>
+     <th colspan="3"> Planificacion de actividades agricolas </th>
+      <th> T1  </th>
+     <th> Precio de los insumos</th>
+     <th>Hacer NavBar y que sea responsive </th>
+     <th> 1</th>
+     <th> Bryan </th> 
+     <th> Done</th>
+   </tr>
+    <tr>
+      <th> EP4-US02 </th>
+     <th colspan="3">  Gestión de inventarios de insumos  </th>
+      <th> T2  </th>
+     <th> Planificacion de actividades </th>
+     <th>  Creacion de actividades futuras</th>
+     <th> 2 </th>
+     <th> Fabricio </th> 
+     <th> done </th>
+   </tr>
+    <tr>
+      <th> EP1-US02 </th>
+     <th colspan="3"> Predicción de necesidades alimenticias</th>
+      <th> T3  </th>
+     <th> Recordatorio de alimentacion </th>
+     <th> Apartado de control de alimentacion  </th>
+     <th> 3 </th>
+     <th> Alessandro </th> 
+     <th> done </th>
+   </tr>
+
+
+</table>
 
 ### 5.2.2.3. Development Evidence for Sprint Review.
+En esta seccion se mostrara evidencias del desarrollo del frontend poniendo nuestros commits
+<table>
+  <tr>
+    <td align ="center" > <strong>Repository</strong></td>
+    <td  align ="center" > <strong>Branch</strong></td>
+    <td  align ="center" > <strong>Commit ID</strong></td>
+    <td  align ="center" > <strong>Commit message</strong></td>
+    <td  align ="center" > <strong>Commit Masagge body</strong></td>
+    <td  align ="center" > <strong>Commit on (date)</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="27" align="center"> https://github.com/DevDream-UPC/farmguard-frontend </td>
+    <td align="center"> main</td>
+    <td align="center"> 0a5c69da6d770488e2ca5b887ddd119b330bc4f5</td>
+    <td align="center"> feat[main]:initial commits</td>
+    <td align="center"> ---</td>
+    <td align="center"> 21/09/2024</td>
+  </tr>
+  ##### 
+  <tr>
+    <td align="center"> feat/profile-notification</td>
+    <td align="center" >dd94f082f011239cbb30a21984ea027f1f04341c</td>
+    <td align="center">feat: base code for UserProfile and Notifications sections</td>
+    <td align="center"> ---</td>
+    <td align="center"> 23/09/24</td>
+  </tr>
+   <tr>
+    <td align="center"> feat/animals-home</td>
+    <td align="center" >48eeb60d07f55bd049a80b1b9dbfc0596cdf9306</td>
+    <td align="center">feat[animal-home]:added animal and vaccine entity</td>
+    <td align="center"> ---</td>
+    <td align="center"> 25/09/24</td>
+  </tr>
+   <tr>
+    <td align="center"> feat/profile-notification</td>
+    <td align="center" >de24240fb1a90035c5909f0d37bcd8a5f726c0a8</td>
+    <td align="center">Merge pull request #1 from DevDream-UPC/feat/profile-notifications
+</td>
+    <td align="center"> ---</td>
+    <td align="center"> 25/09/24</td>
+  </tr>
+   <tr>
+    <td align="center"> feat/animals-home</td>
+    <td align="center" >4c2d1640abe0c9bdd1fd26c759ba48a733d0da33</td>
+    <td align="center">feat[animal-home]:added animalService</td>
+    <td align="center"> ---</td>
+    <td align="center"> 25/09/24</td>
+  </tr>
+   <tr>
+    <td align="center"> feat/animal-home</td>
+    <td align="center" >505d94857c39cf48d13d8ded3d9abb455d8cdcb6</td>
+    <td align="center">feat[animal-home]: added add-edit-animal.component.vue</td>
+    <td align="center"> ---</td>
+    <td align="center"> 26/09/24</td>
+  </tr>
+   <tr>
+    <td align="center"> feat/profile-notification</td>
+    <td align="center" >c4278c4cb2cf04fdffee4647e260c35fee47a021</td>
+    <td align="center">feat: added pie chart and bar chart to notifications section</td>
+    <td align="center"> ---</td>
+    <td align="center"> 23/09/24</td>
+  </tr>
+</table>
 
 ### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
+En esta seccion se mostrara las evidencias del desarrollo del frontEnd y se mostrara y describira las vistas trabajadas por el equipo.
+
+![](/Assets/img/ChapterV/despliege%201.5.png)
+Vista de perfil donde se puede editar o eliminar los datos de este mismo.
+![](/Assets/img/ChapterV/despliege%201.png)
+Vista Home donde se puede ver las notificaciones y graficos que mostraran como un resumen de los datos guardados de los animales
+![](/Assets/img/ChapterV/despliege%202.png)
+Vista de los animales donde se puede ver todos los animales registrados en el aplicativo.
+![](/Assets/img/ChapterV/despliege%203.png)
+Vista de la edicion de animales que se encuentran registrados en el aplicativo.
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Para este sprint 2 se realizo solo el desarrollo del FrontEnd por lo tanto no tenemos documentacion de EndPoints de nuestra Backend.Pero contamos con un ApiFake que ayudara a mostrar nuesta FrontEnd desplegada.
+|EndPoints Api Fake|Url|
+|----|---|
+|animals|https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake/animals|
+|vaccines|https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake/vaccines|
+|profiles|https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake/profiles|
+|notifications|https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake/notifications|
+|diseases|https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake/diseases|
+
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+En esta seccion se mostrara las evidencias del despliege del frontEnd y el APiFake para la demostracion del avanze de nuestro desarrollo del sprint 2.
+
+![](/Assets/img/ChapterV/api%20fake%20desplegada.png)
+
+Primero para el despliege de nuestro FrontEnd desplegaremos nuestro api fake con ciertos EndPoints que mostraran nuestras funcionalidades y conectara con nuestro aplicativo web.
+
+![](/Assets/img/ChapterV/despliege%200.5.png)
+En esta imagen se muestra nuestra froend desplegada en el servicio de Netlify donde esta configurado con la nuestro repositorio, que nos permitira realziar el despliege mas rapido solo subiendo la version funcional ala rama principal **Main**.
+
+
+![](/Assets/img/ChapterV/despliege%201.png)
+En esta imagen se aprecia la vista Home de nuestro aplicativo
+
+
+
+![](/Assets/img/ChapterV/despliege%201.5.png)
+En esta imagen se aprecia la vista del perfil donde se puede actualizar o eliminar el perfil.
+
+
+
+![](/Assets/img/ChapterV/despliege%202.png)
+En esta vista se aprecia la vista de los animales en estado de monitoreo
+
+
+
+![](/Assets/img/ChapterV/despliege%203.png)
+En esta vista se ve la edicion de los datos de los animales teniendo en cuenta el id animal.
+
+
+A continuacion se compartira los enlaces de nuestra api Fake y Frontend:
+
+
+**Link del FrontEnd:** [https://zingy-florentine-611560.netlify.app/](https://zingy-florentine-611560.netlify.app/)
+
+**Link del ApiFake:** [https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake](https://my-json-server.typicode.com/Brays83/FarmGuard-Api-Fake)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+En esta seccion se mostrara la colaboraciond del equipo respecto al desarrollo del frontend con diferentes graficos que mostrara el avanze del desarrollo.
 
 #### Anexo: flujo de trabajo entre las ramas
+![](/Assets/img/ChapterV/sprint2-Linea%20de%20tiempo.png)
+
+En este diagrama se muestra nuestras ramas siguiendo el enfoque Git Flow teniendo en cuenta el orden y la metodologia que queremos aplicar.
 
 
 #### Anexo: tablas de commits en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint2-barras.png)
+
+En este diagram se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro hasta el dia 27 de setiembre.
 
 
 #### Anexo: Flujo de trabajo en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint2-flujo%20de%20trabajo.png)
+
+En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend.
 
 
-
-#### Anexo: Colaboration Insights en el periodo de 1 mes
 
  
 
