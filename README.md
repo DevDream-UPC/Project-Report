@@ -2294,6 +2294,58 @@ Link del Landing Page: [https://devdream-upc.github.io/FarmGuard-LandingPage/](h
   </table>
 
 ### 5.2.2.2. Sprint Backlog 2.
+<table style="width:800px; height:300px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> EP4-US01 </th>
+     <th colspan="3"> Planificacion de actividades agricolas </th>
+      <th> T1  </th>
+     <th> Precio de los insumos</th>
+     <th>Hacer NavBar y que sea responsive </th>
+     <th> 1</th>
+     <th> Bryan </th> 
+     <th> Done</th>
+   </tr>
+    <tr>
+      <th> EP4-US02 </th>
+     <th colspan="3">  Gestión de inventarios de insumos  </th>
+      <th> T2  </th>
+     <th> Planificacion de actividades </th>
+     <th>  Creacion de actividades futuras</th>
+     <th> 2 </th>
+     <th> Fabricio </th> 
+     <th> done </th>
+   </tr>
+    <tr>
+      <th> EP1-US02 </th>
+     <th colspan="3"> Predicción de necesidades alimenticias</th>
+      <th> T3  </th>
+     <th> Recordatorio de alimentacion </th>
+     <th> Apartado de control de alimentacion  </th>
+     <th> 3 </th>
+     <th> Alessandro </th> 
+     <th> done </th>
+   </tr>
+
+
+</table>
 
 ### 5.2.2.3. Development Evidence for Sprint Review.
 En esta seccion se mostrara evidencias del desarrollo del frontend poniendo nuestros commits
