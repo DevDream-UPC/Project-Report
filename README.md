@@ -11,7 +11,7 @@
 
 <div align="center">
 
-# Informe TB1
+# Informe TB3
 ### **Profesor: Juan Carlos Tinoco Licas**
 #### **Startup: DevDream**
 #### **Producto: FarmGuard**
@@ -26,7 +26,7 @@
 | David Polanco, Alessandro Alonso | U202122232 |
 |   Cusimayta Lobo, Alex Gabriel   | U202019131 |
 
-#### Agosto 2024
+#### Noviembre 2024
 </div>
 
 # **Registro de Versiones Del Informe**
@@ -63,6 +63,47 @@
         </ul>
       </td>
   </tr>
+
+  <tr>
+      <td><strong>2.0</strong></td>
+      <td>15/09/24</td>
+      <td>
+        <ul>
+          <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
+          <li>Donayre Paredes, Luis Carlos</li>
+        </ul>
+      </td>
+      <td>
+        Se incluyeron los siguientes capítulos:
+        <ul>
+          <li>sprint 2</li>
+          <li>Despliege del frontend</li>
+          <li>Despliege del fake service</li>
+        </ul>
+      </td>
+  </tr>
+
+  <tr>
+      <td><strong>3.0</strong></td>
+      <td>31/10/24</td>
+      <td>
+        <ul>
+          <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
+        </ul>
+      </td>
+      <td>
+        Se incluyeron los siguientes capítulos:
+        <ul>
+          <li>sprint 3</li>
+          <li>Despliege de la base de datos</li>
+          <li>Despliege del frontend</li>
+          <li>Realizacion de la entrevistas</li>
+          <li>Evaluacion de euristicas</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -82,7 +123,7 @@
       proporcionar liderazgo en 
       forma conjunta</strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> 
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> TB3:<p>En esta entrega ayude a mis compañéros con problemas al desarrollar la backend ademas de organizar la estructura del desarrollo</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
       TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
@@ -97,7 +138,7 @@
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> 
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> TB3:<p>Se busco un avanze en la union del grupo buscando compartir nuestras ideas y ayudarnos entre nosotros por la plataforma de discord.</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
