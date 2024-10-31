@@ -1739,241 +1739,7 @@ En esat seccion se mostrara el diseño de la base de datos teniendo de base nues
 
 Enlace de Database Diagram: [https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW](https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW)
 
-# Anexo
 
-* __Anexo 1__
-
-Codigo realizado en structurizer para la realizacion del diagrama c4.
-
-workspace {
-    model {
-        user = person "Veterinarian"
-        user2 = person "Animal breeder"
-        
-        softwareSystem = softwareSystem "FarmGuard" "Application for veterinarians and animal breeders who want to monitor" {
-             
-            webapp = container "Single-Page Application" {
-        
-            }
-
-            database = container "DB" "DataBase" "MySql Schema" "MySql"
-            
-            api = container "Api Aplication" {
-                
-                ComandServiceInventory = component "ComandServiceInventory" "" ".net" "Componente"
-                QueryServiceInventory = component "QueryServiceInventory" "" ".net" "Componente"
-                ControllerInventory = component "ControllerInventory" "" ".net" "Componente"
-                
-                ComandServiceUser = component "ComandServiceUser" "" ".net" "Componente"
-                QueryServiceUser = component "QueryServiceUser" "" ".net" "Componente"
-                ControllerUser = component "ControllerUser" "" ".net" "Componente"
-                
-                ComandServiceAnimal = component "ComandServiceAnimal" "" ".net" "Componente"
-                QueryServiceAnimal = component "QueryServiceAnimal" "" ".net" "Componente"
-                ControllerAnimal = component "ControllerAnimal" "" ".net" "Componente"
-                
-                ComandServiceProfile = component "ComandServiceProfile" "" ".net" "Componente"
-                QueryServiceProfile = component "QueryServiceProfile" "" ".net" "Componente"
-                ControllerProfile = component "ControllerProfile" "" ".net" "Componente"
-                
-                ComandServiceVaccine = component "ComandServiceVaccine" "" ".net" "Componente"
-                QueryServiceVaccine = component "QueryServiceVaccine" "" ".net" "Componente"
-                ControllerVaccine = component "ControllerVaccine" "" ".net" "Componente"
-                
-                ComandServiceNotification = component "ComandServiceNotification" "" ".net" "Componente"
-                QueryServiceNotification = component "QueryServiceNotification" "" ".net" "Componente"
-                ControllerNotification = component "ControllerNotification" "" ".net" "Componente"
-                
-                
-
-
-
-
-
-                
-                Domain = component "DomainAplication"
-                
-            }
-            landingpage = container "LandingPage" 
-                
-            
-        }
-        
-        #Conexiones User{
-        user -> webapp "Try using the farmGuard project"
-        user2 -> webapp "Try using the farmGuard project"
-        
-
-       
-       # Conexiones api
-        api -> database "Make queries to the database"
-        database -> api "send the answers"
-        api -> webapp "receive response"
-        webapp -> api "send http request"
-        
-        #Conexiones landing Page
-        user2 -> landingpage "user visit our landing page"
-        user -> landingpage "user visit our landing page"
-        landingpage -> webapp "user directed to website"
-       
-       #Conexiones de SinglePage
-       /*
-       webapp -> securityC "Makes API calls to" "JSON/HTTPS"
-       
-       webapp -> proyectManagement "Makes API calls to" "JSON/HTTPS"
-       webapp -> requests "Makes API calls to" "JSON/HTTPS"
-       webapp -> librery "Makes API calls to" "JSON/HTTPS"
-       webapp -> file "Makes API calls to" "JSON/HTTPS"
-       webapp -> notification "Makes API calls to" "JSON/HTTPS"
-       webapp -> profilecontroller "Makes API calls to" "JSON/HTTPS"
-       *//*
-       proyectManagement -> database "Perform query or command in the database"
-       requests -> database "Perform query or command in the database"
-       librery -> database "Perform query or command in the database"
-       file -> database "Perform query or command in the database"
-       notification -> database "Perform query or command in the database"
-       profilecontroller -> database "Perform query or command in the database"*/
-       
-       #Conexiones a nivel componente
-       
-        #Otros servicio
-
-        ComandServiceInventory -> ControllerInventory
-        QueryServiceInventory -> ControllerInventory
-        
-        ComandServiceInventory -> database
-        QueryServiceInventory -> database
-        
-        database -> QueryServiceInventory
-        
-        ControllerInventory -> webapp
-        webapp -> ControllerInventory
-       
-        Domain -> ComandServiceInventory
-        Domain -> QueryServiceInventory
-        Domain -> ComandServiceUser
-        Domain -> QueryServiceUser
-        
-        #Otros servicios
-        
-        ComandServiceUser -> ControllerUser
-        QueryServiceUser -> ControllerUser
-        
-        QueryServiceUser -> database
-        ComandServiceUser -> database
-        
-        database -> QueryServiceUser
-        
-        ControllerUser -> webapp
-        webapp -> ControllerUser
-        
-        #Otro servicio
-        
-        ComandServiceAnimal -> ControllerAnimal
-        QueryServiceAnimal -> ControllerAnimal
-        
-        ComandServiceAnimal -> database
-        QueryServiceAnimal -> database
-        
-        database -> QueryServiceAnimal
-        
-        ControllerAnimal -> webapp
-        webapp -> ControllerAnimal
-        
-        Domain -> ComandServiceAnimal
-        Domain -> QueryServiceAnimal
-        
-        #Otro servicio
-        
-        ComandServiceProfile -> ControllerProfile
-        QueryServiceProfile -> ControllerProfile
-        
-        ComandServiceProfile -> database
-        QueryServiceProfile -> database
-        
-        database -> QueryServiceProfile
-        
-        ControllerProfile -> webapp
-        webapp -> ControllerProfile
-        
-        Domain -> ComandServiceProfile
-        Domain -> QueryServiceProfile
-        
-        
-        #Otro servicio
-        ComandServiceVaccine -> ControllerVaccine
-        QueryServiceVaccine -> ControllerVaccine
-        
-        ComandServiceVaccine -> database
-        QueryServiceVaccine -> database
-        
-        database -> QueryServiceVaccine
-        
-        ControllerVaccine -> webapp
-        webapp -> ControllerVaccine
-        
-        Domain -> ComandServiceVaccine
-        Domain -> QueryServiceVaccine
-
-        
-        #Otro servicio
-        
-        ComandServiceNotification -> ControllerNotification
-        QueryServiceNotification -> ControllerNotification
-        
-        ComandServiceNotification -> database
-        QueryServiceNotification -> database
-        
-        database -> QueryServiceNotification
-        
-        ControllerNotification -> webapp
-        webapp -> ControllerNotification
-        
-        Domain -> ComandServiceNotification
-        Domain -> QueryServiceNotification
-
-        
-        
-        
-
-        
-        
-        #Otro servicio
-
-
-
-    }
-
-    views {
-        systemContext softwareSystem {
-            include *
-            autolayout lr
-        }
-        
-        container softwareSystem {
-            include *
-            autolayout lr
-        }
-        
-        component  api "Componente" {
-            include *
-            autolayout lr
-            
-        }
-        
-      
-        styles {
-            element "MySql" {
-                shape "Cylinder" 
-            
-            }
-            
-
-        }
-    
-        theme default
-    }
-}
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
@@ -2012,6 +1778,9 @@ Desplegamos la landing page usando GitHub Pages, conectando el repositorio para 
 
 - **Netlify**: [https://www.netlify.com/](https://www.netlify.com/)  
 Desplegamos la frontend en Netlify por su facil uso y sincronizacion con el repositorio.
+
+- **Google MySql**: [https://cloud.google.com/](https://cloud.google.com/)  
+Desplegamos la base de datos en el servicio de la nube de Google cloud.
 
 
 ### Documentación de Software
@@ -2384,8 +2153,6 @@ Link del Landing Page: [https://devdream-upc.github.io/FarmGuard-LandingPage/](h
      <th> Alessandro </th> 
      <th> done </th>
    </tr>
-
-
 </table>
 
 ### 5.2.2.3. Development Evidence for Sprint Review.
@@ -2536,8 +2303,316 @@ En este diagram se muestra los commits realizados por el equipo de trabajo en un
 
 En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend.
 
+### 5.2.3. Sprint 3 
+#### 5.2.3.1. Spring Planning 3. 
 
+<table style="width:800px; height:300px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 3 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> EP4-US01 </th>
+     <th colspan="3"> Planificacion de actividades agricolas </th>
+      <th> T1  </th>
+     <th> Precio de los insumos</th>
+     <th>Hacer NavBar y que sea responsive </th>
+     <th> 1</th>
+     <th> Bryan </th> 
+     <th> Done</th>
+   </tr>
+    <tr>
+      <th> EP4-US02 </th>
+     <th colspan="3">  Gestión de inventarios de insumos  </th>
+      <th> T2  </th>
+     <th> Planificacion de actividades </th>
+     <th>  Creacion de actividades futuras</th>
+     <th> 2 </th>
+     <th> Fabricio </th> 
+     <th> done </th>
+   </tr>
+    <tr>
+      <th> EP1-US02 </th>
+     <th colspan="3"> Predicción de necesidades alimenticias</th>
+      <th> T3  </th>
+     <th> Recordatorio de alimentacion </th>
+     <th> Apartado de control de alimentacion  </th>
+     <th> 3 </th>
+     <th> Alessandro </th> 
+     <th> done </th>
+   </tr>
+
+
+</table>
+
+#### 5.2.3.2. Sprint Backlog 3. 
+
+#### 5.2.3.3. Development Evidence for Sprint Review. 
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review. 
+
+#### 5.2.3.5. Execution Evidence for Sprint Review. 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint. 
+
+## 5.3.Validation Interviews. 
+### 5.3.1. Diseño de Entrevistas. 
+Para el diseño de las entrevistas se planteo las siguientes preguntas. Que nos dara los datos necesarios para saber la opinion del publico respecto al desarrollo de nuestro landing page y frontend.
+
+Preguntas principales:
+
+¿Qué te parece el diseño de la landing page? 
+¿Te motiva a ingresar a la aplicación y registrarte?
+¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+a. Si la respuesta es SÍ, ¿Por qué lo considera así?
+b. Si la respuesta es NO , ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+
+Preguntas complementarias:
+¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+### 5.3.2. Registro de Entrevistas. 
+### 5.3.3. Evaluaciones según heurísticas. 
+## 5.4. Video About-the-Product. 
 
  
 
- 
+
+# Anexo
+
+* __Anexo 1__
+
+Codigo realizado en structurizer para la realizacion del diagrama c4.
+
+```
+workspace {
+    model {
+        user = person "Veterinarian"
+        user2 = person "Animal breeder"
+        
+        softwareSystem = softwareSystem "FarmGuard" "Application for veterinarians and animal breeders who want to monitor" {
+             
+            webapp = container "Single-Page Application" {
+        
+            }
+
+            database = container "DB" "DataBase" "MySql Schema" "MySql"
+            
+            api = container "Api Aplication" {
+                
+                ComandServiceInventory = component "ComandServiceInventory" "" ".net" "Componente"
+                QueryServiceInventory = component "QueryServiceInventory" "" ".net" "Componente"
+                ControllerInventory = component "ControllerInventory" "" ".net" "Componente"
+                
+                ComandServiceUser = component "ComandServiceUser" "" ".net" "Componente"
+                QueryServiceUser = component "QueryServiceUser" "" ".net" "Componente"
+                ControllerUser = component "ControllerUser" "" ".net" "Componente"
+                
+                ComandServiceAnimal = component "ComandServiceAnimal" "" ".net" "Componente"
+                QueryServiceAnimal = component "QueryServiceAnimal" "" ".net" "Componente"
+                ControllerAnimal = component "ControllerAnimal" "" ".net" "Componente"
+                
+                ComandServiceProfile = component "ComandServiceProfile" "" ".net" "Componente"
+                QueryServiceProfile = component "QueryServiceProfile" "" ".net" "Componente"
+                ControllerProfile = component "ControllerProfile" "" ".net" "Componente"
+                
+                ComandServiceVaccine = component "ComandServiceVaccine" "" ".net" "Componente"
+                QueryServiceVaccine = component "QueryServiceVaccine" "" ".net" "Componente"
+                ControllerVaccine = component "ControllerVaccine" "" ".net" "Componente"
+                
+                ComandServiceNotification = component "ComandServiceNotification" "" ".net" "Componente"
+                QueryServiceNotification = component "QueryServiceNotification" "" ".net" "Componente"
+                ControllerNotification = component "ControllerNotification" "" ".net" "Componente"
+                
+
+                Domain = component "DomainAplication"
+                
+            }
+            landingpage = container "LandingPage" 
+                
+            
+        }
+        
+        #Conexiones User{
+        user -> webapp "Try using the farmGuard project"
+        user2 -> webapp "Try using the farmGuard project"
+        
+
+       
+       # Conexiones api
+        api -> database "Make queries to the database"
+        database -> api "send the answers"
+        api -> webapp "receive response"
+        webapp -> api "send http request"
+        
+        #Conexiones landing Page
+        user2 -> landingpage "user visit our landing page"
+        user -> landingpage "user visit our landing page"
+        landingpage -> webapp "user directed to website"
+       
+       #Conexiones de SinglePage
+       /*
+       webapp -> securityC "Makes API calls to" "JSON/HTTPS"
+       
+       webapp -> proyectManagement "Makes API calls to" "JSON/HTTPS"
+       webapp -> requests "Makes API calls to" "JSON/HTTPS"
+       webapp -> librery "Makes API calls to" "JSON/HTTPS"
+       webapp -> file "Makes API calls to" "JSON/HTTPS"
+       webapp -> notification "Makes API calls to" "JSON/HTTPS"
+       webapp -> profilecontroller "Makes API calls to" "JSON/HTTPS"
+       *//*
+       proyectManagement -> database "Perform query or command in the database"
+       requests -> database "Perform query or command in the database"
+       librery -> database "Perform query or command in the database"
+       file -> database "Perform query or command in the database"
+       notification -> database "Perform query or command in the database"
+       profilecontroller -> database "Perform query or command in the database"*/
+       
+       #Conexiones a nivel componente
+       
+        #Otros servicio
+
+        ComandServiceInventory -> ControllerInventory
+        QueryServiceInventory -> ControllerInventory
+        
+        ComandServiceInventory -> database
+        QueryServiceInventory -> database
+        
+        database -> QueryServiceInventory
+        
+        ControllerInventory -> webapp
+        webapp -> ControllerInventory
+       
+        Domain -> ComandServiceInventory
+        Domain -> QueryServiceInventory
+        Domain -> ComandServiceUser
+        Domain -> QueryServiceUser
+        
+        #Otros servicios
+        
+        ComandServiceUser -> ControllerUser
+        QueryServiceUser -> ControllerUser
+        
+        QueryServiceUser -> database
+        ComandServiceUser -> database
+        
+        database -> QueryServiceUser
+        
+        ControllerUser -> webapp
+        webapp -> ControllerUser
+        
+        #Otro servicio
+        
+        ComandServiceAnimal -> ControllerAnimal
+        QueryServiceAnimal -> ControllerAnimal
+        
+        ComandServiceAnimal -> database
+        QueryServiceAnimal -> database
+        
+        database -> QueryServiceAnimal
+        
+        ControllerAnimal -> webapp
+        webapp -> ControllerAnimal
+        
+        Domain -> ComandServiceAnimal
+        Domain -> QueryServiceAnimal
+        
+        #Otro servicio
+        
+        ComandServiceProfile -> ControllerProfile
+        QueryServiceProfile -> ControllerProfile
+        
+        ComandServiceProfile -> database
+        QueryServiceProfile -> database
+        
+        database -> QueryServiceProfile
+        
+        ControllerProfile -> webapp
+        webapp -> ControllerProfile
+        
+        Domain -> ComandServiceProfile
+        Domain -> QueryServiceProfile
+        
+        
+        #Otro servicio
+        ComandServiceVaccine -> ControllerVaccine
+        QueryServiceVaccine -> ControllerVaccine
+        
+        ComandServiceVaccine -> database
+        QueryServiceVaccine -> database
+        
+        database -> QueryServiceVaccine
+        
+        ControllerVaccine -> webapp
+        webapp -> ControllerVaccine
+        
+        Domain -> ComandServiceVaccine
+        Domain -> QueryServiceVaccine
+
+        
+        #Otro servicio
+        
+        ComandServiceNotification -> ControllerNotification
+        QueryServiceNotification -> ControllerNotification
+        
+        ComandServiceNotification -> database
+        QueryServiceNotification -> database
+        
+        database -> QueryServiceNotification
+        
+        ControllerNotification -> webapp
+        webapp -> ControllerNotification
+        
+        Domain -> ComandServiceNotification
+        Domain -> QueryServiceNotification
+
+        #Otro servicio
+    }
+
+    views {
+        systemContext softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        container softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        component  api "Componente" {
+            include *
+            autolayout lr
+            
+        }
+        
+      
+        styles {
+            element "MySql" {
+                shape "Cylinder" 
+            
+            }
+        }
+    
+        theme default
+    }
+}
+```
