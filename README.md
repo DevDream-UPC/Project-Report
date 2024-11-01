@@ -11,7 +11,7 @@
 
 <div align="center">
 
-# Informe TB1
+# Informe TB3
 ### **Profesor: Juan Carlos Tinoco Licas**
 #### **Startup: DevDream**
 #### **Producto: FarmGuard**
@@ -26,7 +26,7 @@
 | David Polanco, Alessandro Alonso | U202122232 |
 |   Cusimayta Lobo, Alex Gabriel   | U202019131 |
 
-#### Agosto 2024
+#### Noviembre 2024
 </div>
 
 # **Registro de Versiones Del Informe**
@@ -63,6 +63,47 @@
         </ul>
       </td>
   </tr>
+
+  <tr>
+      <td><strong>2.0</strong></td>
+      <td>15/09/24</td>
+      <td>
+        <ul>
+          <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
+          <li>Donayre Paredes, Luis Carlos</li>
+        </ul>
+      </td>
+      <td>
+        Se incluyeron los siguientes capítulos:
+        <ul>
+          <li>sprint 2</li>
+          <li>Despliege del frontend</li>
+          <li>Despliege del fake service</li>
+        </ul>
+      </td>
+  </tr>
+
+  <tr>
+      <td><strong>3.0</strong></td>
+      <td>31/10/24</td>
+      <td>
+        <ul>
+          <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
+        </ul>
+      </td>
+      <td>
+        Se incluyeron los siguientes capítulos:
+        <ul>
+          <li>sprint 3</li>
+          <li>Despliege de la base de datos</li>
+          <li>Despliege del frontend</li>
+          <li>Realizacion de la entrevistas</li>
+          <li>Evaluacion de euristicas</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -82,7 +123,7 @@
       proporcionar liderazgo en 
       forma conjunta</strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> 
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> TB3:<p>En esta entrega ayude a mis compañéros con problemas al desarrollar la backend ademas de organizar la estructura del desarrollo</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
       TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
@@ -97,7 +138,7 @@
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> 
+      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> TB3:<p>Se busco un avanze en la union del grupo buscando compartir nuestras ideas y ayudarnos entre nosotros por la plataforma de discord.</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
@@ -1698,241 +1739,7 @@ En esat seccion se mostrara el diseño de la base de datos teniendo de base nues
 
 Enlace de Database Diagram: [https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW](https://my.vertabelo.com/doc/ctoANnzcmfn49HenpcIjKUxFyyq0drUW)
 
-# Anexo
 
-* __Anexo 1__
-
-Codigo realizado en structurizer para la realizacion del diagrama c4.
-
-workspace {
-    model {
-        user = person "Veterinarian"
-        user2 = person "Animal breeder"
-        
-        softwareSystem = softwareSystem "FarmGuard" "Application for veterinarians and animal breeders who want to monitor" {
-             
-            webapp = container "Single-Page Application" {
-        
-            }
-
-            database = container "DB" "DataBase" "MySql Schema" "MySql"
-            
-            api = container "Api Aplication" {
-                
-                ComandServiceInventory = component "ComandServiceInventory" "" ".net" "Componente"
-                QueryServiceInventory = component "QueryServiceInventory" "" ".net" "Componente"
-                ControllerInventory = component "ControllerInventory" "" ".net" "Componente"
-                
-                ComandServiceUser = component "ComandServiceUser" "" ".net" "Componente"
-                QueryServiceUser = component "QueryServiceUser" "" ".net" "Componente"
-                ControllerUser = component "ControllerUser" "" ".net" "Componente"
-                
-                ComandServiceAnimal = component "ComandServiceAnimal" "" ".net" "Componente"
-                QueryServiceAnimal = component "QueryServiceAnimal" "" ".net" "Componente"
-                ControllerAnimal = component "ControllerAnimal" "" ".net" "Componente"
-                
-                ComandServiceProfile = component "ComandServiceProfile" "" ".net" "Componente"
-                QueryServiceProfile = component "QueryServiceProfile" "" ".net" "Componente"
-                ControllerProfile = component "ControllerProfile" "" ".net" "Componente"
-                
-                ComandServiceVaccine = component "ComandServiceVaccine" "" ".net" "Componente"
-                QueryServiceVaccine = component "QueryServiceVaccine" "" ".net" "Componente"
-                ControllerVaccine = component "ControllerVaccine" "" ".net" "Componente"
-                
-                ComandServiceNotification = component "ComandServiceNotification" "" ".net" "Componente"
-                QueryServiceNotification = component "QueryServiceNotification" "" ".net" "Componente"
-                ControllerNotification = component "ControllerNotification" "" ".net" "Componente"
-                
-                
-
-
-
-
-
-                
-                Domain = component "DomainAplication"
-                
-            }
-            landingpage = container "LandingPage" 
-                
-            
-        }
-        
-        #Conexiones User{
-        user -> webapp "Try using the farmGuard project"
-        user2 -> webapp "Try using the farmGuard project"
-        
-
-       
-       # Conexiones api
-        api -> database "Make queries to the database"
-        database -> api "send the answers"
-        api -> webapp "receive response"
-        webapp -> api "send http request"
-        
-        #Conexiones landing Page
-        user2 -> landingpage "user visit our landing page"
-        user -> landingpage "user visit our landing page"
-        landingpage -> webapp "user directed to website"
-       
-       #Conexiones de SinglePage
-       /*
-       webapp -> securityC "Makes API calls to" "JSON/HTTPS"
-       
-       webapp -> proyectManagement "Makes API calls to" "JSON/HTTPS"
-       webapp -> requests "Makes API calls to" "JSON/HTTPS"
-       webapp -> librery "Makes API calls to" "JSON/HTTPS"
-       webapp -> file "Makes API calls to" "JSON/HTTPS"
-       webapp -> notification "Makes API calls to" "JSON/HTTPS"
-       webapp -> profilecontroller "Makes API calls to" "JSON/HTTPS"
-       *//*
-       proyectManagement -> database "Perform query or command in the database"
-       requests -> database "Perform query or command in the database"
-       librery -> database "Perform query or command in the database"
-       file -> database "Perform query or command in the database"
-       notification -> database "Perform query or command in the database"
-       profilecontroller -> database "Perform query or command in the database"*/
-       
-       #Conexiones a nivel componente
-       
-        #Otros servicio
-
-        ComandServiceInventory -> ControllerInventory
-        QueryServiceInventory -> ControllerInventory
-        
-        ComandServiceInventory -> database
-        QueryServiceInventory -> database
-        
-        database -> QueryServiceInventory
-        
-        ControllerInventory -> webapp
-        webapp -> ControllerInventory
-       
-        Domain -> ComandServiceInventory
-        Domain -> QueryServiceInventory
-        Domain -> ComandServiceUser
-        Domain -> QueryServiceUser
-        
-        #Otros servicios
-        
-        ComandServiceUser -> ControllerUser
-        QueryServiceUser -> ControllerUser
-        
-        QueryServiceUser -> database
-        ComandServiceUser -> database
-        
-        database -> QueryServiceUser
-        
-        ControllerUser -> webapp
-        webapp -> ControllerUser
-        
-        #Otro servicio
-        
-        ComandServiceAnimal -> ControllerAnimal
-        QueryServiceAnimal -> ControllerAnimal
-        
-        ComandServiceAnimal -> database
-        QueryServiceAnimal -> database
-        
-        database -> QueryServiceAnimal
-        
-        ControllerAnimal -> webapp
-        webapp -> ControllerAnimal
-        
-        Domain -> ComandServiceAnimal
-        Domain -> QueryServiceAnimal
-        
-        #Otro servicio
-        
-        ComandServiceProfile -> ControllerProfile
-        QueryServiceProfile -> ControllerProfile
-        
-        ComandServiceProfile -> database
-        QueryServiceProfile -> database
-        
-        database -> QueryServiceProfile
-        
-        ControllerProfile -> webapp
-        webapp -> ControllerProfile
-        
-        Domain -> ComandServiceProfile
-        Domain -> QueryServiceProfile
-        
-        
-        #Otro servicio
-        ComandServiceVaccine -> ControllerVaccine
-        QueryServiceVaccine -> ControllerVaccine
-        
-        ComandServiceVaccine -> database
-        QueryServiceVaccine -> database
-        
-        database -> QueryServiceVaccine
-        
-        ControllerVaccine -> webapp
-        webapp -> ControllerVaccine
-        
-        Domain -> ComandServiceVaccine
-        Domain -> QueryServiceVaccine
-
-        
-        #Otro servicio
-        
-        ComandServiceNotification -> ControllerNotification
-        QueryServiceNotification -> ControllerNotification
-        
-        ComandServiceNotification -> database
-        QueryServiceNotification -> database
-        
-        database -> QueryServiceNotification
-        
-        ControllerNotification -> webapp
-        webapp -> ControllerNotification
-        
-        Domain -> ComandServiceNotification
-        Domain -> QueryServiceNotification
-
-        
-        
-        
-
-        
-        
-        #Otro servicio
-
-
-
-    }
-
-    views {
-        systemContext softwareSystem {
-            include *
-            autolayout lr
-        }
-        
-        container softwareSystem {
-            include *
-            autolayout lr
-        }
-        
-        component  api "Componente" {
-            include *
-            autolayout lr
-            
-        }
-        
-      
-        styles {
-            element "MySql" {
-                shape "Cylinder" 
-            
-            }
-            
-
-        }
-    
-        theme default
-    }
-}
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
@@ -1971,6 +1778,9 @@ Desplegamos la landing page usando GitHub Pages, conectando el repositorio para 
 
 - **Netlify**: [https://www.netlify.com/](https://www.netlify.com/)  
 Desplegamos la frontend en Netlify por su facil uso y sincronizacion con el repositorio.
+
+- **Google MySql**: [https://cloud.google.com/](https://cloud.google.com/)  
+Desplegamos la base de datos en el servicio de la nube de Google cloud.
 
 
 ### Documentación de Software
@@ -2343,8 +2153,6 @@ Link del Landing Page: [https://devdream-upc.github.io/FarmGuard-LandingPage/](h
      <th> Alessandro </th> 
      <th> done </th>
    </tr>
-
-
 </table>
 
 ### 5.2.2.3. Development Evidence for Sprint Review.
@@ -2495,8 +2303,606 @@ En este diagram se muestra los commits realizados por el equipo de trabajo en un
 
 En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend.
 
+### 5.2.3. Sprint 3 
+#### 5.2.3.1. Spring Planning 3. 
+
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 3 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 19 de octubre del 2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 15:30 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma WhatsApp y Discord<td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Brayan Smith Morales Quispe. <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+           * Alesandro 
+          <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+        <td>Se realizo parcialmente el desarrollo del frontend con despliege y ademas de un fake service. <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+        <td> Mejorar los tiempos de desarrollo en las tareas asignadas a cada miembro del equipo.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td>  En este sprint, nos enfocamos en el desarrollo de almenos 2 metodos por endpoints  <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td>  5 <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 5 <td>
+      </tr>
+
+
+  </table>
+
+#### 5.2.3.2. Sprint Backlog 3. 
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Registro de usuario en la base de datos</td>
+    <td>TA01</td>
+    <td>Modelado de datos del usuario</td>
+    <td>Definir un modelo de datos para el usuario en el sistema de gestión de bases de dato.</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creación de la API de registro</td>
+    <td>Implementación de un endpoint en la API que acepte solicitudes POST para crear un nuevo usuario.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Validación de datos</td>
+    <td>Implementación de validación de los datos enviados a la API de registro.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">Obtención de los datos personales del usuario</td>
+    <td>TA01</td>
+    <td>API de perfil de usuario</td>
+    <td>Implementar un endpoint en la API que acepte solicitudes GET para obtener los datos del perfil del usuario.</td>
+    <td>4</td>
+    <td>Alesandro </td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Recuperación de datos del usuario</td>
+    <td>Cuando se recibe una solicitud en el endpoint de perfil de usuario, buscar al usuario en la base de datos.</td>
+    <td>4</td>
+    <td>Alesandro</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Crear un inventario con animales</td>
+    <td>TA01</td>
+    <td>Modelar las entidades</td>
+    <td>Creacion del inventario,Animales y sus respectivos objetos de valor</td>
+    <td>1</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion del controlador</td>
+    <td>Crear controlador responsable de exponer los datos solicitados</td>
+    <td>3</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion de los queries y commands</td>
+    <td>Crear los respectivos servicios q se encargaran de las consultas y comandos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">Notificaciones en un inventario</td>
+    <td>TA01</td>
+    <td>Modelar la entidad notificaciones</td>
+    <td>Modelar las respectivas entidades y mapearlas con su sus respectiva relacion</td>
+    <td>1</td>
+    <td>Alesandro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService</td>
+    <td>Crear comando encargado de crear una notificaion</td>
+    <td>2</td>
+    <td>Alesandro</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Crear bounded context de las vacunas</td>
+    <td>TA01</td>
+    <td>Crear entidades</td>
+    <td>crear entidades o agregados con sus objetos de valor</td>
+    <td>1</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  <tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService y QueryService</td>
+    <td>Crear comando y query service que permiten crear los objetos y guardarlos en la base de datos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de Controlador</td>
+    <td>Crear controlador que exponga los datos al mundo co su respectiva documentacion.Ademas de mostrar sus respectivos metodos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review. 
+
+<table border="0" width="100%" height="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commited on</th>
+  </tr>
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>main</td>
+    <td>4d5a903a472bc845d158603e4fa47f9c33244876</td>
+    <td>chore[main]:commit initial</td>
+    <td>07/10/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>animals-endpoints</td>
+    <td>43adfa066cbb59c5826792fef1a39e240ea3ec26</td>
+    <td>feat[animals-endpoints]: added post parcial endpoint</td>
+    <td>23/10/2024</td>
+  </tr>
+  
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-vaccine</td>
+    <td>5321e9422005dec7fb64d7ab3f51f5f57f6dad57</td>
+    <td>feat[add-vaccine]: addded endpoint post</td>
+    <td>29/10/2024</td>
+  </tr>
+  
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-notification</td>
+    <td>9fcaa16eaed0b0b96e1ce13b4b87463a2431e89c</td>
+    <td>feat: created the notifications backend</td>
+    <td>30/10/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-notification</td>
+    <td>fe938e353d94fcd9ffedee2c9c490e48b1141581</td>
+    <td>feat[add-notifications]: added controller of notification</td>
+    <td>30/10/2024</td>
+  </tr>
+
+   <tr>
+    <td>FarmGuard-Backend</td>
+    <td>develop</td>
+    <td>ac0e514be700fd16df703b0ff8a2005e8bcf61ab</td>
+    <td>feat[develop]: added Dockerfile</td>
+    <td>31/10/2024</td>
+  </tr>
 
 
  
+  </table>
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review. 
+
+#### 5.2.3.5. Execution Evidence for Sprint Review. 
+Para demostrar la ejecuacion de nuestra api se pondra el link de esta, con una imagen para tener una vista sobre el swagger.
+
+![Muetra de api](/Assets/img/ChapterV/sprint%203/api%20muestra.png)
+
+__Link:__[]()
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+Para este sprint 3 se realizo solo el desarrollo del Backend en una parte trabajando 4 endpoints con uno a dos metodos cada uno.
+
+<table border="1">
+  <tr>
+    <th>Endpoint</th>
+    <th>Metodos</th>
+    <th>Description</th>
+    <th>url</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Animals</td>
+    <td>Post</td>
+    <td>Permite crear un animal a un determinado inventario</td>
+    <td>/api/v1/animals{idInventory}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su serialIdAnimal</td>
+    <td>/api/v1/animals{idAnimal}</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Inventory</td>
+    <td>Post</td>
+    <td>Permite crear un inventario</td>
+    <td>/api/v1/inventory</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su id</td>
+    <td>/api/v1/inventory{id}</td>
+  </tr>
+
+   <tr>
+    <td rowspan="1">Notification</td>
+    <td>Post</td>
+    <td>Permite crear una notificacion</td>
+    <td>/api/v1/notification</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Vaccine</td>
+    <td>Post</td>
+    <td>Permite crear una vacuna para un determinado animal con su idAnimal</td>
+    <td>/api/v1/vaccines/{SerialAnimalId}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener las vacunas de un animal con su IdAnimal</td>
+    <td>/api/v1/vaccines/{SerialAnimalId}</td>
+  </tr>
+ 
+  
+</table>
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Para demostrar la evidencia de despliege se presentara 2 imagenes una de nuestra base de datos desplegada en google cloud configurada para aceptar todo tipo de entradas.Puesto que es una base de datos creada para develop.Ademas de mostrar nuestro despliege de nuestro api
+
+__Base de Datos__
+![Configuracion](/Assets/img/ChapterV/sprint%203/creacion%20de%20instancia%20sql.png)
+
+Se muestra en laimagen la creacion de la base de datos. y se configura para pruebas y se permite conexiones externas.
+
+![Configuracion de conexion](/Assets/img/ChapterV/sprint%203/Configurar%20base%20de%20datos%20para%20que%20cualquier%20ip%20acceda.png)
+
+Se muestra la configuracion de ip 0.0.0.0/0 esto permite que cualquiera pueda acceder a la base de datos.
+
+![Muestra de Db](/Assets/img/ChapterV/sprint%203/sql%20apagado.png)
+
+__Api__
+
+![Muetra de api](/Assets/img/ChapterV/sprint%203/api%20muestra.png)
+Muestra de nuestra api desplegada
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+En esta seccion se mostrara la colaboraciond del equipo respecto al desarrollo del backend con diferentes graficos que mostrara el avanze del desarrollo.
+
+#### Anexo: flujo de trabajo entre las ramas
+![](/Assets/img/ChapterV/sprint%203/ramas%20sprint%203.png)
+
+En este diagrama se muestra nuestras ramas siguiendo el enfoque Git Flow teniendo en cuenta el orden y la metodologia que queremos aplicar.
+
+
+#### Anexo: tablas de commits en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint%203/barras%20sprint%203.png)
+
+En este diagram se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro hasta el dia 31 de octubre.
+
+
+#### Anexo: Flujo de trabajo en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint%203/flujo%20de%20trabajo%20sprint%203.png)
+
+En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend. 
+
+## 5.3.Validation Interviews. 
+### 5.3.1. Diseño de Entrevistas. 
+Para el diseño de las entrevistas se planteo las siguientes preguntas. Que nos dara los datos necesarios para saber la opinion del publico respecto al desarrollo de nuestro landing page y frontend.
+
+Preguntas principales:
+
+¿Qué te parece el diseño de la landing page? 
+¿Te motiva a ingresar a la aplicación y registrarte?
+¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+a. Si la respuesta es SÍ, ¿Por qué lo considera así?
+b. Si la respuesta es NO , ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+
+Preguntas complementarias:
+¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+### 5.3.2. Registro de Entrevistas. 
+### 5.3.3. Evaluaciones según heurísticas. 
+## 5.4. Video About-the-Product. 
 
  
+
+
+# Anexo
+
+* __Anexo 1__
+
+Codigo realizado en structurizer para la realizacion del diagrama c4.
+
+```
+workspace {
+    model {
+        user = person "Veterinarian"
+        user2 = person "Animal breeder"
+        
+        softwareSystem = softwareSystem "FarmGuard" "Application for veterinarians and animal breeders who want to monitor" {
+             
+            webapp = container "Single-Page Application" {
+        
+            }
+
+            database = container "DB" "DataBase" "MySql Schema" "MySql"
+            
+            api = container "Api Aplication" {
+                
+                ComandServiceInventory = component "ComandServiceInventory" "" ".net" "Componente"
+                QueryServiceInventory = component "QueryServiceInventory" "" ".net" "Componente"
+                ControllerInventory = component "ControllerInventory" "" ".net" "Componente"
+                
+                ComandServiceUser = component "ComandServiceUser" "" ".net" "Componente"
+                QueryServiceUser = component "QueryServiceUser" "" ".net" "Componente"
+                ControllerUser = component "ControllerUser" "" ".net" "Componente"
+                
+                ComandServiceAnimal = component "ComandServiceAnimal" "" ".net" "Componente"
+                QueryServiceAnimal = component "QueryServiceAnimal" "" ".net" "Componente"
+                ControllerAnimal = component "ControllerAnimal" "" ".net" "Componente"
+                
+                ComandServiceProfile = component "ComandServiceProfile" "" ".net" "Componente"
+                QueryServiceProfile = component "QueryServiceProfile" "" ".net" "Componente"
+                ControllerProfile = component "ControllerProfile" "" ".net" "Componente"
+                
+                ComandServiceVaccine = component "ComandServiceVaccine" "" ".net" "Componente"
+                QueryServiceVaccine = component "QueryServiceVaccine" "" ".net" "Componente"
+                ControllerVaccine = component "ControllerVaccine" "" ".net" "Componente"
+                
+                ComandServiceNotification = component "ComandServiceNotification" "" ".net" "Componente"
+                QueryServiceNotification = component "QueryServiceNotification" "" ".net" "Componente"
+                ControllerNotification = component "ControllerNotification" "" ".net" "Componente"
+                
+
+                Domain = component "DomainAplication"
+                
+            }
+            landingpage = container "LandingPage" 
+                
+            
+        }
+        
+        #Conexiones User{
+        user -> webapp "Try using the farmGuard project"
+        user2 -> webapp "Try using the farmGuard project"
+        
+
+       
+       # Conexiones api
+        api -> database "Make queries to the database"
+        database -> api "send the answers"
+        api -> webapp "receive response"
+        webapp -> api "send http request"
+        
+        #Conexiones landing Page
+        user2 -> landingpage "user visit our landing page"
+        user -> landingpage "user visit our landing page"
+        landingpage -> webapp "user directed to website"
+       
+       #Conexiones de SinglePage
+       /*
+       webapp -> securityC "Makes API calls to" "JSON/HTTPS"
+       
+       webapp -> proyectManagement "Makes API calls to" "JSON/HTTPS"
+       webapp -> requests "Makes API calls to" "JSON/HTTPS"
+       webapp -> librery "Makes API calls to" "JSON/HTTPS"
+       webapp -> file "Makes API calls to" "JSON/HTTPS"
+       webapp -> notification "Makes API calls to" "JSON/HTTPS"
+       webapp -> profilecontroller "Makes API calls to" "JSON/HTTPS"
+       *//*
+       proyectManagement -> database "Perform query or command in the database"
+       requests -> database "Perform query or command in the database"
+       librery -> database "Perform query or command in the database"
+       file -> database "Perform query or command in the database"
+       notification -> database "Perform query or command in the database"
+       profilecontroller -> database "Perform query or command in the database"*/
+       
+       #Conexiones a nivel componente
+       
+        #Otros servicio
+
+        ComandServiceInventory -> ControllerInventory
+        QueryServiceInventory -> ControllerInventory
+        
+        ComandServiceInventory -> database
+        QueryServiceInventory -> database
+        
+        database -> QueryServiceInventory
+        
+        ControllerInventory -> webapp
+        webapp -> ControllerInventory
+       
+        Domain -> ComandServiceInventory
+        Domain -> QueryServiceInventory
+        Domain -> ComandServiceUser
+        Domain -> QueryServiceUser
+        
+        #Otros servicios
+        
+        ComandServiceUser -> ControllerUser
+        QueryServiceUser -> ControllerUser
+        
+        QueryServiceUser -> database
+        ComandServiceUser -> database
+        
+        database -> QueryServiceUser
+        
+        ControllerUser -> webapp
+        webapp -> ControllerUser
+        
+        #Otro servicio
+        
+        ComandServiceAnimal -> ControllerAnimal
+        QueryServiceAnimal -> ControllerAnimal
+        
+        ComandServiceAnimal -> database
+        QueryServiceAnimal -> database
+        
+        database -> QueryServiceAnimal
+        
+        ControllerAnimal -> webapp
+        webapp -> ControllerAnimal
+        
+        Domain -> ComandServiceAnimal
+        Domain -> QueryServiceAnimal
+        
+        #Otro servicio
+        
+        ComandServiceProfile -> ControllerProfile
+        QueryServiceProfile -> ControllerProfile
+        
+        ComandServiceProfile -> database
+        QueryServiceProfile -> database
+        
+        database -> QueryServiceProfile
+        
+        ControllerProfile -> webapp
+        webapp -> ControllerProfile
+        
+        Domain -> ComandServiceProfile
+        Domain -> QueryServiceProfile
+        
+        
+        #Otro servicio
+        ComandServiceVaccine -> ControllerVaccine
+        QueryServiceVaccine -> ControllerVaccine
+        
+        ComandServiceVaccine -> database
+        QueryServiceVaccine -> database
+        
+        database -> QueryServiceVaccine
+        
+        ControllerVaccine -> webapp
+        webapp -> ControllerVaccine
+        
+        Domain -> ComandServiceVaccine
+        Domain -> QueryServiceVaccine
+
+        
+        #Otro servicio
+        
+        ComandServiceNotification -> ControllerNotification
+        QueryServiceNotification -> ControllerNotification
+        
+        ComandServiceNotification -> database
+        QueryServiceNotification -> database
+        
+        database -> QueryServiceNotification
+        
+        ControllerNotification -> webapp
+        webapp -> ControllerNotification
+        
+        Domain -> ComandServiceNotification
+        Domain -> QueryServiceNotification
+
+        #Otro servicio
+    }
+
+    views {
+        systemContext softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        container softwareSystem {
+            include *
+            autolayout lr
+        }
+        
+        component  api "Componente" {
+            include *
+            autolayout lr
+            
+        }
+        
+      
+        styles {
+            element "MySql" {
+                shape "Cylinder" 
+            
+            }
+        }
+    
+        theme default
+    }
+}
+```
