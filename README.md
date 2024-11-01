@@ -2306,72 +2306,362 @@ En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantid
 ### 5.2.3. Sprint 3 
 #### 5.2.3.1. Spring Planning 3. 
 
-<table style="width:800px; height:300px;"> 
-   <tr>
-      <th colspan="4"> Sprint # </th>
-      <th colspan="7"> Sprint 3 </th>
-   </tr>
-   <tr >
-     <th colspan="4"> User Story </th>
-     <th colspan="7"> Work-Item /Task</th>
-   </tr>
-   <tr>
-     <th > Id </th>
-     <th colspan="3"> Title </th>
-     <th> Id </th>
-     <th > Title </th>
-     <th> Description </th>
-     <th> Estimation (Hours) </th>
-     <th> Assigned To </th> 
-     <th> Status (To-do / In-Process / To- Review / Done) </th>
-   </tr>
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 3 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
      <tr>
-      <th> EP4-US01 </th>
-     <th colspan="3"> Planificacion de actividades agricolas </th>
-      <th> T1  </th>
-     <th> Precio de los insumos</th>
-     <th>Hacer NavBar y que sea responsive </th>
-     <th> 1</th>
-     <th> Bryan </th> 
-     <th> Done</th>
-   </tr>
-    <tr>
-      <th> EP4-US02 </th>
-     <th colspan="3">  Gestión de inventarios de insumos  </th>
-      <th> T2  </th>
-     <th> Planificacion de actividades </th>
-     <th>  Creacion de actividades futuras</th>
-     <th> 2 </th>
-     <th> Fabricio </th> 
-     <th> done </th>
-   </tr>
-    <tr>
-      <th> EP1-US02 </th>
-     <th colspan="3"> Predicción de necesidades alimenticias</th>
-      <th> T3  </th>
-     <th> Recordatorio de alimentacion </th>
-     <th> Apartado de control de alimentacion  </th>
-     <th> 3 </th>
-     <th> Alessandro </th> 
-     <th> done </th>
-   </tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 19 de octubre del 2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 15:30 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma WhatsApp y Discord<td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Brayan Smith Morales Quispe. <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+           * Alesandro 
+          <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+        <td>Se realizo parcialmente el desarrollo del frontend con despliege y ademas de un fake service. <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+        <td> Mejorar los tiempos de desarrollo en las tareas asignadas a cada miembro del equipo.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td>  En este sprint, nos enfocamos en el desarrollo de almenos 2 metodos por endpoints  <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td>  5 <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 5 <td>
+      </tr>
 
 
-</table>
+  </table>
 
 #### 5.2.3.2. Sprint Backlog 3. 
 
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Registro de usuario en la base de datos</td>
+    <td>TA01</td>
+    <td>Modelado de datos del usuario</td>
+    <td>Definir un modelo de datos para el usuario en el sistema de gestión de bases de dato.</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creación de la API de registro</td>
+    <td>Implementación de un endpoint en la API que acepte solicitudes POST para crear un nuevo usuario.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Validación de datos</td>
+    <td>Implementación de validación de los datos enviados a la API de registro.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">Obtención de los datos personales del usuario</td>
+    <td>TA01</td>
+    <td>API de perfil de usuario</td>
+    <td>Implementar un endpoint en la API que acepte solicitudes GET para obtener los datos del perfil del usuario.</td>
+    <td>4</td>
+    <td>Alesandro </td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Recuperación de datos del usuario</td>
+    <td>Cuando se recibe una solicitud en el endpoint de perfil de usuario, buscar al usuario en la base de datos.</td>
+    <td>4</td>
+    <td>Alesandro</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Crear un inventario con animales</td>
+    <td>TA01</td>
+    <td>Modelar las entidades</td>
+    <td>Creacion del inventario,Animales y sus respectivos objetos de valor</td>
+    <td>1</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion del controlador</td>
+    <td>Crear controlador responsable de exponer los datos solicitados</td>
+    <td>3</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion de los queries y commands</td>
+    <td>Crear los respectivos servicios q se encargaran de las consultas y comandos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">Notificaciones en un inventario</td>
+    <td>TA01</td>
+    <td>Modelar la entidad notificaciones</td>
+    <td>Modelar las respectivas entidades y mapearlas con su sus respectiva relacion</td>
+    <td>1</td>
+    <td>Alesandro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService</td>
+    <td>Crear comando encargado de crear una notificaion</td>
+    <td>2</td>
+    <td>Alesandro</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 3</td>
+    <td rowspan="3">Crear bounded context de las vacunas</td>
+    <td>TA01</td>
+    <td>Crear entidades</td>
+    <td>crear entidades o agregados con sus objetos de valor</td>
+    <td>1</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  <tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService y QueryService</td>
+    <td>Crear comando y query service que permiten crear los objetos y guardarlos en la base de datos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de Controlador</td>
+    <td>Crear controlador que exponga los datos al mundo co su respectiva documentacion.Ademas de mostrar sus respectivos metodos</td>
+    <td>2</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
 #### 5.2.3.3. Development Evidence for Sprint Review. 
+
+<table border="0" width="100%" height="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commited on</th>
+  </tr>
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>main</td>
+    <td>4d5a903a472bc845d158603e4fa47f9c33244876</td>
+    <td>chore[main]:commit initial</td>
+    <td>07/10/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>animals-endpoints</td>
+    <td>43adfa066cbb59c5826792fef1a39e240ea3ec26</td>
+    <td>feat[animals-endpoints]: added post parcial endpoint</td>
+    <td>23/10/2024</td>
+  </tr>
+  
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-vaccine</td>
+    <td>5321e9422005dec7fb64d7ab3f51f5f57f6dad57</td>
+    <td>feat[add-vaccine]: addded endpoint post</td>
+    <td>29/10/2024</td>
+  </tr>
+  
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-notification</td>
+    <td>9fcaa16eaed0b0b96e1ce13b4b87463a2431e89c</td>
+    <td>feat: created the notifications backend</td>
+    <td>30/10/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>add-notification</td>
+    <td>fe938e353d94fcd9ffedee2c9c490e48b1141581</td>
+    <td>feat[add-notifications]: added controller of notification</td>
+    <td>30/10/2024</td>
+  </tr>
+
+   <tr>
+    <td>FarmGuard-Backend</td>
+    <td>develop</td>
+    <td>ac0e514be700fd16df703b0ff8a2005e8bcf61ab</td>
+    <td>feat[develop]: added Dockerfile</td>
+    <td>31/10/2024</td>
+  </tr>
+
+
+ 
+  </table>
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review. 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review. 
+Para demostrar la ejecuacion de nuestra api se pondra el link de esta, con una imagen para tener una vista sobre el swagger.
+
+![Muetra de api](/Assets/img/ChapterV/sprint%203/api%20muestra.png)
+
+__Link:__[]()
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+Para este sprint 3 se realizo solo el desarrollo del Backend en una parte trabajando 4 endpoints con uno a dos metodos cada uno.
+
+<table border="1">
+  <tr>
+    <th>Endpoint</th>
+    <th>Metodos</th>
+    <th>Description</th>
+    <th>url</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Animals</td>
+    <td>Post</td>
+    <td>Permite crear un animal a un determinado inventario</td>
+    <td>/api/v1/animals{idInventory}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su serialIdAnimal</td>
+    <td>/api/v1/animals{idAnimal}</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Inventory</td>
+    <td>Post</td>
+    <td>Permite crear un inventario</td>
+    <td>/api/v1/inventory</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su id</td>
+    <td>/api/v1/inventory{id}</td>
+  </tr>
+
+   <tr>
+    <td rowspan="1">Notification</td>
+    <td>Post</td>
+    <td>Permite crear una notificacion</td>
+    <td>/api/v1/notification</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Vaccine</td>
+    <td>Post</td>
+    <td>Permite crear una vacuna para un determinado animal con su idAnimal</td>
+    <td>/api/v1/vaccines/{SerialAnimalId}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener las vacunas de un animal con su IdAnimal</td>
+    <td>/api/v1/vaccines/{SerialAnimalId}</td>
+  </tr>
+ 
+  
+</table>
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Para demostrar la evidencia de despliege se presentara 2 imagenes una de nuestra base de datos desplegada en google cloud configurada para aceptar todo tipo de entradas.Puesto que es una base de datos creada para develop.Ademas de mostrar nuestro despliege de nuestro api
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint. 
+__Base de Datos__
+![Configuracion](/Assets/img/ChapterV/sprint%203/creacion%20de%20instancia%20sql.png)
+
+Se muestra en laimagen la creacion de la base de datos. y se configura para pruebas y se permite conexiones externas.
+
+![Configuracion de conexion](/Assets/img/ChapterV/sprint%203/Configurar%20base%20de%20datos%20para%20que%20cualquier%20ip%20acceda.png)
+
+Se muestra la configuracion de ip 0.0.0.0/0 esto permite que cualquiera pueda acceder a la base de datos.
+
+![Muestra de Db](/Assets/img/ChapterV/sprint%203/sql%20apagado.png)
+
+__Api__
+
+![Muetra de api](/Assets/img/ChapterV/sprint%203/api%20muestra.png)
+Muestra de nuestra api desplegada
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+En esta seccion se mostrara la colaboraciond del equipo respecto al desarrollo del backend con diferentes graficos que mostrara el avanze del desarrollo.
+
+#### Anexo: flujo de trabajo entre las ramas
+![](/Assets/img/ChapterV/sprint%203/ramas%20sprint%203.png)
+
+En este diagrama se muestra nuestras ramas siguiendo el enfoque Git Flow teniendo en cuenta el orden y la metodologia que queremos aplicar.
+
+
+#### Anexo: tablas de commits en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint%203/barras%20sprint%203.png)
+
+En este diagram se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro hasta el dia 31 de octubre.
+
+
+#### Anexo: Flujo de trabajo en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint%203/flujo%20de%20trabajo%20sprint%203.png)
+
+En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend. 
 
 ## 5.3.Validation Interviews. 
 ### 5.3.1. Diseño de Entrevistas. 
