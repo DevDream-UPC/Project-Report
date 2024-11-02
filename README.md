@@ -2680,6 +2680,26 @@ Preguntas complementarias:
 ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
 ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
 ### 5.3.2. Registro de Entrevistas. 
+*Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
+
+*Entrevista 1:*
+
+Nombres: Alejandra
+
+Apellidos: Gallo
+
+Edad: 21
+
+Lugar de residencia: Santiago de Surco
+
+Evidencia de la entrevista:
+
+
+![image](https://github.com/user-attachments/assets/1d8254dc-5c73-413a-b1cf-662f22a90b2b)
+
+[Entrevista a Alejandra Gallo - Familia con Granja](https://drive.google.com/file/d/1vxDNPoHyqJtd63bJWdV20DaFa8S1E77j/view?usp=sharing)
+
+Resumen de la entrevista: La entrevistada es cuidadora en una granja familiar ubicada en la sierra y utiliza una tablet para registrar datos de los animales que cuida. Valora la visibilidad y simplicidad de la aplicación web, ya que le resulta intuitiva y fácil de manejar en su entorno laboral. La utilidad y la compatibilidad con el navegador Chrome también son importantes para ella, ya que facilitan el proceso de registro y seguimiento de los animales. Considera que una herramienta tecnológica que aproveche al máximo el potencial actual sería clave para mejorar sus labores, sobre todo porque ha experimentado limitaciones con tecnologías anteriores.
 ### 5.3.3. Evaluaciones según heurísticas. 
 ## 5.4. Video About-the-Product. 
 
