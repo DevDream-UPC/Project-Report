@@ -126,6 +126,7 @@
       <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> TB3:<p>En esta entrega ayude a mis compañéros con problemas al desarrollar la backend ademas de organizar la estructura del desarrollo</p>
       <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
       TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
+      TB3:<p>En esta entrega ayude a mis compañeros a desarrollar el backend, especificamente la seccion de Notificaciones, adema s de realizar las entrevistas para la evaluacion de la Landing Page y la App Web del proyecto</p>
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
       <h6>Lopez de la Cruz ,Mauro Fabricio</h6>TB1:<p>Desde el inicio designamos tareas de manera equitativa teniendo en mente la opinión de todos los integrantes. Esto mismo ha hecho para reforzar el compañerismo y trabajo justo y para crear una buena base de Trabajo
         </p>TP:<p>Trabajamos como equipo para tener en en claro la línea de guía para realizar ese trabajo. De tal modo que todos estemos contentos con el resultado final</p> 
@@ -139,7 +140,10 @@
       y cumple objetivos </strong></td>
       <td>
       <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> TB3:<p>Se busco un avanze en la union del grupo buscando compartir nuestras ideas y ayudarnos entre nosotros por la plataforma de discord.</p>
-      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
+      <h6>Alessandro Alonso David Polanco</h6>
+      TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
+      TP:<p>Ayude en el desarrollo del frontend y del informe, se busco la colaboracion de los demas integrantes pero no se pude alcanzar un acuerdo colectivo para ello.</p>
+      TB3: <p>Se busco un avance para la colaboracion del grupo en su totalidad para asi avanzar de manera mas eficiente y rapida el trabajo, hubieron reuniones en Discord para el avance del trabajo pero sin la ayuda de todo el equipo lamentablemente.</p>
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
       <td>TB1:En conclucion aun el trabajo en equipo esta un distante y se nota en la falta de comunicacion en algunos apartados del informe<p>TP:En conclucion el entorno del equipo mejoro respecto al anterior entregable puesto que hubo mas comuniacion por llamadas de voz y compartiendo nuestros conocimientos entre nosotros.</p></td>
@@ -2680,6 +2684,26 @@ Preguntas complementarias:
 ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
 ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
 ### 5.3.2. Registro de Entrevistas. 
+*Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
+
+*Entrevista 1:*
+
+Nombres: Alejandra
+
+Apellidos: Gallo
+
+Edad: 21
+
+Lugar de residencia: Santiago de Surco
+
+Evidencia de la entrevista:
+
+
+![image](https://github.com/user-attachments/assets/1d8254dc-5c73-413a-b1cf-662f22a90b2b)
+
+[Entrevista a Alejandra Gallo - Familia con Granja](https://drive.google.com/file/d/1vxDNPoHyqJtd63bJWdV20DaFa8S1E77j/view?usp=sharing)
+
+Resumen de la entrevista: La entrevistada es cuidadora en una granja familiar ubicada en la sierra y utiliza una tablet para registrar datos de los animales que cuida. Valora la visibilidad y simplicidad de la aplicación web, ya que le resulta intuitiva y fácil de manejar en su entorno laboral. La utilidad y la compatibilidad con el navegador Chrome también son importantes para ella, ya que facilitan el proceso de registro y seguimiento de los animales. Considera que una herramienta tecnológica que aproveche al máximo el potencial actual sería clave para mejorar sus labores, sobre todo porque ha experimentado limitaciones con tecnologías anteriores.
 ### 5.3.3. Evaluaciones según heurísticas. 
 ## 5.4. Video About-the-Product. 
 
