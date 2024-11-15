@@ -2342,22 +2342,22 @@ En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantid
           <td>
      </tr>
      <tr>
-        <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+        <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
         <td>Se realizo parcialmente el desarrollo del frontend con despliege y ademas de un fake service. <td>
      </tr>
      <tr>
-        <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+        <td style="font-weight: bold;"> Sprint 3 Retrospective Summary </td>
         <td> Mejorar los tiempos de desarrollo en las tareas asignadas a cada miembro del equipo.<td>
      </tr>
      <tr> 
         <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
      </tr>
        <tr>
-          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td style="font-weight: bold;"> Sprint 3 Goal</td>
           <td>  En este sprint, nos enfocamos en el desarrollo de almenos 2 metodos por endpoints  <td>
       </tr>
        <tr>
-          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td style="font-weight: bold;"> Sprint 3 Velocity </td>
           <td>  5 <td>
       </tr>
       <tr>
@@ -2666,6 +2666,277 @@ En este diagram se muestra los commits realizados por el equipo de trabajo en un
 ![](/Assets/img/ChapterV/sprint%203/flujo%20de%20trabajo%20sprint%203.png)
 
 En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del frontend. 
+
+### 5.2.4. Sprint 4.
+#### 5.2.4.1. Sprint Planning 4.
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 4 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 12 de Noviembre del 2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 15:30 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma WhatsApp y Discord<td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Brayan Smith Morales Quispe. <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+           Alessandro Alonso David Polanco 
+          <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 4 Review Summary </td>
+        <td>Se finalizo el desarrollo del frontend y backend con despliege completo. <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 4 Retrospective Summary </td>
+        <td> Mejorar los tiempos de desarrollo en las tareas asignadas a cada miembro del equipo.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 4 Goal</td>
+          <td>  En este sprint, nos enfocamos en el desarrollo de 4 metodos maximo, por cada endpoint que se realizo <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 4 Velocity </td>
+          <td>  5 <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 5 <td>
+      </tr>
+
+
+  </table>
+
+
+#### 5.2.4.2. Sprint Backlog 4.
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 4</td>
+    <td rowspan="3">Registro de usuario en la base de datos</td>
+    <td>TA01</td>
+    <td>Modelado de datos del usuario</td>
+    <td>Definir un modelo de datos para el usuario en el sistema de gestión de bases de dato.</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creación de la API de registro</td>
+    <td>Implementación de un endpoint en la API que acepte solicitudes POST para crear un nuevo usuario.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Validación de datos</td>
+    <td>Implementación de validación de los datos enviados a la API de registro.</td>
+    <td>4</td>
+    <td>Brayan Morales</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Sprint 4</td>
+    <td rowspan="2">Obtención de los datos personales del usuario</td>
+    <td>TA01</td>
+    <td>API de perfil de usuario</td>
+    <td>Implementar un endpoint en la API que acepte solicitudes GET para obtener los datos del perfil del usuario.</td>
+    <td>4</td>
+    <td>Alesandro David</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Recuperación de datos del usuario</td>
+    <td>Cuando se recibe una solicitud en el endpoint de perfil de usuario, buscar al usuario en la base de datos.</td>
+    <td>4</td>
+    <td>Alesandro David</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 4</td>
+    <td rowspan="3">Crear un inventario con animales</td>
+    <td>TA01</td>
+    <td>Modelar las entidades</td>
+    <td>Creacion del inventario,Animales y sus respectivos objetos de valor</td>
+    <td>1</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion del controlador</td>
+    <td>Crear controlador responsable de exponer los datos solicitados</td>
+    <td>3</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion de los queries y commands</td>
+    <td>Crear los respectivos servicios q se encargaran de las consultas y comandos</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 4</td>
+    <td rowspan="2">Notificaciones en un inventario</td>
+    <td>TA01</td>
+    <td>Modelar la entidad notificaciones</td>
+    <td>Modelar las respectivas entidades y mapearlas con su sus respectiva relacion</td>
+    <td>1</td>
+    <td>Alesandro David</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService</td>
+    <td>Crear comando encargado de crear una notificaion</td>
+    <td>2</td>
+    <td>Alesandro David</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 4</td>
+    <td rowspan="3">Crear bounded context de las vacunas</td>
+    <td>TA01</td>
+    <td>Crear entidades</td>
+    <td>crear entidades o agregados con sus objetos de valor</td>
+    <td>1</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Creacion de comandoService y QueryService</td>
+    <td>Crear comando y query service que permiten crear los objetos y guardarlos en la base de datos</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Creacion de Controlador</td>
+    <td>Crear controlador que exponga los datos al mundo co su respectiva documentacion.Ademas de mostrar sus respectivos metodos</td>
+    <td>2</td>
+    <td>Brayan Morales</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.4.3. Development Evidence for Sprint Review.
+
+<table border="0" width="100%" height="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commited on</th>
+  </tr>
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>endpoint-user</td>
+    <td>7d1dc2c50ed6804b6857ec4a89f654d6b89be6d1</td>
+    <td>feat[endpoint-user]:added domain user.</td>
+    <td>04/11/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>endpoint-user</td>
+    <td>62efac9ea87f17afb0acbb1981ce04b101d9de0f</td>
+    <td>feat[endpoint-user]:feat all restant</td>
+    <td>05/11/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>get-user-put</td>
+    <td>8e8a5dba42cfb49161866f09cd41abf017d6dae1</td>
+    <td>feat[get-user-put]: added methods in profile</td>
+    <td>05/11/2024</td>
+  </tr>
+
+  <tr>
+    <td>FarmGuard-Backend</td>
+    <td>endpoint-user</td>
+    <td>62efac9ea87f17afb0acbb1981ce04b101d9de0f</td>
+    <td>feat[endpoint-user]:feat all restant</td>
+    <td>05/11/2024</td>
+  </tr>
+
+   <tr>
+    <td>FarmGuard-Backend</td>
+    <td>optimized-backend</td>
+    <td>5942c4f99bc5a71f3c76af0c5e20920b12552e30</td>
+    <td>feat: added optimized baackend of the project</td>
+    <td>15/11/2024</td>
+  </tr>
+
+
+
+  </table>
+
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review.
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+En esta seccion se mostrara la colaboracion del equipo respecto al desarrollo del backend con diferentes graficos que mostrara el avance del desarrollo.
+
+#### Anexo: flujo de trabajo entre las ramas
+![](/Assets/img/ChapterV/sprint-4/flujo-de-trabajo-entre-rama-spint-4.png)
+
+En este diagrama se muestra nuestras ramas siguiendo el enfoque Git Flow teniendo en cuenta el orden y la metodologia que queremos aplicar.
+
+
+#### Anexo: tablas de commits en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint-4/tabla-de-commits-sprint-4.png)
+
+En este diagrama se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro desde el dia octubre 12 hasta el dia 9 de noviembre.
+
+
+#### Anexo: Flujo de trabajo en el periodo de 1 mes
+![](/Assets/img/ChapterV/sprint-4/flujo-de-trabajo-en-periodo-de-1-mes-sprint-4.png)
+
+En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantidad de commits realizados en este periodo por cada miembro del equipo que trabajo en el desarrollo del backend.
 
 ## 5.3.Validation Interviews. 
 ### 5.3.1. Diseño de Entrevistas. 
