@@ -100,7 +100,28 @@
           <li>Despliege de la base de datos</li>
           <li>Despliege del frontend</li>
           <li>Realizacion de la entrevistas</li>
-          <li>Evaluacion de euristicas</li>
+          <li>Evaluacion de heuristicas</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>4.0</strong></td>
+      <td>15/11/24</td>
+      <td>
+        <ul>
+          <li>Morales Quispe, Brayan Smith</li>
+          <li>David Polanco, Alessandro Alonso</li>
+        </ul>
+      </td>
+      <td>
+        Se incluyeron los siguientes capítulos:
+        <ul>
+          <li>Sprint 4</li>
+          <li>Despliege de la base de datos</li>
+          <li>Despliege del frontend</li>
+          <li>Despliege del backend</li>
+          <li>Realizacion de la entrevistas</li>
+          <li>Evaluacion de heuristicas</li>
         </ul>
       </td>
   </tr>
@@ -123,15 +144,26 @@
       proporcionar liderazgo en 
       forma conjunta</strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> TB3:<p>En esta entrega ayude a mis compañéros con problemas al desarrollar la backend ademas de organizar la estructura del desarrollo</p>
-      <h6>Alessandro Alonso David Polanco</h6>TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
+      <h6>Brayan Smith Morales Quispe</h6>
+      TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
+      TP:<p>En esta entrega ayude a desarrollar el sprint 2. Ademas de la creacion de un grupo de discord para mejorar la comunicacion del equipo.</p> 
+      TB2:<p>En esta entrega ayude a mis compañéros con problemas al desarrollar la backend ademas de organizar la estructura del desarrollo</p> 
+      TF:<p>En esta entrega fui parte de la realizacion del backend y frontend de FarmGuard, junto al despliegue tanto del backend, como del frontend. </p></p>
+      <h6>Alessandro Alonso David Polanco</h6>
+      TB1:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, a la vez que aporte en el capítulo 2 con el as is scenario, y el ubiquitous language, aparte mi mayor aporte fue en el landing page haciendo varias secciones de el mismo.</p> 
       TP:<p>Aporté al grupo organizando los capítulos y lo que se debía hacer para cada capítulo, mi aporte para este capitulo fue en la documentacion del Capitulo V y realizar el componente "UserProfile" y "Notifications" del frontend de nuestro Web App FarmGuard. </p>
       TB3:<p>En esta entrega ayude a mis compañeros a desarrollar el backend, especificamente la seccion de Notificaciones, adema s de realizar las entrevistas para la evaluacion de la Landing Page y la App Web del proyecto</p>
-      <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
-      <h6>Lopez de la Cruz ,Mauro Fabricio</h6>TB1:<p>Desde el inicio designamos tareas de manera equitativa teniendo en mente la opinión de todos los integrantes. Esto mismo ha hecho para reforzar el compañerismo y trabajo justo y para crear una buena base de Trabajo
-        </p>TP:<p>Trabajamos como equipo para tener en en claro la línea de guía para realizar ese trabajo. De tal modo que todos estemos contentos con el resultado final</p> 
+      TF:<p>En esta entrega fui parte de la realizacion del backend y frontend de FarmGuard, junto al despliegue tanto del backend, como del frontend. </p>
+      <h6>Donayre Paredes, Luis Carlos</h6>
+      TB1:<p>Realizó parte del informe, entrevistó a un posible usuario y participó del video del equipo</p>
+      <h6>Lopez de la Cruz ,Mauro Fabricio</h6>
+      TB1:<p>Desde el inicio designamos tareas de manera equitativa teniendo en mente la opinión de todos los integrantes. Esto mismo ha hecho para reforzar el compañerismo y trabajo justo y para crear una buena base de Trabajo</p>
+      TP:<p>Trabajamos como equipo para tener en en claro la línea de guía para realizar ese trabajo. De tal modo que todos estemos contentos con el resultado final</p> 
       </td>
-      <td>TB1: En conclucion la realizacion de este informe no fue facil puesto que el equipo no se comunica. En este punto se entiende el ambiente, dado que cada miembro recien se esta conociendo. <p>TP: En conclucion la comunicacion mejoro respecto a la primera entrega se utilizo mas medios de comunicacion como discord que ayudaron a mejorar algunos puntos del informe.</p>
+      <td>
+      TB1: En conclusion la realizacion de este informe no fue facil puesto que el equipo no se comunica. En este punto se entiende el ambiente, dado que cada miembro recien se esta conociendo. <p>
+      TP: En conclusion la comunicacion mejoro respecto a la primera entrega se utilizo mas medios de comunicacion como discord que ayudaron a mejorar algunos puntos del informe.</p>
+      TF: En conclusion, no hubo apoyo del equipo entero, pero se hizo lo mejor para hacer la entrega lo mas completa posible, teniendo en cuenta que solo hubo participacion de dos integrantes del grupo.</p>
       </td>
   </tr>
    <tr>
@@ -139,14 +171,23 @@
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> TB3:<p>Se busco un avanze en la union del grupo buscando compartir nuestras ideas y ayudarnos entre nosotros por la plataforma de discord.</p>
+      <h6>Brayan Smith Morales Quispe</h6>
+      TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
+      TP:<p>Ayude a distribuir y apoyar a mis compañéros en el avanze del desarrollo del frontend.</p> 
+      TB2:<p>Se busco un avance en la union del grupo buscando compartir nuestras ideas y ayudarnos entre nosotros por la plataforma de discord.</p>
+      TF:<p>Se busco la integracion continua del equipo a pesar de que no hubo una desde un principio, pero terminarmos haciendo el trabajo entre dos integrantes del grupo, teniendo una comunciacion efectiva a lo largo del trabajo</p>
       <h6>Alessandro Alonso David Polanco</h6>
       TB1:<p>Desde el principio sabiamos el tema que ibamos a escoger y el enfoque que ibamos a tomar relacionado al mismo, hubo colaboración constante, sin embargo creo que se debería mejorar más en la planificación de reuniones para revisar avances y mejoras</p> 
       TP:<p>Ayude en el desarrollo del frontend y del informe, se busco la colaboracion de los demas integrantes pero no se pude alcanzar un acuerdo colectivo para ello.</p>
-      TB3: <p>Se busco un avance para la colaboracion del grupo en su totalidad para asi avanzar de manera mas eficiente y rapida el trabajo, hubieron reuniones en Discord para el avance del trabajo pero sin la ayuda de todo el equipo lamentablemente.</p>
+      TB2: <p>Se busco un avance para la colaboracion del grupo en su totalidad para asi avanzar de manera mas eficiente y rapida el trabajo, hubieron reuniones en Discord para el avance del trabajo pero sin la ayuda de todo el equipo lamentablemente.</p>
+      TF:<p>Se busco la integracion continua del equipo a pesar de que no hubo una desde un principio, pero terminarmos haciendo el trabajo entre dos integrantes del grupo, teniendo una comunciacion efectiva a lo largo del trabajo</p> 
       <h6>Donayre Paredes, Luis Carlos</h6>TB1:<p>Al entrevistar, se hallaron varios problemas solucionables con nuestra aplicación. Además, se expuso parte del informe en el video</p> 
       </td>
-      <td>TB1:En conclucion aun el trabajo en equipo esta un distante y se nota en la falta de comunicacion en algunos apartados del informe<p>TP:En conclucion el entorno del equipo mejoro respecto al anterior entregable puesto que hubo mas comuniacion por llamadas de voz y compartiendo nuestros conocimientos entre nosotros.</p></td>
+      <td>
+      TB1:En conclusion, aun el trabajo en equipo esta un distante y se nota en la falta de comunicacion en algunos apartados del informe<p>
+      TP:En conclusion, el entorno del equipo mejoro respecto al anterior entregable puesto que hubo mas comuniacion por llamadas de voz y compartiendo nuestros conocimientos entre nosotros.</p>
+      TF:En conclusion, a pesar de todas las dificultades que s enos presentaron durante el proceso del trabajo, se termino trabajando efectivamente con los integrantes comprometidos, haciendo reuniones por discord para ver los avances del trabajo tanto del backend como del frontend.</p> 
+      </td>
   </tr>
 
   </tbody>
