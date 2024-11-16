@@ -2659,7 +2659,7 @@ En este diagrama se muestra nuestras ramas siguiendo el enfoque Git Flow teniend
 #### Anexo: tablas de commits en el periodo de 1 mes
 ![](/Assets/img/ChapterV/sprint%203/barras%20sprint%203.png)
 
-En este diagram se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro hasta el dia 31 de octubre.
+En este diagrama se muestra los commits realizados por el equipo de trabajo en un grafico de barras de cada miembro hasta el dia 31 de octubre.
 
 
 #### Anexo: Flujo de trabajo en el periodo de 1 mes
@@ -2914,9 +2914,161 @@ En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantid
 
 
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review.
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Para demostrar la ejecuacion de nuestra api se pondra el link de esta, con una imagen para tener una vista sobre el swagger.
+
+![Muetra de api](/Assets/img/ChapterV/sprint-4/backend-sprint-4-first.png)
+
+![Muetra de api](/Assets/img/ChapterV/sprint-4/backend-sprint-4-second.png)
+
+
+__Link:__[ Backend FarmGuard](https://farmguard-backend-915898677282.us-west4.run.app/swagger/index.html)
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+<table border="1">
+  <tr>
+    <th>Endpoint</th>
+    <th>Metodos</th>
+    <th>Description</th>
+    <th>url</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Animal</td>
+    <td>Post</td>
+    <td>Permite crear un animal a un determinado inventario</td>
+    <td>/api/v1/animals/{idInventory}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su idAnimal</td>
+    <td>/api/v1/animals/{idAnimal}</td>
+  </tr>
+  <tr>
+    <td>Delete</td>
+    <td>Permite eliminar un animal por su idAnimal</td>
+    <td>/api/v1/animals/{idAnimal}</td>
+  </tr>
+  <tr>
+    <td>Put</td>
+    <td>Permite actualizar las caracteristicas un animal de acuerdo a su idSerialAnimal</td>
+    <td>/api/v1/animals/{idSerialAnimal}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal segun el ID del inventario en el que esta</td>
+    <td>/api/v1/animals/inventory/{idInventory}</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Authentication</td>
+    <td>Post</td>
+    <td>Permite loggearse a la app web FarmGuard, previamente habiendose registrado en la misma app web con los valores requeridos por la misma</td>
+    <td>/api/v1/authentication/sign-in</td>
+  </tr>
+  <tr>
+    <td>Post</td>
+    <td>Permite crear un usuario de la app web Farmguard, con los atributos username, password, firstName, lastName, email, y urlPhoto</td>
+    <td>/api/v1/authentication/sign-up</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Inventory</td>
+    <td>Post</td>
+    <td>Permite crear un inventario</td>
+    <td>/api/v1/inventory</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener un animal por su id</td>
+    <td>/api/v1/inventory/{id}</td>
+  </tr>
+
+   <tr>
+    <td rowspan="2">Notification</td>
+    <td>Post</td>
+    <td>Permite crear una notificacion</td>
+    <td>/api/v1/notifications</td>
+  </tr>
+   <tr>
+    <td>Get</td>
+    <td>Permite obtener una notificacion de acuerdo al inventoryId</td>
+    <td>/api/v1/notifications/{inventoryId}</td>
+  </tr>
+
+   <tr>
+    <td rowspan="4">Profile</td>
+    <td>Post</td>
+    <td>Permite crear una notificacion</td>
+    <td>/api/v1/profile</td>
+  </tr>
+   <tr>
+    <td>Delete</td>
+    <td>Permite eliminar un perfil de acuerdo al profileId</td>
+    <td>/api/v1/profile/{profileId}</td>
+  </tr>
+   <tr>
+    <td>Put</td>
+    <td>Permite actualizar un perfil de usuario de acuerdo a su profileId</td>
+    <td>/api/v1/profile/{profileId}</td>
+  </tr>
+   <tr>
+    <td>Get</td>
+    <td>Permite obtener los atributos de un perfil de acuerdo a su idProfile</td>
+    <td>/api/v1/profile/{idProfile}</td>
+  </tr>
+
+   <tr>
+    <td rowspan="2">Users</td>
+    <td>Get</td>
+    <td>Permite obetener un usuario de acuerdo a su id</td>
+    <td>/api/v1/users/{id}</td>
+  </tr>
+   <tr>
+    <td>Get</td>
+    <td>Permite obtener a todos los usuarios ya registrados</td>
+    <td>/api/v1/users</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Vaccine</td>
+    <td>Post</td>
+    <td>Permite crear una vacuna para un determinado animal con su idAnimal</td>
+    <td>/api/v1/vaccines/{serialAnimalId}</td>
+  </tr>
+  <tr>
+    <td>Get</td>
+    <td>Permite obtener las vacunas de un animal con su IdAnimal</td>
+    <td>/api/v1/vaccines/{serialAnimalId}</td>
+  </tr>
+  <tr>
+    <td>Delete</td>
+    <td>Permite eliminar las vacunas de un animal de acuerdo a su id</td>
+    <td>/api/v1/vaccines/{id}</td>
+  </tr>
+
+</table>
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Para demostrar la evidencia de despliege se presentara 4 imagenes, una de nuestra base de datos desplegada en google cloud configurada para aceptar todo tipo de entradas. Puesto que es una base de datos creada para develop, se mostraran tambien 2 imagenes de las peticiones que se hacen hecho al backend y frontend de nuestra web app FarmGuard. Finalmente se mostrara nuestra API ya desplegada
+
+__Base de Datos__
+![Configuracion](/Assets/img/ChapterV/sprint-4/db-farmguard-sprint-4.jpg)
+
+Aca se muestran las peticiones hacia el backend de FarmGuard
+![Peticiones-Backend](/Assets/img/ChapterV/sprint-4/backend-farmguard-sprint-4.jpg)
+
+Y aca se meustran las peticiones que se han realizado hacia el frontend
+![Peticiones-Frontend](/Assets/img/ChapterV/sprint-4/frontend-farmguard-sprint-4.jpg)
+
+__Api__
+
+![Muetra de api](/Assets/img/ChapterV/sprint-4/dploy-API-sprint-4.png)
+Muestra de nuestra api desplegada
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 En esta seccion se mostrara la colaboracion del equipo respecto al desarrollo del backend con diferentes graficos que mostrara el avance del desarrollo.
