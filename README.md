@@ -11,7 +11,7 @@
 
 <div align="center">
 
-# Informe TB3
+# Informe TF
 ### **Profesor: Juan Carlos Tinoco Licas**
 #### **Startup: DevDream**
 #### **Producto: FarmGuard**
@@ -125,6 +125,7 @@
         </ul>
       </td>
   </tr>
+  
   </tbody>
 </table>
 
@@ -205,7 +206,7 @@ Ahora veremos el diagrama de barras que representara la cantidad de commits real
 
 A continuacion se mostrara un linea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo.
 
-![Imagen de linea de tiempo](/Assets/img/linea%20de%20tiempo.png)
+![Imagen de linea de tiempo](/Assets/img/ChapterV/sprint-4/tf-contribuciones.png)
 
 
 # Contenido
@@ -2784,106 +2785,106 @@ En este diagrama se muestra el flujo de trabajo del proyecto mostrando la cantid
   </tr>
   <tr>
     <td rowspan="3">Sprint 4</td>
-    <td rowspan="3">Registro de usuario en la base de datos</td>
+    <td rowspan="3">Despliege del backend</td>
     <td>TA01</td>
-    <td>Modelado de datos del usuario</td>
-    <td>Definir un modelo de datos para el usuario en el sistema de gestión de bases de dato.</td>
+    <td>Crear archivo Docker</td>
+    <td>Crear las instrucciones del archivo docker para</td>
     <td>2</td>
     <td>Brayan Morales</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Creación de la API de registro</td>
-    <td>Implementación de un endpoint en la API que acepte solicitudes POST para crear un nuevo usuario.</td>
+    <td>Subir imagen a google cloud</td>
+    <td>Subir la imagen a google cloud</td>
     <td>4</td>
     <td>Brayan Morales</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>TA03</td>
-    <td>Validación de datos</td>
-    <td>Implementación de validación de los datos enviados a la API de registro.</td>
-    <td>4</td>
+    <td>Desplegar imagen en un contenedor</td>
+    <td>Creacion de un contenedor en la nube.</td>
+    <td>1</td>
     <td>Brayan Morales</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
     <td rowspan="2">Sprint 4</td>
-    <td rowspan="2">Obtención de los datos personales del usuario</td>
+    <td rowspan="2">Creacion de cuenta en la aplicacion</td>
     <td>TA01</td>
     <td>API de perfil de usuario</td>
-    <td>Implementar un endpoint en la API que acepte solicitudes GET para obtener los datos del perfil del usuario.</td>
+    <td>Implementar un endpoint en la API que acepte solicitudes Post para crear un usuario en la aplicacion</td>
     <td>4</td>
     <td>Alesandro David</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Recuperación de datos del usuario</td>
-    <td>Cuando se recibe una solicitud en el endpoint de perfil de usuario, buscar al usuario en la base de datos.</td>
+    <td>Inicio de sesion</td>
+    <td>Implementar un endpoint en la API que acepte solicitudes Post para iniciar sesion en la aplicacion</td>
     <td>4</td>
     <td>Alesandro David</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td rowspan="3">Sprint 4</td>
-    <td rowspan="3">Crear un inventario con animales</td>
+    <td rowspan="3">Despliege del frontend</td>
     <td>TA01</td>
-    <td>Modelar las entidades</td>
-    <td>Creacion del inventario,Animales y sus respectivos objetos de valor</td>
+    <td>Crear archivo Docker</td>
+    <td>Creacion de los comandos para la creacion de la imagen.</td>
     <td>1</td>
     <td>Brayan Morales</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA03</td>
-    <td>Creacion del controlador</td>
-    <td>Crear controlador responsable de exponer los datos solicitados</td>
-    <td>3</td>
+    <td>Subir imagen a google cloud</td>
+    <td>Subir imagen a google cloud cambiando el tag de la imagen.</td>
+    <td>2</td>
     <td>Brayan Morales</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA03</td>
-    <td>Creacion de los queries y commands</td>
-    <td>Crear los respectivos servicios q se encargaran de las consultas y comandos</td>
+    <td>Despliege del frontend</td>
+    <td>Configurar el contenedor del frontend para multiples instancias</td>
     <td>2</td>
     <td>Brayan Morales</td>
     <td>Done</td>
   </tr>
   <tr>
     <td rowspan="2">Sprint 4</td>
-    <td rowspan="2">Notificaciones en un inventario</td>
+    <td rowspan="2">Elimar Perfil</td>
     <td>TA01</td>
-    <td>Modelar la entidad notificaciones</td>
-    <td>Modelar las respectivas entidades y mapearlas con su sus respectiva relacion</td>
+    <td>Crear comando para elimianr</td>
+    <td>Crear comando para eliminar un perfil por id</td>
     <td>1</td>
     <td>Alesandro David</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Creacion de comandoService</td>
-    <td>Crear comando encargado de crear una notificaion</td>
+    <td>Implementacion en el servicio</td>
+    <td>Implementar un servicio para el comando elimianr.</td>
     <td>2</td>
     <td>Alesandro David</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td rowspan="3">Sprint 4</td>
-    <td rowspan="3">Crear bounded context de las vacunas</td>
+    <td rowspan="3">Seguridad en la aplicacion</td>
     <td>TA01</td>
-    <td>Crear entidades</td>
-    <td>crear entidades o agregados con sus objetos de valor</td>
+    <td>Crear Bounded Context IAM</td>
+    <td>Crear las carpetas junto el dominio</td>
     <td>1</td>
     <td>Brayan Morales</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Creacion de comandoService y QueryService</td>
+    <td>Configurar los servicios de consultas y comandos</td>
     <td>Crear comando y query service que permiten crear los objetos y guardarlos en la base de datos</td>
     <td>2</td>
     <td>Brayan Morales</td>
@@ -3170,6 +3171,11 @@ Evidencia de la entrevista:
 Resumen de la entrevista: La entrevistada es cuidadora en una granja familiar ubicada en la sierra y utiliza una tablet para registrar datos de los animales que cuida. Valora la visibilidad y simplicidad de la aplicación web, ya que le resulta intuitiva y fácil de manejar en su entorno laboral. La utilidad y la compatibilidad con el navegador Chrome también son importantes para ella, ya que facilitan el proceso de registro y seguimiento de los animales. Considera que una herramienta tecnológica que aproveche al máximo el potencial actual sería clave para mejorar sus labores, sobre todo porque ha experimentado limitaciones con tecnologías anteriores.
 ### 5.3.3. Evaluaciones según heurísticas. 
 ## 5.4. Video About-the-Product. 
+En esta seccion presentaremos el video about product presentando el producto desarrollado.
+
+![](/Assets/img/ChapterV/sprint-4/vap.png)
+
+Link al video: [https://youtu.be/InoNMBPKE88](https://youtu.be/InoNMBPKE88)
 
  
 
@@ -3177,6 +3183,10 @@ Resumen de la entrevista: La entrevistada es cuidadora en una granja familiar ub
 # Anexo
 
 * __Anexo 1__
+
+Link del video about team: [https://www.youtube.com/watch?v=eanpx1H89TU](https://www.youtube.com/watch?v=eanpx1H89TU)
+
+* __Anexo 2__
 
 Codigo realizado en structurizer para la realizacion del diagrama c4.
 
