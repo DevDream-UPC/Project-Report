@@ -3190,6 +3190,8 @@ Link del backend desplegada: [https://farmguard-backend-915898677282.us-west4.ru
 
 Link del frontend desplegada: [https://farmguard-frontend-915898677282.us-central1.run.app/auth/sign-in](https://farmguard-frontend-915898677282.us-central1.run.app/auth/sign-in)
 
+link del landing Page:  [hhttps://devdream-upc.github.io/FarmGuard-LandingPage/](https://devdream-upc.github.io/FarmGuard-LandingPage/)
+
 * __Anexo 2__
 
 Codigo realizado en structurizer para la realizacion del diagrama c4.
