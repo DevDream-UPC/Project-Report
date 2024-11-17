@@ -3175,7 +3175,7 @@ En esta seccion presentaremos el video about product presentando el producto des
 
 ![](/Assets/img/ChapterV/sprint-4/vap.png)
 
-Link al video: [https://youtu.be/InoNMBPKE88](https://youtu.be/InoNMBPKE88)
+Link al video: [https://youtu.be/t0g9yhs6dDo](https://youtu.be/t0g9yhs6dDo)
 
  
 
