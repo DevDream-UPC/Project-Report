@@ -3186,6 +3186,10 @@ Link al video: [https://youtu.be/InoNMBPKE88](https://youtu.be/InoNMBPKE88)
 
 Link del video about team: [https://www.youtube.com/watch?v=eanpx1H89TU](https://www.youtube.com/watch?v=eanpx1H89TU)
 
+Link del backend desplegada: [https://farmguard-backend-915898677282.us-west4.run.app/swagger/index.html](https://farmguard-backend-915898677282.us-west4.run.app/swagger/index.html)
+
+Link del frontend desplegada: [https://farmguard-frontend-915898677282.us-central1.run.app/auth/sign-in](https://farmguard-frontend-915898677282.us-central1.run.app/auth/sign-in)
+
 * __Anexo 2__
 
 Codigo realizado en structurizer para la realizacion del diagrama c4.
