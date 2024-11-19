@@ -3167,9 +3167,9 @@ Preguntas complementarias:
 ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
 ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
 ### 5.3.2. Registro de Entrevistas. 
-*Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
+### *Segmento 1: Cuidadores de animales en terrenos de productores agropecuarios*
 
-*Entrevista 1:*
+### *Entrevista 1:*
 
 Nombres: Alejandra
 
@@ -3187,8 +3187,32 @@ Evidencia de la entrevista:
 [Entrevista a Alejandra Gallo - Familia con Granja](https://drive.google.com/file/d/1vxDNPoHyqJtd63bJWdV20DaFa8S1E77j/view?usp=sharing)
 
 Resumen de la entrevista: La entrevistada es cuidadora en una granja familiar ubicada en la sierra y utiliza una tablet para registrar datos de los animales que cuida. Valora la visibilidad y simplicidad de la aplicación web, ya que le resulta intuitiva y fácil de manejar en su entorno laboral. La utilidad y la compatibilidad con el navegador Chrome también son importantes para ella, ya que facilitan el proceso de registro y seguimiento de los animales. Considera que una herramienta tecnológica que aproveche al máximo el potencial actual sería clave para mejorar sus labores, sobre todo porque ha experimentado limitaciones con tecnologías anteriores.
-### 5.3.3. Evaluaciones según heurísticas. 
-## 5.4. Video About-the-Product. 
+
+### *Entrevista 2:*
+
+Nombres: Joan Jefferson
+
+Apellidos: Talizo Balbin
+
+Edad: 21
+
+Lugar de residencia: Pueblo Libre
+
+Evidencia de la entrevista:
+
+
+![image](Assets/img/ChapterV/sprint-4/screenshot%20joan%20entrevista.png)
+
+[Entrevista a Joan Talizo - Criador de Animales](https://drive.google.com/file/d/1WdZyM2AhdvMuCQI-aDxpVGRwQ4TRF4Uh/view?usp=sharing)
+
+Resumen de la entrevista: El entrevistado es un criador de animales, le gusto lo simple que podia llegar a ser la pagina, la describio como intuitiva, amigable, y simple.
+Sí le llama la atencion registrarse y utilizarla a futura para el mejor cuidado y monitoreo de los animales qu cria.
+
+### *Segmento 2: Medicos Veterinarios*
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+## 5.4. Video About-the-Product.
 En esta seccion presentaremos el video about product presentando el producto desarrollado.
 
 ![](/Assets/img/ChapterV/sprint-4/vap.png)
