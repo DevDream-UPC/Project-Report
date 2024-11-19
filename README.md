@@ -297,6 +297,24 @@ A continuacion se mostrara un linea de tiempo con flujo de los commits realizado
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
+    - [**5.2.3. Sprint 3.**](#523-sprint-2)
+      - [**5.2.3.1. Sprint Planning 3.**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Sprint Backlog 3.**](#5232-sprint-backlog-3)
+      - [**5.2.3.3. Development Evidence for Sprint Review.**](#5233-development-evidence-for-sprint-review)
+      - [**5.2.3.4. Testing Suite Evidence for Sprint Review.**](#5234-testing-suite-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review.**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review.**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review.**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint.**](#5238-team-collaboration-insights-during-sprint)
+    - [**5.2.4 Sprint 4.**](#524-sprint-4)
+      - [**5.2.4.1. Sprint Planning 4.**](#5241-sprint-planning-4)
+      - [**5.2.4.2. Sprint Backlog 4.**](#5242-sprint-backlog-4)
+      - [**5.2.4.3. Development Evidence for Sprint Review.**](#5243-development-evidence-for-sprint-review)
+      - [**5.2.4.4. Testing Suite Evidence for Sprint Review.**](#5244-testing-suite-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review.**](#5245-execution-evidence-for-sprint-review)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#5246-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review.**](#5247-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -3177,8 +3195,31 @@ En esta seccion presentaremos el video about product presentando el producto des
 
 Link al video: [https://youtu.be/t0g9yhs6dDo](https://youtu.be/t0g9yhs6dDo)
 
- 
+# Conclusiones
 
+### Enfoque centrado en el usuario
+ - Las historias de usuario reflejan un enfoque claro en las necesidades específicas de los productores agropecuarios, tanto con experiencia tecnológica como sin ella. Esto asegura que la aplicación sea inclusiva y accesible para diferentes niveles de conocimiento técnico.
+
+### Diseño orientado a la experiencia del visitante
+ - El desarrollo del landing page está diseñado para proporcionar una experiencia de usuario fluida, enfocándose en la navegación rápida y eficiente hacia secciones clave como "Beneficios", "Contáctanos", "Nosotros" y el acceso directo a la aplicación web. Esto demuestra un entendimiento de la importancia de facilitar información relevante rápidamente.
+
+### Impacto estratégico identificado
+- A través del Impact Mapping, el equipo ha definido cómo FarmGuard contribuye a objetivos más amplios, como mejorar la productividad agrícola, la salud del ganado y la gestión eficiente de recursos. Este enfoque ayuda a priorizar características y medir su éxito en función del impacto generado.
+
+### Priorización del backlog basada en valor
+ - El Product Backlog está estructurado de manera lógica y prioriza funcionalidades esenciales, como el monitoreo en tiempo real, la gestión digital de granjas y las alertas de salud. Las historias de usuario están clasificadas por su impacto y esfuerzo, lo que facilita una gestión eficiente del desarrollo.
+
+### Diseño visual coherente y profesional
+ - La identidad visual se define con claridad mediante la elección de colores, tipografía y patrones de diseño (patrón Z para el landing page y patrón F para la aplicación). Esto asegura una estética profesional que refuerza la confianza del usuario en la plataforma.
+
+### Adaptabilidad tecnológica
+ - Se destaca la importancia de que la aplicación sea responsiva, asegurando una experiencia óptima en cualquier dispositivo. Esto es crucial para llegar a usuarios que pueden depender de herramientas tecnológicas limitadas en el ámbito rural.
+
+### Compromiso con la usabilidad y accesibilidad
+ - La selección de herramientas y estilos garantiza que la plataforma sea intuitiva, incluso para aquellos con poca experiencia tecnológica. La aplicación de guías paso a paso y recursos educativos demuestra un enfoque inclusivo.
+
+### Visión integral del proyecto
+ - Este trabajo no solo aborda el diseño técnico, sino también cómo la solución impactará positivamente a largo plazo en sus usuarios y en la productividad agrícola. Esto refleja un pensamiento estratégico bien desarrollado.
 
 # Anexo
 
