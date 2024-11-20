@@ -3208,6 +3208,23 @@ Evidencia de la entrevista:
 Resumen de la entrevista: El entrevistado es un criador de animales, le gusto lo simple que podia llegar a ser la pagina, la describio como intuitiva, amigable, y simple.
 Sí le llama la atencion registrarse y utilizarla a futura para el mejor cuidado y monitoreo de los animales qu cria.
 
+### *Entrevista 3:*
+
+Nombres: Olga 
+
+Apellidos: Quispe
+
+Edad: 43
+
+Lugar de residencia: Huancayo
+
+![image](Assets/img/ChapterV/sprint-4/image.png)
+
+Evidencia de la entrevista:
+[Entrevista a Olga Quispe - Criador de Animales](https://drive.google.com/file/d/1ndzRFnh30LMD96BERjn14i8aXUaMbzql/view?usp=sharing)
+
+
+
 ### *Segmento 2: Medicos Veterinarios*
 
 
